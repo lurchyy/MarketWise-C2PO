@@ -1,0 +1,622 @@
+EventID,EventName,EventType,Date,StartTime,EndTime,Location,Capacity,ActualAttendance,Weather_Condition,Promotion_Type
+1005,Artisan Fair,Exhibition,2024-05-18,11:00:00,18:00:00,City Park,300,225,Sunny,Posters in Local Businesses
+1006,Tech Startup Pitch Night,Networking,2024-06-03,18:30:00,21:30:00,Coworking Space,100,85,Clear Skies,Online Ads
+1007,Poetry Slam,Performance,2024-06-22,19:00:00,22:00:00,Local Cafe,75,60,Partly Cloudy,Word of Mouth
+1008,Charity 5K Run,Fundraiser,2024-07-14,08:00:00,11:00:00,Riverfront Trail,500,400,Overcast,Radio Spots
+1009,Outdoor Concert Series,Music,2024-07-27,18:00:00,22:00:00,Amphitheater,2000,1800,Clear Skies,TV Commercials
+1010,Beginner's Cooking Class,Educational,2024-08-10,10:00:00,13:00:00,Community Kitchen,20,18,Sunny,Flyers
+1011,Product Launch Party,Corporate,2024-09-05,19:00:00,22:00:00,Event Space,300,275,Partly Cloudy,Influencer Marketing
+1012,Open Mic Night,Performance,2024-09-21,19:30:00,23:00:00,Local Bar,100,80,Clear Skies,Social Media
+1013,Vintage Car Show,Exhibition,2024-10-06,10:00:00,16:00:00,Fairgrounds,500,425,Sunny,Billboards
+1014,Wellness Retreat,Wellness,2024-11-02,09:00:00,17:00:00,Resort,100,90,Partly Cloudy,Email Marketing
+1015,Charity Gala,Fundraiser,2024-11-23,19:00:00,23:00:00,Hotel Ballroom,400,375,Clear Skies,Direct Mail
+1016,Sci-Fi Convention,Convention,2024-12-07,10:00:00,19:00:00,Convention Center,2500,2100,Overcast,Website
+1017,Holiday Craft Fair,Exhibition,2024-12-21,11:00:00,18:00:00,Community Center,150,130,Snowy,Local Newspaper
+1018,Business Seminar,Educational,2025-01-11,09:00:00,17:00:00,Conference Hall,200,175,Partly Cloudy,Email Campaign
+1019,Art Gallery Opening,Exhibition,2025-02-01,18:00:00,21:00:00,Gallery,100,85,Clear Skies,Posters
+1020,Salsa Dance Night,Entertainment,2025-02-22,20:00:00,23:00:00,Dance Studio,75,60,Sunny,Radio Ads
+1021,Tech Conference,Conference,2025-03-15,08:00:00,18:00:00,Convention Center,1500,1200,Overcast,TV Commercials
+1022,Outdoor Movie Screening,Entertainment,2025-04-05,20:00:00,22:30:00,Park,300,250,Clear Skies,Social Media
+1023,Book Signing,Educational,2025-04-26,14:00:00,16:00:00,Bookstore,50,40,Partly Cloudy,Flyers
+1024,Wine Tasting,Food & Drink,2025-05-17,18:00:00,21:00:00,Winery,100,90,Sunny,Email Marketing
+1025,Charity Golf Tournament,Fundraiser,2025-06-07,07:00:00,16:00:00,Golf Course,150,120,Clear Skies,Billboards
+1026,Poker Tournament,Entertainment,2025-06-28,18:00:00,23:00:00,Casino,200,180,Partly Cloudy,Social Media
+1027,Photography Workshop,Educational,2025-07-19,10:00:00,16:00:00,Art Center,30,25,Sunny,Flyers
+1028,Beer Festival,Food & Drink,2025-08-09,12:00:00,20:00:00,Park,1000,850,Clear Skies,Radio Ads
+1029,Author Reading,Educational,2025-09-06,19:00:00,21:00:00,Library,75,60,Overcast,Local Newspaper
+1030,Fashion Show,Exhibition,2025-09-27,20:00:00,22:00:00,Event Hall,300,275,Clear Skies,Influencer Marketing
+1031,Paint Night,Entertainment,2025-10-18,19:00:00,22:00:00,Restaurant,40,35,Partly Cloudy,Email Campaign
+1032,Yoga Retreat,Wellness,2025-11-08,09:00:00,17:00:00,Resort,50,45,Sunny,Social Media Ads
+1033,Startup Pitch Competition,Business,2025-11-29,13:00:00,18:00:00,Coworking Space,100,85,Clear Skies,Website
+1034,Standup Comedy Show,Entertainment,2025-12-20,20:00:00,22:30:00,Comedy Club,150,130,Partly Cloudy,Radio Spots
+1035,Charity Bake Sale,Fundraiser,2026-01-10,10:00:00,16:00:00,Downtown Plaza,500,400,Sunny,Posters
+1036,Marketing Conference,Conference,2026-02-07,08:00:00,18:00:00,Convention Center,800,650,Clear Skies,Email Marketing
+1037,Street Food Festival,Food & Drink,2026-02-28,11:00:00,21:00:00,City Streets,2000,1700,Partly Cloudy,TV Ads
+1038,Career Fair,Business,2026-03-21,10:00:00,15:00:00,University,300,220,Overcast,Campus Flyers
+1039,Jazz Night,Music,2026-04-11,19:00:00,23:00:00,Music Hall,200,170,Clear Skies,Social Media
+1040,Coding Bootcamp,Educational,2026-05-02,09:00:00,17:00:00,Tech Hub,40,35,Sunny,Email Campaign
+1041,Arts and Crafts Fair,Exhibition,2026-05-23,11:00:00,18:00:00,Downtown Plaza,150,125,Partly Cloudy,Local Newspaper
+1042,Outdoor Zumba Class,Wellness,2026-06-13,09:00:00,10:00:00,Park,100,85,Clear Skies,Flyers
+1043,Video Game Convention,Convention,2026-07-04,10:00:00,19:00:00,Convention Center,3000,2500,Sunny,TV Commercials
+1044,Cocktail Making Class,Food & Drink,2026-07-25,19:00:00,22:00:00,Bar,30,25,Clear Skies,Social Media
+1045,Business Networking Mixer,Business,2026-08-15,18:00:00,21:00:00,Hotel,150,120,Partly Cloudy,Email Marketing
+1046,Outdoor Painting Class,Educational,2026-09-06,10:00:00,13:00:00,City Park,25,20,Sunny,Flyers
+1047,Improv Comedy Show,Entertainment,2026-09-27,20:00:00,22:00:00,Theater,100,85,Clear Skies,Social Media
+1048,Woodworking Workshop,Educational,2026-10-18,13:00:00,17:00:00,Community Center,15,12,Partly Cloudy,Local Newspaper
+1049,Murder Mystery Dinner,Entertainment,2026-11-08,19:00:00,22:30:00,Restaurant,60,50,Overcast,Email Marketing
+1050,Startup Weekend,Business,2026-11-29,09:00:00,18:00:00,Coworking Space,75,65,Clear Skies,Targeted Ads
+1051,New Year's Eve Party,Entertainment,2026-12-31,20:00:00,02:00:00,Event Hall,500,450,Partly Cloudy,TV Commercials
+1052,Chili Cook-Off,Food & Drink,2027-01-23,11:00:00,16:00:00,Park,300,250,Sunny,Radio Spots
+1053,Trivia Night,Entertainment,2027-02-13,19:00:00,22:00:00,Bar,80,70,Clear Skies,Posters
+1054,Meditation Retreat,Wellness,2027-03-06,09:00:00,17:00:00,Resort,40,35,Overcast,Social Media
+1055,Amateur Boxing Tournament,Sports,2027-03-27,18:00:00,22:00:00,Community Center,200,175,Partly Cloudy,Local Newspaper
+1056,Artisan Soap Making Class,Educational,2027-04-17,14:00:00,17:00:00,Craft Studio,20,18,Sunny,Flyers
+1057,Battle of the Bands,Music,2027-05-08,17:00:00,23:00:00,Music Venue,400,350,Clear Skies,Radio Ads
+1058,Dog Adoption Event,Community,2027-05-29,10:00:00,15:00:00,Pet Store,100,85,Partly Cloudy,Social Media
+1059,Farmer's Market,Food & Drink,2027-06-19,08:00:00,13:00:00,Downtown Plaza,75,65,Sunny,Local Ads
+1060,Escape Room Challenge,Entertainment,2027-07-10,11:00:00,16:00:00,Escape Room,50,40,Clear Skies,Email Marketing
+1061,Craft Beer Festival,Food & Drink,2027-07-31,12:00:00,20:00:00,Fairgrounds,2000,1700,Sunny,Radio Ads
+1062,Salsa Dance Lessons,Educational,2027-08-21,18:00:00,20:00:00,Dance Studio,30,25,Partly Cloudy,Flyers
+1063,Open Air Cinema,Entertainment,2027-09-11,20:00:00,23:00:00,Park,300,250,Clear Skies,Social Media
+1064,Makeup Masterclass,Educational,2027-10-02,13:00:00,16:00:00,Hotel Ballroom,50,40,Overcast,Influencer Marketing
+1065,Singles Mixer,Social,2027-10-23,19:00:00,23:00:00,Bar,100,80,Partly Cloudy,Online Ads
+1066,Rock Climbing Competition,Sports,2027-11-13,09:00:00,17:00:00,Indoor Climbing Gym,75,60,Sunny,Local Newspaper
+1067,Holiday Lights Display,Exhibition,2027-12-04,17:00:00,21:00:00,City Streets,5000,4000,Clear Skies,TV Commercials
+1068,Ugly Sweater Party,Entertainment,2027-12-25,20:00:00,02:00:00,Bar,200,175,Snowy,Social Media
+1069,Pottery Painting Workshop,Educational,2028-01-15,14:00:00,17:00:00,Art Studio,25,20,Partly Cloudy,Flyers
+1070,Wine & Paint Night,Food & Drink,2028-02-05,19:00:00,22:00:00,Restaurant,40,35,Clear Skies,Email Marketing
+1071,Car Show & Swap Meet,Exhibition,2028-02-26,08:00:00,16:00:00,Fairgrounds,500,400,Sunny,Radio Spots
+1072,Charity Casino Night,Fundraiser,2028-03-18,19:00:00,23:00:00,Hotel Ballroom,250,200,Overcast,Local Ads
+1073,Microsoft Office Training,Educational,2028-04-08,09:00:00,16:00:00,Office Building,30,25,Partly Cloudy,Corporate Email
+1074,Beach Volleyball Tournament,Sports,2028-04-29,10:00:00,17:00:00,Beach,100,85,Sunny,Posters
+1075,Silent Disco Party,Entertainment,2028-05-20,21:00:00,02:00:00,Nightclub,300,250,Clear Skies,Social Media Ads
+1076,Outdoor Yoga Session,Wellness,2028-06-10,07:00:00,08:30:00,Park,100,85,Sunny,Flyers
+1077,Magic Show,Entertainment,2028-07-01,19:00:00,21:00:00,Theater,200,180,Partly Cloudy,Local Newspaper
+1078,Book Club Meeting,Educational,2028-07-22,18:00:00,20:00:00,Library,25,20,Clear Skies,Social Media
+1079,Ice Cream Social,Food & Drink,2028-08-12,14:00:00,17:00:00,Community Center,150,120,Sunny,Email Marketing
+1080,Retro Video Game Tournament,Entertainment,2028-09-02,11:00:00,19:00:00,Arcade,100,90,Overcast,Online Ads
+1081,Knitting Circle,Hobbies,2028-09-23,13:00:00,16:00:00,Coffee Shop,20,15,Partly Cloudy,Word of Mouth
+1082,Children's Art Exhibition,Educational,2028-10-14,10:00:00,15:00:00,Art Gallery,75,60,Sunny,School Flyers
+1083,Pumpkin Carving Contest,Seasonal,2028-10-28,12:00:00,16:00:00,Pumpkin Patch,200,175,Clear Skies,Social Media
+1084,5K Turkey Trot,Fundraiser,2028-11-18,09:00:00,12:00:00,City Park,500,400,Overcast,Radio Ads
+1085,Black Friday Sale,Retail,2028-11-24,06:00:00,22:00:00,Shopping Mall,5000,4500,Partly Cloudy,TV Commercials
+1086,Winter Wonderland Festival,Seasonal,2028-12-15,16:00:00,21:00:00,Downtown Plaza,1000,900,Snowy,Billboards
+1087,New Year's Day Brunch,Food & Drink,2029-01-01,10:00:00,14:00:00,Restaurant,100,85,Sunny,Email Marketing
+1088,Indoor Flea Market,Shopping,2029-01-20,09:00:00,16:00:00,Convention Center,300,250,Overcast,Local Newspaper
+1089,Ping Pong Tournament,Sports,2029-02-10,12:00:00,18:00:00,Community Center,50,40,Partly Cloudy,Flyers
+1090,Chocolate Lovers Festival,Food & Drink,2029-02-24,11:00:00,17:00:00,Park,500,425,Sunny,Radio Spots
+1091,Home Improvement Seminar,Educational,2029-03-17,10:00:00,15:00:00,Hardware Store,75,60,Clear Skies,In-Store Promos
+1092,Ballroom Dance Competition,Dance,2029-04-07,18:00:00,23:00:00,Event Hall,200,175,Partly Cloudy,Social Media Ads
+1093,Pet Adoption Fair,Community,2029-04-28,10:00:00,16:00:00,Animal Shelter,100,80,Sunny,Local TV Segment
+1094,Glow in the Dark 5K Run,Fundraiser,2029-05-19,20:00:00,23:00:00,City Streets,1000,850,Clear Skies,Online Marketing
+1095,Cinco de Mayo Party,Food & Drink,2029-05-05,18:00:00,23:00:00,Bar,300,250,Partly Cloudy,Radio Promos
+1096,Summer Kick-Off Concert,Music,2029-06-02,19:00:00,23:00:00,Amphitheater,5000,4200,Sunny,TV Commercials
+1097,Book Fair,Educational,2029-06-23,10:00:00,18:00:00,Convention Center,2000,1700,Partly Cloudy,Email Marketing
+1098,Outdoor Karaoke Night,Entertainment,2029-07-14,19:00:00,23:00:00,Beer Garden,200,175,Clear Skies,Social Media
+1099,Back to School Clothing Swap,Community,2029-08-04,11:00:00,15:00:00,School Gym,300,250,Sunny,School Newsletters
+1100,Robotics Competition,Educational,2029-08-25,09:00:00,17:00:00,University,100,90,Overcast,STEM Outreach
+1101,Renaissance Fair,Festival,2029-09-15,10:00:00,18:00:00,Fairgrounds,2500,2000,Partly Cloudy,Radio Ads
+1102,Haunted House,Seasonal,2029-10-06,19:00:00,23:00:00,Abandoned Building,500,450,Clear Skies,Local Newspaper
+1103,Craft Beer & Wine Festival,Food & Drink,2029-10-27,12:00:00,20:00:00,Park,1500,1300,Sunny,Targeted Facebook Ads
+1104,Winter Holiday Market,Shopping,2029-11-17,10:00:00,17:00:00,Convention Center,500,400,Overcast,Email Blasts
+1105,Ugly Sweater Fun Run,Fitness,2029-12-08,09:00:00,12:00:00,City Streets,1000,800,Partly Cloudy,Social Media Contest
+1106,New Year's Eve Masquerade Ball,Entertainment,2029-12-31,20:00:00,02:00:00,Hotel Ballroom,300,275,Clear Skies,Targeted Influencers
+1107,Indoor Rock Climbing Competition,Sports,2030-01-19,09:00:00,18:00:00,Climbing Gym,150,125,Snowy,Local Climbing Groups
+1108,Chili Cook-Off,Food & Drink,2030-02-09,11:00:00,16:00:00,City Park,300,250,Partly Cloudy,Radio Promos
+1109,Job Fair,Business,2030-03-02,10:00:00,15:00:00,Convention Center,100,75,Overcast,Corporate Recruiting Emails
+1110,Ballet Performance,Arts,2030-03-23,19:00:00,21:30:00,Theater,500,425,Clear Skies,Local Arts Listings
+1111,Earth Day Festival,Community,2030-04-13,11:00:00,16:00:00,Downtown Plaza,1000,850,Sunny,LED Billboards
+1112,24-Hour Movie Marathon,Entertainment,2030-05-04,12:00:00,12:00:00,Cinema,200,175,Partly Cloudy,Social Media Contests
+1113,Hot Air Balloon Festival,Seasonal,2030-05-25,07:00:00,17:00:00,Open Field,2000,1800,Clear Skies,TV Segments
+1114,Father's Day Car Show,Exhibition,2030-06-15,10:00:00,15:00:00,City Streets,500,400,Sunny,Flyers & Posters
+1115,Dog Friendly Yappy Hour,Pets,2030-07-06,16:00:00,19:00:00,Dog Park,100,80,Partly Cloudy,Pet Store Promotions
+1116,Full Moon Outdoor Yoga,Wellness,2030-07-27,20:00:00,22:00:00,Beach,75,65,Clear Skies,Local Yoga Studios
+1117,Vinyl Record Swap Meet,Shopping,2030-08-17,10:00:00,16:00:00,Music Store,100,80,Partly Cloudy,Email Lists
+1118,Drive-In Movie Night,Entertainment,2030-09-07,20:00:00,23:00:00,Parking Lot,200,175,Clear Skies,Radio Ads
+1119,Pumpkin Painting Party,Seasonal,2030-09-28,14:00:00,17:00:00,Farm,150,125,Sunny,Social Media
+1120,Oktoberfest Celebration,Food & Drink,2030-10-19,12:00:00,22:00:00,Beer Garden,1000,900,Overcast,TV Commercials
+1121,College Game Day Tailgate,Sports,2030-11-09,09:00:00,16:00:00,Stadium Parking Lot,500,450,Partly Cloudy,Campus Email Blasts
+1122,Gingerbread House Competition,Seasonal,2030-11-30,12:00:00,16:00:00,Community Center,100,85,Snowy,Local Newspaper
+1123,Polar Bear Plunge,Fundraiser,2030-12-21,10:00:00,12:00:00,Lake,300,250,Sunny,Charity Website
+1124,Vision Board Workshop,Self-Improvement,2031-01-11,13:00:00,16:00:00,Event Space,50,40,Clear Skies,Fitness Center Emails
+1125,Psychic Fair,Spiritual,2031-02-01,11:00:00,18:00:00,Hotel Conference Room,75,60,Overcast,Flyers
+1126,Soapbox Derby Race,Sports,2031-02-22,09:00:00,15:00:00,City Streets,200,175,Partly Cloudy,Posters & Banners
+1127,Mardi Gras Party,Entertainment,2031-03-15,20:00:00,02:00:00,Nightclub,500,450,Clear Skies,Radio Promotions
+1128,Science Fair,Educational,2031-04-05,09:00:00,15:00:00,Convention Center,1000,800,Sunny,School Email Lists
+1129,Gardening Workshop,Educational,2031-04-26,10:00:00,12:00:00,Botanical Garden,75,65,Partly Cloudy,Local Nursery Promos
+1130,Comic Book Convention,Entertainment,2031-05-17,10:00:00,18:00:00,Convention Center,5000,4500,Clear Skies,Social Media Influencers
+1131,Outdoor Painting Festival,Arts,2031-06-07,11:00:00,17:00:00,Park,200,175,Sunny,Local Art Galleries
+1132,Supercar Show,Exhibition,2031-06-28,09:00:00,16:00:00,Racetrack,1000,850,Partly Cloudy,Automotive Magazines
+1133,Sand Sculpting Competition,Arts,2031-07-19,08:00:00,18:00:00,Beach,300,250,Sunny,Travel Blogs
+1134,Charity Casino Night,Fundraiser,2031-08-09,19:00:00,23:00:00,Hotel Ballroom,400,350,Clear Skies,Non-Profit Email Lists
+1135,BBQ Cook-Off,Food & Drink,2031-08-30,11:00:00,18:00:00,City Park,500,425,Partly Cloudy,Radio Promotions
+1136,Battle of the Bands,Music,2031-09-20,18:00:00,23:00:00,Music Venue,500,450,Clear Skies,Social Media Ads
+1137,Stamp & Coin Collectors Show,Hobbies,2031-10-11,09:00:00,16:00:00,Convention Center,200,175,Partly Cloudy,Collectors Club Emails
+1138,Pumpkin Carving Workshop,Seasonal,2031-10-25,14:00:00,17:00:00,Farm,75,60,Sunny,Fall Festival Guides
+1139,Turkey Trot 5K Run,Fitness,2031-11-15,09:00:00,11:00:00,City Park,1000,900,Overcast,Corporate Wellness Programs
+1140,Holiday Makers Market,Shopping,2031-12-06,10:00:00,18:00:00,Expo Center,300,250,Partly Cloudy,Local boutique promotions
+1141,Ugly Sweater Bowling Tournament,Entertainment,2031-12-27,19:00:00,22:00:00,Bowling Alley,100,85,Clear Skies,Radio Contests
+1142,60s Themed Dance Party,Entertainment,2032-01-17,20:00:00,02:00:00,Event Hall,300,275,Partly Cloudy,Retro Fan Clubs
+1143,Mountain Biking Race,Sports,2032-02-07,08:00:00,13:00:00,Trail System,200,175,Sunny,Local Cycling Shops
+1144,Kids Triathlon,Sports,2032-02-28,09:00:00,12:00:00,Park,150,125,Clear Skies,School Wellness Programs
+1145,Antique Automobile Show,Exhibition,2032-03-20,10:00:00,16:00:00,Fairgrounds,500,425,Overcast,Car Enthusiast Forums
+1146,Spring Gardening Expo,Home & Garden,2032-04-10,09:00:00,17:00:00,Convention Center,1000,850,Partly Cloudy,Nursery Newsletters
+1147,Food Truck Rodeo,Food & Drink,2032-05-01,11:00:00,20:00:00,City Streets,3000,2500,Sunny,Social Media Influencers
+1148,Bark in the Park,Pets,2032-05-22,10:00:00,15:00:00,Dog Park,500,400,Clear Skies,Pet Store Promotions
+1149,Outdoor Sculpture Exhibition,Arts,2032-06-12,10:00:00,18:00:00,City Park,200,175,Partly Cloudy,Art Gallery Emails
+1150,Lake Swimming Competition,Sports,2032-07-03,08:00:00,13:00:00,Lake,100,90,Sunny,Local Swim Clubs
+1151,Firecracker 5K Run,Fitness,2032-07-04,07:00:00,10:00:00,City Streets,2000,1800,Clear Skies,Corporate Wellness Challenges
+1152,Watercolor Painting Workshop,Arts,2032-07-24,13:00:00,16:00:00,Art Center,25,20,Partly Cloudy,Community Arts Programs
+1153,Moonlight Paddle Board Race,Sports,2032-08-14,20:00:00,22:00:00,Lake,75,60,Clear Skies,Water Sports Stores
+1154,Sidewalk Chalk Art Festival,Arts,2032-09-04,10:00:00,17:00:00,Downtown Plaza,300,250,Sunny,Local Arts Organizations
+1155,Parents Night Out,Community,2032-09-25,18:00:00,23:00:00,Community Center,100,80,Partly Cloudy,School PTA Emails
+1156,Haunted Hayride,Seasonal,2032-10-16,19:00:00,23:00:00,Farm,500,450,Clear Skies,Social Media Contests
+1157,Bridal Expo,Shopping,2032-11-06,10:00:00,17:00:00,Convention Center,1000,900,Partly Cloudy,Wedding Magazine Ads
+1158,Turkey Bowl Flag Football,Sports,2032-11-27,09:00:00,15:00:00,City Park,200,175,Overcast,Company Intramurals
+1159,Holiday Lights Tour,Seasonal,2032-12-18,17:00:00,21:00:00,Neighborhood,1000,850,Clear Skies,Charity Website
+1160,Boxing Day 5K Run,Fitness,2032-12-26,09:00:00,11:00:00,City Streets,500,400,Sunny,Corporate Wellness Challenges
+1161,Mixology Class,Food & Drink,2033-01-16,18:00:00,21:00:00,Bar,30,25,Partly Cloudy,Local Liquor Stores
+1162,Indoor Climbing Competition,Sports,2033-02-06,08:00:00,18:00:00,Climbing Gym,200,180,Clear Skies,Climbing Club Emails
+1163,Cultural Dance Showcase,Dance,2033-02-27,13:00:00,17:00:00,Theater,300,250,Overcast,Community Centers
+1164,Pi Day Pie Eating Contest,Food & Drink,2033-03-14,14:00:00,16:00:00,Restaurant,50,40,Partly Cloudy,Social Media
+1165,Board Game Tournament,Entertainment,2033-04-04,10:00:00,18:00:00,Gaming Cafe,100,85,Sunny,Online Gaming Forums
+1166,Eco-Friendly Craft Fair,Shopping,2033-04-25,11:00:00,17:00:00,Park,150,125,Clear Skies,Environmental Nonprofits
+1167,Tai Chi in the Park,Wellness,2033-05-16,09:00:00,10:00:00,City Park,75,65,Partly Cloudy,Community Center Flyers
+1168,Dog Frisbee Competition,Pets,2033-06-06,11:00:00,15:00:00,Sports Complex,200,175,Sunny,Pet Store Promos
+1169,Father's Day Car Show,Exhibition,2033-06-19,10:00:00,16:00:00,Downtown Streets,300,250,Clear Skies,Auto Enthusiast Clubs
+1170,Summer Solstice Celebration,Festival,2033-06-21,18:00:00,22:00:00,Open Field,500,425,Partly Cloudy,Spiritual Group Emails
+1171,Stand Up Paddleboard Yoga,Wellness,2033-07-12,07:00:00,09:00:00,Lake,40,30,Sunny,Yoga Studio Promotions
+1172,Neon 5K Night Run,Fitness,2033-07-30,20:00:00,23:00:00,City Streets,1500,1300,Clear Skies,Corporate Wellness Programs
+1173,Beach Volleyball Tournament,Sports,2033-08-20,09:00:00,17:00:00,Beach,200,175,Partly Cloudy,Local Sports Leagues
+1174,Wine & Cheese Festival,Food & Drink,2033-09-10,12:00:00,18:00:00,Winery,500,450,Sunny,Targeted Facebook Ads
+1175,Charity Deep Sea Fishing Tournament,Fundraiser,2033-10-01,06:00:00,16:00:00,Marina,100,85,Clear Skies,Nonprofit Website
+1176,Pumpkin Carving Party,Seasonal,2033-10-22,14:00:00,17:00:00,Community Center,75,60,Partly Cloudy,School Flyers
+1177,Dia de los Muertos Festival,Cultural,2033-11-02,11:00:00,20:00:00,City Park,1000,850,Sunny,Spanish Radio Ads
+1178,Thanksgiving Day Turkey Trot,Fitness,2033-11-24,08:00:00,11:00:00,City Streets,2000,1800,Clear Skies,Corporate Wellness Challenges
+1179,Black Friday Outdoor Market,Shopping,2033-11-25,09:00:00,17:00:00,Downtown Plaza,200,175,Overcast,Local Business Promotions
+1180,Gingerbread House Contest,Seasonal,2033-12-17,12:00:00,16:00:00,Mall,100,90,Partly Cloudy,Mall Retailers
+1181,Boxing Day Sale,Shopping,2033-12-26,07:00:00,22:00:00,Shopping District,5000,4500,Clear Skies,TV Commercials
+1182,New Year's Day Polar Plunge,Fundraiser,2034-01-01,12:00:00,14:00:00,Lake,300,250,Sunny,Charity Website
+1183,Beginner's Knitting Class,Educational,2034-01-22,13:00:00,16:00:00,Craft Store,20,15,Partly Cloudy,In-Store Flyers
+1184,Indoor Rock Climbing Competition,Sports,2034-02-12,09:00:00,18:00:00,Climbing Gym,150,130,Clear Skies,Climbing Blogs
+1185,Backyard Chicken Raising Seminar,Educational,2034-03-05,10:00:00,13:00:00,Feed Store,40,30,Overcast,Farming Magazines
+1186,St. Patrick's Day Parade,Holiday,2034-03-17,10:00:00,13:00:00,City Streets,5000,4000,Partly Cloudy,Radio Promotions
+1187,Spring Wildflower Walk,Nature,2034-04-08,09:00:00,11:00:00,Nature Preserve,75,65,Sunny,Environmental Groups
+1188,Bunny Hop 5K Run,Fitness,2034-04-22,08:00:00,11:00:00,City Park,1000,900,Clear Skies,Corporate Wellness Programs
+1189,Spring Garden Tour,Home & Garden,2034-05-13,10:00:00,16:00:00,Residential Area,500,400,Partly Cloudy,Gardening Clubs
+1190,Home Brewing Festival,Food & Drink,2034-06-03,12:00:00,20:00:00,Fairgrounds,1500,1200,Sunny,Beer Enthusiast Forums
+1191,Summer Reading Kickoff Party,Educational,2034-06-24,11:00:00,15:00:00,Public Library,200,175,Clear Skies,School Newsletters
+1192,July 4th Fireworks Show,Holiday,2034-07-04,20:00:00,22:00:00,City Park,10000,8000,Partly Cloudy,Local TV/Radio
+1193,Sand Sculpture Contest,Arts,2034-07-22,09:00:00,16:00:00,Beach,100,80,Sunny,Art Gallery Emails
+1194,Watermelon Eating Contest,Food & Drink,2034-08-12,14:00:00,16:00:00,Park,200,175,Clear Skies,Social Media Contests
+1195,Outdoor Movie Night,Entertainment,2034-09-02,20:00:00,22:30:00,Amphitheater,500,425,Partly Cloudy,Local Newspaper Listings
+1196,Oktoberfest Beer Festival,Food & Drink,2034-09-23,12:00:00,20:00:00,Beer Garden,2000,1800,Sunny,Radio Ads
+1197,Pumpkin Patch & Hayrides,Seasonal,2034-10-14,10:00:00,17:00:00,Farm,1000,900,Partly Cloudy,Fall Festival Guides
+1198,Haunted House & Carnival,Seasonal,2034-10-28,18:00:00,23:00:00,Fairgrounds,3000,2500,Clear Skies,TV Commercials
+1199,Diwali Festival of Lights,Cultural,2034-11-18,16:00:00,22:00:00,City Park,2000,1700,Overcast,Indian Community Outreach
+1200,Turkey Trot 5K,Fitness,2034-11-23,09:00:00,11:00:00,City Streets,2500,2200,Partly Cloudy,Corporate Wellness Programs
+1201,Black Friday Midnight Madness Sale,Shopping,2034-11-24,00:00:00,06:00:00,Mall,5000,4000,Clear Skies,TV/Radio Ads
+1202,Holiday Craft Fair,Shopping,2034-12-09,10:00:00,17:00:00,Convention Center,200,175,Snowy,Local Craft Stores
+1203,Ugly Sweater Pub Crawl,Entertainment,2034-12-16,18:00:00,23:00:00,Downtown Bars,500,450,Partly Cloudy,Local Bar Promotions
+1204,Christmas Tree Lighting,Holiday,2034-12-01,18:00:00,20:00:00,Town Square,2000,1800,Clear Skies,Community Newsletter
+1205,Boxing Day Shopping Bash,Shopping,2034-12-26,08:00:00,21:00:00,Outlet Mall,3000,2700,Sunny,Radio Ads
+1206,Hot Chocolate Run 5K,Fitness,2035-01-13,09:00:00,11:00:00,City Park,1000,850,Partly Cloudy,Corporate Wellness Challenges
+1207,Burns Night Supper,Cultural,2035-01-25,19:00:00,22:00:00,Scottish Club,100,85,Clear Skies,Scottish Cultural Groups
+1208,Chili Cook-Off,Food & Drink,2035-02-10,11:00:00,16:00:00,City Park,300,250,Overcast,Local Restaurant Promotions
+1209,Mardi Gras Masquerade Ball,Entertainment,2035-02-24,20:00:00,02:00:00,Hotel Ballroom,300,275,Partly Cloudy,Social Media Contests
+1210,Spring Wildflower Walk,Nature,2035-03-17,09:00:00,11:00:00,Nature Preserve,75,65,Sunny,Environmental Groups
+1211,Easter Egg Hunt,Holiday,2035-04-07,10:00:00,12:00:00,City Park,500,400,Clear Skies,Church Groups
+1212,Earth Day Recycling Drive,Community,2035-04-22,09:00:00,15:00:00,School Parking Lot,1000,800,Partly Cloudy,School Green Clubs
+1213,Arbor Day Tree Planting,Community,2035-05-05,10:00:00,13:00:00,City Park,100,80,Sunny,City Parks Department
+1214,Cinco de Mayo Street Festival,Cultural,2035-05-05,12:00:00,22:00:00,Downtown Streets,5000,4500,Clear Skies,Hispanic Cultural Centers
+1215,Mother's Day Craft Fair,Shopping,2035-05-12,10:00:00,17:00:00,Convention Center,200,175,Partly Cloudy,Local Boutiques
+1216,Kids Triathlon,Sports,2035-06-02,08:00:00,12:00:00,City Park,200,175,Sunny,School Sports Clubs
+1217,Summer Solstice Music Festival,Music,2035-06-21,16:00:00,23:00:00,Amphitheater,5000,4200,Clear Skies,Local Radio Stations
+1218,4th of July Fireworks Spectacular,Holiday,2035-07-04,20:00:00,22:00:00,City Park,20000,18000,Partly Cloudy,TV Commercials
+1219,Beach Volleyball Tournament,Sports,2035-07-21,10:00:00,16:00:00,Beach,100,90,Sunny,Local Recreation Centers
+1220,Watermelon Eating Contest,Food & Drink,2035-08-11,13:00:00,16:00:00,Park,300,250,Clear Skies,Grocery Store Promotions
+1221,Outdoor Zumba Party,Fitness,2035-09-01,18:00:00,20:00:00,City Plaza,200,180,Partly Cloudy,Gym Email Blasts
+1222,Chili & Salsa Festival,Food & Drink,2035-09-22,11:00:00,18:00:00,Fairgrounds,2000,1800,Sunny,Local Restaurant Sponsors
+1223,Pumpkin Carving Workshop,Seasonal,2035-10-13,14:00:00,17:00:00,Farm,100,85,Clear Skies,Fall Festival Guides
+1224,Zombie Run 5K,Fitness,2035-10-27,19:00:00,22:00:00,City Streets,1500,1300,Partly Cloudy,Halloween Event Listings
+1225,Diwali Bazaar & Food Festival ,Cultural,2035-11-10,11:00:00,21:00:00,Convention Center,3000,2500,Sunny,Indian Community Centers
+1226,Turkey Trot 10K Run,Fitness,2035-11-22,08:00:00,11:00:00,City Park,2000,1700,Overcast,Corporate Wellness Programs
+1227,Black Friday Deals Extravaganza,Shopping,2035-11-23,06:00:00,23:00:00,Shopping Mall,10000,8500,Partly Cloudy,TV/Radio Ads
+1228,Holiday Craft Bazaar,Shopping,2035-12-08,10:00:00,16:00:00,School Gym,150,125,Clear Skies,PTA Newsletters
+1229,Jingle Bell 5K Run,Fitness,2035-12-15,09:00:00,11:00:00,City Streets ,1000,900,Snowy,Local Running Clubs
+1230,Neighborhood Holiday Decorations Tour,Seasonal,2035-12-22,18:00:00,21:00:00,Residential Area,500,400,Partly Cloudy,Community Newsletters
+1231,Boxing Day Blowout Sale,Shopping,2035-12-26,08:00:00,21:00:00,Shopping District,5000,4500,Clear Skies,Print/Radio Ads
+1232,Noon Year's Eve Party ,Holiday,2035-12-31,10:00:00,13:00:00,Children's Museum,300,250,Sunny,Family Event Websites
+1233,Hot Chocolate 5K,Fitness,2036-01-12,09:00:00,12:00:00,City Park,1500,1300,Partly Cloudy,Corporate Wellness Challenges
+1234,Robert Burns Night Celebration,Cultural,2036-01-25,19:00:00,23:00:00,Scottish Cultural Center,150,125,Clear Skies,Scottish Heritage Groups
+1235,Polar Bear Plunge,Fundraiser,2036-02-01,11:00:00,13:00:00,Lake,200,175,Overcast,Charity Website
+1236,Mardi Gras Masquerade Ball,Entertainment,2036-02-22,20:00:00,02:00:00,Hotel Ballroom,300,275,Partly Cloudy,Social Media Contests
+1237,Lego Building Competition,Educational,2036-03-15,10:00:00,15:00:00,Library,100,80,Sunny,School Email Lists
+1238,St. Patrick's Day Parade & Festival,Cultural,2036-03-17,11:00:00,19:00:00,Downtown Streets,5000,4200,Overcast,Local Irish Pubs
+1239,Spring Plant Sale,Home & Garden,2036-04-05,09:00:00,16:00:00,Botanical Garden,500,425,Partly Cloudy,Garden Club Newsletters
+1240,Bunny Fun Run 5K,Fitness,2036-04-19,08:00:00,11:00:00,City Park,1000,900,Sunny,Corporate Wellness Programs
+1241,Earth Day Recycling Drive,Community,2036-04-22,10:00:00,15:00:00,School Parking Lot,1500,1300,Clear Skies,School Green Clubs
+1242,Cinco de Mayo Street Fair,Cultural,2036-05-05,12:00:00,21:00:00,Downtown Plaza,3000,2500,Partly Cloudy,Hispanic Cultural Centers
+1243,Mother's Day Market,Shopping,2036-05-10,11:00:00,17:00:00,Park,200,175,Sunny,Local Craft Fairs
+1244,Kids' Outdoor Camping Workshop,Educational,2036-05-31,09:00:00,15:00:00,Nature Preserve,50,40,Clear Skies,Community Centers
+1245,Summer Solstice Outdoor Yoga,Wellness,2036-06-20,06:00:00,08:00:00,Beach,100,85,Partly Cloudy,Yoga Studios
+1246,Independence Day Fireworks Show,Holiday,2036-07-04,20:00:00,22:00:00,City Park,15000,12000,Clear Skies,Local TV/Radio
+1247,Beach Volleyball Tournament,Sports,2036-07-19,10:00:00,16:00:00,Beach,150,125,Sunny,Recreation Centers
+1248,Watermelon Eating Contest,Food & Drink,2036-08-09,13:00:00,16:00:00,Park,300,250,Partly Cloudy,Grocery Stores
+1249,Outdoor Sculpture Walk,Arts,2036-08-30,10:00:00,16:00:00,Downtown Plaza,200,175,Sunny,Local Art Galleries
+1250,Salsa Dancing Under the Stars,Dance,2036-09-20,20:00:00,23:00:00,City Plaza,150,125,Clear Skies,Dance Studios
+1251,Oktoberfest Beer Festival,Food & Drink,2036-10-11,12:00:00,20:00:00,Fairgrounds,3000,2700,Partly Cloudy,Breweries
+1252,Haunted Hayride & Maze,Seasonal,2036-10-25,19:00:00,23:00:00,Farm,1000,900,Clear Skies,Local Fall Festivals
+1253,Day of the Dead Celebration,Cultural,2036-11-02,16:00:00,21:00:00,Community Center,500,425,Sunny,Hispanic Cultural Groups
+1254,Turkey Trot 10K,Fitness,2036-11-27,08:00:00,11:00:00,City Park,2500,2200,Overcast,Corporate Wellness Challenges
+1255,Art Exhibition,Cultural,2024-09-01,14:00:00,20:00:00,City Art Gallery,500,400,Partly Cloudy,Billboards
+1256,Charity Run,Fundraiser,2024-10-12,08:00:00,12:00:00,Riverside Park,1000,800,Foggy,Radio Ads
+1257,Food Truck Festival,Food & Drink,2024-11-18,11:00:00,18:00:00,Downtown Square,2000,1500,Windy,Social Media Ads
+1258,Robotics Competition,Educational,2024-12-05,09:00:00,16:00:00,Science Museum,100,80,Snow,School Outreach
+1259,Stand-up Comedy Night,Entertainment,2025-01-20,20:00:00,22:00:00,Comedy Club,200,180,Clear Skies,Posters
+1260,Farmers Market,Community,2025-02-14,08:00:00,14:00:00,City Hall Parking Lot,500,350,Sunny,Local Newspaper Ads
+1261,Book Signing,Literary,2025-03-08,16:00:00,19:00:00,Bookstore,75,60,Rainy,Bookstore Newsletter
+1262,Jazz Concert,Music,2025-04-22,19:00:00,22:00:00,Music Hall,800,700,Clear Skies,Online Ticket Promotions
+1263,Painting Workshop,Arts & Crafts,2025-05-06,13:00:00,16:00:00,Community Center,30,25,Partly Cloudy,Local Art Store Flyers
+1264,Trivia Night,Entertainment,2025-06-19,20:00:00,22:00:00,Sports Bar,100,90,Clear Skies,Social Media Event
+1265,Cooking Class,Educational,2025-07-11,18:00:00,20:00:00,Culinary School,20,18,Sunny,Cooking Magazine Ad
+1266,Outdoor Movie Screening,Entertainment,2025-08-25,20:00:00,23:00:00,City Park,500,400,Clear Skies,Local TV Ads
+1267,Career Fair,Professional,2025-09-07,10:00:00,16:00:00,Convention Center,1500,1200,Partly Cloudy,University Partnerships
+1268,Pumpkin Carving Contest,Seasonal,2025-10-30,14:00:00,17:00:00,Community Garden,100,80,Cloudy,Community Bulletin Boards
+1269,Wine Tasting,Food & Drink,2025-11-23,18:00:00,21:00:00,Winery,50,40,Clear Skies,Wine Magazine Ad
+1270,Holiday Craft Bazaar,Shopping,2025-12-09,10:00:00,18:00:00,Convention Center,2000,1800,Snow,Local Radio Ads
+1271,New Year's Eve Party,Celebration,2025-12-31,20:00:00,01:00:00,Hotel Ballroom,500,450,Clear Skies,Event Websites
+1272,Winter Sports Expo,Sports,2026-01-15,11:00:00,18:00:00,Ski Resort,1000,800,Snow,Sports Equipment Stores
+1273,Bridal Show,Wedding,2026-02-10,12:00:00,17:00:00,Wedding Venue,300,250,Partly Cloudy,Wedding Magazines
+1274,Home & Garden Show,Home Improvement,2026-03-22,10:00:00,18:00:00,Fairgrounds,2000,1500,Rainy,Home Improvement Stores
+1275,Pet Adoption Event,Animal Welfare,2026-04-18,11:00:00,16:00:00,Animal Shelter,100,80,Sunny,Pet Store Flyers
+1276,Earth Day Celebration,Environmental,2026-04-22,10:00:00,16:00:00,Nature Center,500,400,Partly Cloudy,Environmental Organizations
+1277,Mother's Day Brunch,Family,2026-05-10,11:00:00,14:00:00,Restaurant,100,90,Sunny,Restaurant Website
+1278,Memorial Day Parade,Community,2026-05-25,10:00:00,12:00:00,Main Street,1000,800,Clear Skies,Local Newspaper Ads
+1279,Outdoor Yoga Class,Wellness,2026-06-07,08:00:00,09:00:00,Beach,50,40,Sunny,Yoga Studio Newsletter
+1280,Father's Day BBQ,Family,2026-06-21,12:00:00,16:00:00,Park Pavilion,200,150,Partly Cloudy,Local Grocery Store Ads
+1281,Independence Day Fireworks,Celebration,2026-07-04,20:00:00,22:00:00,Lakefront,5000,4000,Clear Skies,City Website
+1282,Summer Music Festival,Music,2026-07-18,12:00:00,22:00:00,Outdoor Amphitheater,10000,8000,Sunny,Music Websites
+1283,Back to School Fair,Educational,2026-08-08,10:00:00,16:00:00,Elementary School,500,400,Partly Cloudy,School District Website
+1284,Labor Day Picnic,Community,2026-09-07,12:00:00,18:00:00,City Park,1000,800,Sunny,Community Center Bulletin Boards
+1285,Oktoberfest,Cultural,2026-10-03,16:00:00,22:00:00,Fairgrounds,2000,1800,Cloudy,German-American Clubs
+1286,Halloween Costume Contest,Seasonal,2026-10-31,18:00:00,21:00:00,Community Center,200,180,Clear Skies,Halloween Store Flyers
+1287,Veterans Day Ceremony,Community,2026-11-11,10:00:00,12:00:00,War Memorial,500,400,Partly Cloudy,Veterans Organizations
+1288,Thanksgiving Day Run,Sports,2026-11-26,08:00:00,11:00:00,City Streets,1000,800,Foggy,Running Clubs
+1289,Black Friday Sales,Shopping,2026-11-27,06:00:00,22:00:00,Shopping Mall,10000,9000,Rainy,Retail Store Ads
+1290,Christmas Tree Lighting,Seasonal,2026-12-04,18:00:00,20:00:00,Town Square,1000,900,Snow,Local TV News
+1291,New Year's Day Brunch,Celebration,2027-01-01,11:00:00,14:00:00,Hotel Restaurant,200,180,Sunny,Hotel Website
+1292,Martin Luther King Jr. Day of Service,Community,2027-01-18,09:00:00,16:00:00,Various Locations,500,400,Partly Cloudy,Volunteer Organizations
+1293,Valentine's Day Dinner,Romantic,2027-02-14,18:00:00,22:00:00,Fine Dining Restaurant,50,45,Clear Skies,Restaurant Social Media
+1294,Mardi Gras Parade,Cultural,2027-02-16,19:00:00,22:00:00,Downtown Streets,5000,4000,Partly Cloudy,Local Tourism Board
+1295,St. Patrick's Day Festival,Cultural,2027-03-17,12:00:00,20:00:00,Irish Pub,1000,900,Rainy,Irish-American Clubs
+1296,Spring Break Beach Party,Entertainment,2027-03-25,12:00:00,18:00:00,Beach Club,500,450,Sunny,College Student Organizations
+1297,Easter Egg Hunt,Family,2027-04-11,10:00:00,12:00:00,City Park,200,180,Partly Cloudy,Church Bulletins
+1298,Arbor Day Tree Planting,Environmental,2027-04-30,09:00:00,13:00:00,Nature Preserve,100,80,Cloudy,Environmental Groups
+1299,Cinco de Mayo Fiesta,Cultural,2027-05-05,16:00:00,22:00:00,Mexican Restaurant,300,250,Sunny,Hispanic Community Centers
+1300,Mother's Day Tea,Family,2027-05-09,14:00:00,16:00:00,Tea House,50,45,Partly Cloudy,Local Parenting Groups
+1301,Memorial Day Weekend Campout,Outdoor Recreation,2027-05-29,12:00:00,12:00:00,State Park,200,180,Clear Skies,Outdoor Equipment Stores
+1302,Pride Parade,LGBTQ+,2027-06-12,12:00:00,16:00:00,City Streets,5000,4500,Sunny,LGBTQ+ Organizations
+1303,Juneteenth Celebration,Cultural,2027-06-19,10:00:00,18:00:00,Community Center,500,450,Partly Cloudy,African-American Organizations
+1304,Father's Day Golf Tournament,Sports,2027-06-20,08:00:00,16:00:00,Golf Course,100,90,Clear Skies,Golf Clubs
+1305,Independence Day Parade,Celebration,2027-07-04,10:00:00,12:00:00,Main Street,2000,1800,Sunny,Local Government Website
+1306,Summer Art Fair,Arts & Crafts,2027-07-17,11:00:00,18:00:00,City Park,500,450,Partly Cloudy,Art Galleries
+1307,Back to School Supply Drive,Community,2027-08-07,10:00:00,16:00:00,School Gymnasium,200,180,Rainy,Local Businesses
+1308,Labor Day Weekend Sale,Shopping,2027-09-04,10:00:00,20:00:00,Outlet Mall,5000,4500,Sunny,Outlet Mall Website
+1309,Grandparents Day Brunch,Family,2027-09-12,11:00:00,14:00:00,Senior Center,100,90,Partly Cloudy,Retirement Communities
+1310,Oktoberfest Beer Garden,Food & Drink,2027-10-02,16:00:00,22:00:00,Brewery,500,450,Clear Skies,Breweries
+1311,Halloween Haunted House,Seasonal,2027-10-31,18:00:00,22:00:00,Abandoned Building,200,180,Cloudy,Haunted Attraction Websites
+1312,Veterans Day Parade,Community,2027-11-11,10:00:00,12:00:00,Downtown Streets,1000,900,Partly Cloudy,Military Base Bulletins
+1313,Thanksgiving Day Turkey Trot,Sports,2027-11-25,08:00:00,11:00:00,City Park,500,450,Foggy,Local Gyms
+1314,Black Friday Doorbuster Deals,Shopping,2027-11-26,05:00:00,22:00:00,Department Store,5000,4500,Rainy,Retail Store Emails
+1315,Christmas Craft Fair,Arts & Crafts,2027-12-11,10:00:00,18:00:00,Convention Center,1000,900,Snow,Craft Supply Stores
+1316,New Year's Eve Gala,Celebration,2027-12-31,20:00:00,01:00:00,Hotel Ballroom,500,480,Clear Skies,Event Planning Websites
+1317,Winter Farmers Market,Community,2028-01-08,09:00:00,13:00:00,Indoor Market,200,180,Snow,Local Food Co-ops
+1318,Martin Luther King Jr. Day March,Community,2028-01-17,10:00:00,12:00:00,City Streets,1000,900,Partly Cloudy,Civil Rights Organizations
+1319,Valentine's Day Singles Mixer,Social,2028-02-14,19:00:00,22:00:00,Nightclub,100,90,Clear Skies,Dating Apps
+1320,Mardi Gras Masquerade Ball,Cultural,2028-02-22,20:00:00,01:00:00,Event Hall,300,280,Partly Cloudy,Costume Shops
+1321,St. Patrick's Day Pub Crawl,Food & Drink,2028-03-17,18:00:00,23:00:00,Various Pubs,500,450,Rainy,Bar Associations
+1322,Spring Equinox Meditation,Wellness,2028-03-20,06:00:00,08:00:00,Yoga Studio,50,45,Sunny,New Age Bookstores
+1323,Easter Brunch Buffet,Family,2028-04-16,11:00:00,14:00:00,Hotel Restaurant,200,180,Partly Cloudy,Religious Organizations
+1324,Arbor Day Nature Hike,Outdoor Recreation,2028-04-28,09:00:00,13:00:00,Nature Trail,100,90,Clear Skies,Hiking Clubs
+1325,Cinco de Mayo Street Festival,Cultural,2028-05-05,12:00:00,20:00:00,Downtown Streets,2000,1800,Sunny,Mexican Consulate
+1326,Mother's Day Flower Sale,Shopping,2028-05-14,10:00:00,18:00:00,Flower Shop,500,450,Partly Cloudy,Florists Associations
+1327,Memorial Day Car Show,Entertainment,2028-05-29,12:00:00,18:00:00,Fairgrounds,1000,900,Clear Skies,Classic Car Clubs
+1328,Pride Month Art Exhibit,LGBTQ+,2028-06-01,11:00:00,19:00:00,Art Gallery,200,180,Sunny,LGBTQ+ Art Collectives
+1329,Juneteenth Music Festival,Cultural,2028-06-19,14:00:00,22:00:00,City Park,5000,4500,Partly Cloudy,Black Musicians Associations
+1330,Father's Day Fishing Derby,Sports,2028-06-18,07:00:00,15:00:00,Lake,100,90,Clear Skies,Fishing Supply Stores
+1331,Independence Day Barbecue,Celebration,2028-07-04,12:00:00,18:00:00,Community Center,500,450,Sunny,Local Meat Markets
+1332,Summer Theater Production,Performing Arts,2028-07-21,19:00:00,22:00:00,Outdoor Theater,300,280,Clear Skies,Theater Troupes
+1333,Back to School Immunization Clinic,Health,2028-08-12,09:00:00,15:00:00,Health Department,200,180,Partly Cloudy,Pediatricians Offices
+1334,Labor Day Sidewalk Sale,Shopping,2028-09-04,10:00:00,18:00:00,Downtown Streets,1000,900,Sunny,Downtown Business Association
+1335,Grandparents Day Story Time,Family,2028-09-10,14:00:00,16:00:00,Library,50,45,Rainy,Daycare Centers
+1336,Oktoberfest Stein Holding Contest,Entertainment,2028-10-07,18:00:00,20:00:00,German Restaurant,100,90, Rainy, Beer Gardens
+1337,Halloween Pumpkin Patch,Seasonal,2028-10-28,10:00:00,18:00:00,Farm,500,450,Partly Cloudy,Farmers Markets
+1338,Veterans Day Art Exhibit,Community,2028-11-11,12:00:00,18:00:00,Museum,200,180,Cloudy,Veterans Art Groups
+1339,Thanksgiving Volunteer Meal Service,Community,2028-11-23,11:00:00,15:00:00,Homeless Shelter,100,90,Rainy,Volunteer Websites
+1340,Black Friday Electronics Sale,Shopping,2028-11-24,06:00:00,22:00:00,Electronics Store,1000,950,Foggy,Tech Blogs
+1341,Small Business Saturday,Shopping,2028-11-25,10:00:00,20:00:00,Downtown Streets,500,450,Sunny,Chamber of Commerce
+1342,Cyber Monday Online Deals,Shopping,2028-11-27,00:00:00,23:59:59,Online,10000,9500,,Email Marketing
+1343,Giving Tuesday Charity Auction,Fundraiser,2028-11-28,18:00:00,22:00:00,Event Hall,200,180,Clear Skies,Philanthropic Organizations
+1344,Hanukkah Menorah Lighting,Cultural,2028-12-07,18:00:00,20:00:00,Synagogue,100,90,Partly Cloudy,Jewish Community Centers
+1345,Christmas Eve Candlelight Service,Religious,2028-12-24,22:00:00,23:00:00,Church,500,480,Snow,Church Bulletins
+1346,Kwanzaa Celebration,Cultural,2028-12-26,16:00:00,20:00:00,Community Center,200,180,Cloudy,African-American Organizations
+1347,New Year's Day Polar Bear Plunge,Entertainment,2029-01-01,12:00:00,13:00:00,Beach,100,90,Sunny,Social Media Challenge
+1348,Martin Luther King Jr. Day Lecture,Educational,2029-01-15,14:00:00,16:00:00,University,500,450,Clear Skies,University Diversity Office
+1349,Chinese New Year Parade,Cultural,2029-02-10,12:00:00,14:00:00,Chinatown,2000,1800,Partly Cloudy,Asian-American Associations
+1350,Valentine's Day Speed Dating,Social,2029-02-14,19:00:00,21:00:00,Restaurant,50,45,Rainy,Singles Groups
+1351,Mardi Gras Carnival,Cultural,2029-02-27,16:00:00,22:00:00,Fairgrounds,5000,4500,Cloudy,New Orleans Tourism Board
+1352,International Women's Day Seminar,Educational,2029-03-08,10:00:00,14:00:00,Conference Center,200,180,Sunny,Women's Organizations
+1353,St. Patrick's Day Shamrock Run,Sports,2029-03-17,09:00:00,12:00:00,City Park,1000,900,Partly Cloudy,Running Clubs
+1354,First Day of Spring Nature Walk,Outdoor Recreation,2029-03-20,10:00:00,12:00:00,Nature Preserve,50,45,Clear Skies,Nature Centers
+1355,Passover Seder Dinner,Cultural,2029-04-06,18:00:00,22:00:00,Jewish Community Center,100,90,Rainy,Kosher Food Stores
+1356,Easter Sunday Sunrise Service,Religious,2029-04-08,06:00:00,07:00:00,Hilltop,200,180,Foggy,Christian Bookstores
+1357,Earth Day River Cleanup,Environmental,2029-04-22,09:00:00,13:00:00,Riverbank,100,90,Sunny,Environmental Groups
+1358,Arbor Day Tree Giveaway,Environmental,2029-04-27,10:00:00,16:00:00,Nursery,500,450,Partly Cloudy,Garden Centers
+1359,Cinco de Mayo Cooking Class,Food & Drink,2029-05-05,18:00:00,20:00:00,Cooking School,20,18,Clear Skies,Mexican Grocery Stores
+1360,Mother's Day Makeover Event,Beauty,2029-05-13,12:00:00,16:00:00,Spa,50,45,Sunny,Beauty Salons
+1361,Memorial Day Remembrance Ceremony,Community,2029-05-28,10:00:00,11:00:00,Cemetery,200,180,Partly Cloudy,Veterans Groups
+1362,LGBTQ+ Pride Month Kick-Off,LGBTQ+,2029-06-01,18:00:00,22:00:00,Community Center,300,280,Clear Skies,LGBTQ+ Advocacy Groups
+1363,Juneteenth Freedom March,Cultural,2029-06-19,10:00:00,12:00:00,City Streets,1000,900,Sunny,Civil Rights Organizations
+1364,Father's Day Car Show,Entertainment,2029-06-17,12:00:00,18:00:00,Parking Lot,500,450,Partly Cloudy,Auto Parts Stores
+1365,Summer Solstice Yoga Retreat,Wellness,2029-06-21,08:00:00,18:00:00,Retreat Center,50,45,Clear Skies,Yoga Studios
+1366,Independence Day Fireworks Spectacular,Celebration,2029-07-04,20:00:00,22:00:00,Fairgrounds,10000,9500,Sunny,Fireworks Companies
+1367,Bastille Day French Festival,Cultural,2029-07-14,12:00:00,20:00:00,City Park,2000,1800,Partly Cloudy,French Consulate
+1368,Parents' Day Picnic,Family,2029-07-22,11:00:00,15:00:00,Park Pavilion,100,90,Clear Skies,Parenting Magazines
+1369,International Beer Day Tasting,Food & Drink,2029-08-04,16:00:00,22:00:00,Brewery,200,180,Sunny,Beer Enthusiast Clubs
+1370,Back to School Fashion Show,Fashion,2029-08-19,14:00:00,16:00:00,Mall,500,450,Partly Cloudy,Children's Clothing Stores
+1371,Labor Day Talent Show,Entertainment,2029-09-03,18:00:00,21:00:00,Amphitheater,1000,900,Clear Skies,Talent Agencies
+1372,Patriot Day Memorial Service,Community,2029-09-11,08:46:00,10:00:00,Fire Station,100,90,Cloudy,First Responder Organizations
+1373,Oktoberfest Bratwurst Eating Contest,Food & Drink,2029-10-06,14:00:00,16:00:00,German Restaurant,50,45,Rainy,Butcher Shops
+1374,Indigenous Peoples' Day Powwow,Cultural,2029-10-08,12:00:00,18:00:00,Reservation,500,450,Partly Cloudy,Native American Organizations
+1375,Diwali Festival of Lights,Cultural,2029-10-28,18:00:00,22:00:00,Hindu Temple,1000,900,Clear Skies,Indian Associations
+1376,Halloween Trick-or-Treat Trail,Seasonal,2029-10-31,16:00:00,20:00:00,Neighborhood,200,180,Sunny,HOA Newsletters
+1377,Day of the Dead Altar Exhibit,Cultural,2029-11-02,10:00:00,18:00:00,Museum,500,450,Partly Cloudy,Mexican Cultural Centers
+1378,Election Day Voter Registration Drive,Community,2029-11-06,08:00:00,20:00:00,Library,100,90,Rainy,Political Parties
+1379,Veterans Day Benefit Concert,Fundraiser,2029-11-11,19:00:00,22:00:00,Concert Hall,1000,950,Clear Skies,Veteran Support Groups
+1380,Thanksgiving Eve Pie Baking Contest,Food & Drink,2029-11-22,12:00:00,16:00:00,Bakery,50,45,Foggy,Baking Supply Stores
+1381,Black Friday Midnight Madness Sale,Shopping,2029-11-24,00:00:00,06:00:00,Outlet Mall,5000,4800,Snow,Outlet Mall Website
+1382,Small Business Saturday Scavenger Hunt,Shopping,2029-11-25,10:00:00,18:00:00,Downtown,200,180,Sunny,Local Business Alliances
+1383,Cyber Monday Flash Deals,Shopping,2029-11-27,00:00:00,23:59:59,Online,10000,9800,,Deal Aggregator Websites
+1384,Giving Tuesday Telethon,Fundraiser,2029-11-28,18:00:00,22:00:00,TV Station,1000,900,Clear Skies,Nonprofit Coalitions
+1385,Hanukkah Dreidel Tournament,Cultural,2029-12-12,14:00:00,18:00:00,Jewish School,100,90,Partly Cloudy,Judaica Stores
+1386,Christmas Cookie Swap,Food & Drink,2029-12-16,13:00:00,16:00:00,Community Center,50,45,Snow,Baking Clubs
+1387,Kwanzaa Candle Lighting Ceremony,Cultural,2029-12-26,18:00:00,20:00:00,African-American Museum,200,180,Cloudy,Pan-African Organizations
+1388,New Year's Eve Masquerade Ball,Celebration,2029-12-31,20:00:00,01:00:00,Hotel Ballroom,500,480,Clear Skies,Costume Shops
+1389,New Year's Day Brunch Buffet,Food & Drink,2030-01-01,11:00:00,14:00:00,Country Club,200,180,Sunny,Gourmet Food Magazines
+1390,Martin Luther King Jr. Day of Service,Community,2030-01-21,09:00:00,17:00:00,Various Locations,1000,900,Partly Cloudy,Volunteer Centers
+1391,Lunar New Year Dragon Dance,Cultural,2030-02-05,12:00:00,14:00:00,Chinatown,500,450,Clear Skies,Chinese Cultural Associations
+1392,Valentine's Day Couples Cooking Class,Food & Drink,2030-02-14,18:00:00,21:00:00,Culinary School,20,18,Rainy,Gourmet Food Stores
+1393,Mardi Gras Krewe Ball,Cultural,2030-03-05,20:00:00,01:00:00,Convention Center,1000,950,Cloudy,New Orleans Social Clubs
+1394,International Women's Day Panel Discussion,Educational,2030-03-08,16:00:00,18:00:00,University,200,180,Sunny,Women's Studies Departments
+1395,St. Patrick's Day Green River Dyeing,Entertainment,2030-03-17,10:00:00,11:00:00,River,5000,4500,Partly Cloudy,Chicago Tourism Board
+1396,First Day of Spring Flower Show,Gardening,2030-03-20,10:00:00,18:00:00,Botanical Garden,1000,900,Clear Skies,Gardening Clubs
+1397,Passover Matzo Ball Soup Cook-Off,Food & Drink,2030-04-24,12:00:00,15:00:00,Synagogue,50,45,Rainy,Jewish Food Magazines
+1398,Easter Bonnet Parade,Fashion,2030-04-21,14:00:00,16:00:00,Park Avenue,500,450,Sunny,Millinery Shops
+1399,Earth Day Sustainable Living Expo,Environmental,2030-04-22,10:00:00,18:00:00,Convention Center,2000,1800,Partly Cloudy,Green Living Websites
+1400,Arbor Day Paper Shredding Event,Environmental,2030-04-26,09:00:00,13:00:00,Recycling Center,200,180,Clear Skies,Office Supply Stores
+1401,Cinco de Mayo Mariachi Concert,Cultural,2030-05-05,19:00:00,22:00:00,Amphitheater,1000,950,Sunny,Mexican Music Associations
+1402,Mother's Day Champagne Brunch,Food & Drink,2030-05-12,11:00:00,14:00:00,Winery,100,90,Partly Cloudy,Wineries
+1403,Memorial Day Moment of Silence,Community,2030-05-27,15:00:00,15:01:00,Veterans Memorial,500,450,Clear Skies,Military Bases
+1404,LGBTQ+ Pride Prom,LGBTQ+,2030-06-08,19:00:00,23:00:00,Nightclub,200,180,Sunny,LGBTQ+ Youth Groups
+1405,Juneteenth Gospel Choir Concert,Cultural,2030-06-19,18:00:00,20:00:00,Church,500,480,Partly Cloudy,Gospel Music Associations
+1406,Father's Day Whiskey Tasting,Food & Drink,2030-06-16,16:00:00,19:00:00,Distillery,50,45,Clear Skies,Whiskey Enthusiast Clubs
+1407,Summer Solstice Stargazing Party,Educational,2030-06-21,21:00:00,23:00:00,Observatory,100,90,Sunny,Astronomy Clubs
+1408,Independence Day Colonial Reenactment,Historical,2030-07-04,12:00:00,16:00:00,Historical Park,500,450,Partly Cloudy,Historical Societies
+1409,Bastille Day Wine and Cheese Tasting,Food & Drink,2030-07-14,18:00:00,21:00:00,French Restaurant,50,45,Clear Skies,Cheese Shops
+1410,Parents' Day Family Field Day,Sports,2030-07-28,10:00:00,14:00:00,Sports Complex,200,180,Sunny,Family Therapy Practices
+1411,International Beer Day Brewery Tour,Food & Drink,2030-08-02,12:00:00,18:00:00,Various Breweries,100,90,Partly Cloudy,Craft Beer Magazines
+1412,Back to School Backpack Drive,Community,2030-08-17,10:00:00,16:00:00,School,500,450,Rainy,Office Supply Stores
+1413,Labor Day Union Rally,Community,2030-09-02,13:00:00,15:00:00,City Hall,1000,900,Cloudy,Labor Unions
+1414,Patriot Day Blood Drive,Health,2030-09-11,09:00:00,17:00:00,Hospital,200,180,Sunny,Red Cross
+1415,Charity Fun Run,Fundraiser,2024-09-08,08:00:00,11:00:00,City Park,500,425,Partly Cloudy,Social Media Campaign
+1416,Art Exhibition Opening,Cultural,2024-10-12,18:00:00,21:00:00,Modern Art Museum,200,180,Clear Skies,Email Marketing
+1417,Cooking Masterclass,Educational,2024-11-03,14:00:00,17:00:00,Culinary School,30,28,Rainy,Targeted Ads
+1418,Outdoor Music Festival,Entertainment,2024-12-15,12:00:00,23:00:00,Lakeside Amphitheater,5000,4200,Sunny,Radio Advertisements
+1419,Robotics Competition,Educational,2025-01-20,09:00:00,16:00:00,Science Museum,100,90,Snowy,School Outreach
+1420,Charity Auction,Fundraiser,2025-02-14,19:00:00,22:00:00,Grand Hotel Ballroom,300,275,Clear Skies,Direct Mail
+1421,Yoga and Meditation Retreat,Wellness,2025-03-07,07:00:00,18:00:00,Mountain Resort,50,45,Sunny,Social Media Campaign
+1422,Book Signing Event,Cultural,2025-04-11,16:00:00,19:00:00,Local Bookstore,80,65,Cloudy,Flyers Distributed
+1423,Entrepreneurship Summit,Conference,2025-05-23,09:00:00,18:00:00,Business Center,500,450,Partly Cloudy,Email Marketing
+1424,Outdoor Movie Screening,Entertainment,2025-06-30,20:00:00,23:00:00,City Square,1000,800,Clear Skies,Social Media Campaign
+1425,Charity Bake Sale,Fundraiser,2025-07-18,10:00:00,14:00:00,Community Center,100,85,Sunny,Local Newspaper Ads
+1426,Photography Workshop,Educational,2025-08-09,13:00:00,16:00:00,Studio Space,20,18,Rainy,Targeted Ads
+1427,Jazz Night,Entertainment,2025-09-22,20:00:00,23:00:00,Jazz Club,150,130,Clear Skies,Email Marketing
+1428,Charity Walk,Fundraiser,2025-10-05,09:00:00,12:00:00,Nature Trail,300,250,Partly Cloudy,Social Media Campaign
+1429,Painting Exhibition,Cultural,2025-11-17,15:00:00,19:00:00,Art Gallery,100,80,Cloudy,Flyers Distributed
+1430,Robotics Workshop,Educational,2025-12-08,10:00:00,14:00:00,Tech Hub,40,35,Snowy,School Outreach
+1431,New Year's Eve Party,Entertainment,2025-12-31,21:00:00,01:00:00,Rooftop Lounge,200,190,Clear Skies,Social Media Campaign
+1432,Charity Gala Dinner,Fundraiser,2026-01-25,18:00:00,22:00:00,Luxury Hotel,250,225,Partly Cloudy,Direct Mail
+1433,Book Club Meeting,Cultural,2026-02-10,14:00:00,16:00:00,Local Library,30,25,Rainy,Email Marketing
+1434,Cooking Competition,Entertainment,2026-03-15,12:00:00,16:00:00,Culinary Institute,50,45,Sunny,Targeted Ads
+1435,Robotics Seminar,Educational,2026-04-07,10:00:00,13:00:00,University Auditorium,200,180,Clear Skies,School Outreach
+1436,Charity Car Wash,Fundraiser,2026-05-19,09:00:00,14:00:00,Shopping Mall Parking Lot,100,80,Partly Cloudy,Social Media Campaign
+1437,Poetry Reading,Cultural,2026-06-12,19:00:00,21:00:00,Coffee Shop,50,40,Cloudy,Flyers Distributed
+1438,Outdoor Yoga Class,Wellness,2026-07-04,07:00:00,08:00:00,City Park,100,90,Sunny,Email Marketing
+1439,Stand-up Comedy Night,Entertainment,2026-08-17,20:00:00,22:00:00,Comedy Club,100,95,Clear Skies,Social Media Campaign
+1440,Charity Auction,Fundraiser,2026-09-09,18:00:00,21:00:00,Art Gallery,150,130,Partly Cloudy,Direct Mail
+1441,Creative Writing Workshop,Educational,2026-10-23,14:00:00,17:00:00,Community Center,30,28,Rainy,Targeted Ads
+1442,Film Screening,Entertainment,2026-11-15,19:00:00,22:00:00,Independent Cinema,80,75,Cloudy,Email Marketing
+1443,Charity Bake Sale,Fundraiser,2026-12-08,10:00:00,14:00:00,Shopping Mall,100,90,Snowy,Social Media Campaign
+1444,Art and Craft Fair,Cultural,2027-01-20,11:00:00,18:00:00,Convention Center,500,450,Clear Skies,Flyers Distributed
+1445,Yoga and Meditation Class,Wellness,2027-02-12,09:00:00,11:00:00,Yoga Studio,30,25,Sunny,Email Marketing
+1446,Open Mic Night,Entertainment,2027-03-07,20:00:00,23:00:00,Local Bar,50,45,Partly Cloudy,Social Media Campaign
+1447,Charity Fun Run,Fundraiser,2027-04-19,08:00:00,11:00:00,City Park,300,275,Clear Skies,Direct Mail
+1448,Cooking Demonstration,Educational,2027-05-11,14:00:00,16:00:00,Culinary School,40,35,Rainy,Targeted Ads
+1449,Outdoor Concert,Entertainment,2027-06-24,18:00:00,22:00:00,Amphitheater,1000,900,Sunny,Radio Advertisements
+1450,Charity Golf Tournament,Fundraiser,2027-07-16,09:00:00,16:00:00,Golf Course,100,90,Partly Cloudy,Social Media Campaign
+1451,Book Launch Event,Cultural,2027-08-08,17:00:00,20:00:00,Bookstore,80,70,Cloudy,Email Marketing
+1452,Robotics Competition,Educational,2027-09-21,10:00:00,16:00:00,Science Museum,150,140,Clear Skies,School Outreach
+1453,Halloween Party,Entertainment,2027-10-31,20:00:00,23:59:00,Haunted House,200,180,Partly Cloudy,Social Media Campaign
+1454,Charity Auction,Fundraiser,2027-11-23,18:00:00,21:00:00,Art Gallery,120,110,Rainy,Direct Mail
+1455,Painting Workshop,Educational,2027-12-16,13:00:00,16:00:00,Art Studio,20,18,Snowy,Targeted Ads
+1456,New Year's Eve Gala,Entertainment,2027-12-31,21:00:00,01:00:00,Grand Ballroom,300,280,Clear Skies,Email Marketing
+1457,Charity Walk,Fundraiser,2028-01-28,09:00:00,12:00:00,Nature Trail,250,225,Sunny,Social Media Campaign
+1458,Poetry Slam,Cultural,2028-02-20,19:00:00,22:00:00,Theater,100,90,Partly Cloudy,Flyers Distributed
+1459,Cooking Competition,Entertainment,2028-03-12,12:00:00,16:00:00,Culinary Institute,60,55,Cloudy,Targeted Ads
+1460,Robotics Workshop,Educational,2028-04-04,10:00:00,14:00:00,Tech Hub,30,28,Rainy,School Outreach
+1461,Charity Bake Sale,Fundraiser,2028-05-17,10:00:00,14:00:00,Community Center,80,75,Sunny,Social Media Campaign
+1462,Film Festival,Cultural,2028-06-09,15:00:00,22:00:00,Cinema Complex,500,450,Clear Skies,Email Marketing
+1463,Outdoor Yoga Retreat,Wellness,2028-07-22,07:00:00,18:00:00,Mountain Resort,50,45,Partly Cloudy,Targeted Ads
+1464,Stand-up Comedy Show,Entertainment,2028-08-14,20:00:00,22:00:00,Comedy Club,100,95,Cloudy,Social Media Campaign
+1465,Charity Auction,Fundraiser,2028-09-06,18:00:00,21:00:00,Convention Center,200,180,Rainy,Direct Mail
+1466,Creative Writing Seminar,Educational,2028-10-19,14:00:00,17:00:00,University Auditorium,150,130,Sunny,School Outreach
+1467,Halloween Costume Party,Entertainment,2028-10-31,20:00:00,23:59:00,Nightclub,300,280,Clear Skies,Social Media Campaign
+1468,Charity Car Wash,Fundraiser,2028-11-12,09:00:00,14:00:00,Shopping Mall Parking Lot,100,90,Partly Cloudy,Flyers Distributed
+1469,Art Exhibition,Cultural,2028-12-05,16:00:00,20:00:00,Art Museum,200,180,Snowy,Email Marketing
+1470,Christmas Market,Entertainment,2028-12-24,10:00:00,20:00:00,City Square,1000,900,Clear Skies,Radio Advertisements
+1471,Charity Gala Dinner,Fundraiser,2029-01-16,18:00:00,22:00:00,Luxury Hotel,250,230,Cloudy,Direct Mail
+1472,Book Club Meeting,Cultural,2029-02-08,14:00:00,16:00:00,Local Library,30,28,Rainy,Social Media Campaign
+1473,Cooking Masterclass,Educational,2029-03-02,13:00:00,16:00:00,Culinary School,40,35,Sunny,Targeted Ads
+1474,Outdoor Music Festival,Entertainment,2029-04-14,12:00:00,23:00:00,City Park,5000,4500,Partly Cloudy,Radio Advertisements
+1475,Robotics Competition,Educational,2029-05-27,09:00:00,16:00:00,Science Museum,120,110,Clear Skies,School Outreach
+1476,Charity Walk,Fundraiser,2029-06-19,09:00:00,12:00:00,Nature Trail,300,275,Sunny,Social Media Campaign
+1477,Poetry Reading,Cultural,2029-07-11,19:00:00,21:00:00,Coffee Shop,50,45,Cloudy,Flyers Distributed
+1478,Outdoor Yoga Class,Wellness,2029-08-03,07:00:00,08:00:00,Beach,100,90,Partly Cloudy,Email Marketing
+1479,Film Screening,Entertainment,2029-09-15,19:00:00,22:00:00,Independent Cinema,80,75,Rainy,Social Media Campaign
+1480,Charity Auction,Fundraiser,2029-10-08,18:00:00,21:00:00,Art Gallery,150,140,Clear Skies,Direct Mail
+1481,Creative Writing Workshop,Educational,2029-11-21,14:00:00,17:00:00,Community Center,30,28,Snowy,Targeted Ads
+1482,Thanksgiving Dinner,Entertainment,2029-11-30,17:00:00,21:00:00,Restaurant,100,95,Cloudy,Email Marketing
+1483,Charity Bake Sale,Fundraiser,2029-12-13,10:00:00,14:00:00,Shopping Mall,100,90,Sunny,Social Media Campaign
+1484,New Year's Eve Party,Entertainment,2029-12-31,21:00:00,01:00:00,Rooftop Lounge,200,190,Clear Skies,Radio Advertisements
+1485,Art and Craft Fair,Cultural,2030-01-26,11:00:00,18:00:00,Convention Center,500,450,Partly Cloudy,Flyers Distributed
+1486,Yoga and Meditation Class,Wellness,2030-02-17,09:00:00,11:00:00,Yoga Studio,30,28,Rainy,Email Marketing
+1487,Open Mic Night,Entertainment,2030-03-09,20:00:00,23:00:00,Local Bar,50,45,Sunny,Social Media Campaign
+1488,Charity Fun Run,Fundraiser,2030-04-21,08:00:00,11:00:00,City Park,300,280,Clear Skies,Direct Mail
+1489,Cooking Demonstration,Educational,2030-05-13,14:00:00,16:00:00,Culinary School,40,35,Cloudy,Targeted Ads
+1490,Outdoor Concert,Entertainment,2030-06-26,18:00:00,22:00:00,Amphitheater,1000,950,Partly Cloudy,Radio Advertisements
+1491,Charity Golf Tournament,Fundraiser,2030-07-18,09:00:00,16:00:00,Golf Course,100,90,Sunny,Social Media Campaign
+1492,Book Launch Event,Cultural,2030-08-10,17:00:00,20:00:00,Bookstore,80,75,Rainy,Email Marketing
+1493,Robotics Workshop,Educational,2030-09-23,10:00:00,14:00:00,Tech Hub,30,28,Clear Skies,School Outreach
+1494,Halloween Party,Entertainment,2030-10-31,20:00:00,23:59:00,Haunted House,200,190,Cloudy,Social Media Campaign
+1495,Charity Auction,Fundraiser,2030-11-25,18:00:00,21:00:00,Art Gallery,120,110,Snowy,Direct Mail
+1496,Painting Workshop,Educational,2030-12-18,13:00:00,16:00:00,Art Studio,20,18,Sunny,Targeted Ads
+1497,Christmas Eve Dinner,Entertainment,2030-12-24,18:00:00,22:00:00,Restaurant,100,95,Partly Cloudy,Email Marketing
+1498,New Year's Eve Gala,Entertainment,2030-12-31,21:00:00,01:00:00,Grand Ballroom,300,290,Clear Skies,Radio Advertisements
+1499,Charity Walk,Fundraiser,2031-01-30,09:00:00,12:00:00,Nature Trail,250,230,Sunny,Social Media Campaign
+1500,Cooking Competition,Entertainment,2031-03-14,12:00:00,16:00:00,Culinary Institute,60,58,Rainy,Targeted Ads
+1501,Robotics Seminar,Educational,2031-04-06,10:00:00,13:00:00,University Auditorium,200,190,Clear Skies,School Outreach
+1502,Charity Car Wash,Fundraiser,2031-05-19,09:00:00,14:00:00,Shopping Mall Parking Lot,100,95,Partly Cloudy,Social Media Campaign
+1503,Slam Poetry Event,Cultural,2031-06-11,19:00:00,21:00:00,Theater,80,75,Cloudy,Flyers Distributed
+1504,Outdoor Pilates Class,Wellness,2031-07-03,07:00:00,08:00:00,City Park,100,90,Sunny,Email Marketing
+1505,Improv Comedy Show,Entertainment,2031-08-16,20:00:00,22:00:00,Comedy Club,100,98,Clear Skies,Social Media Campaign
+1506,Silent Auction,Fundraiser,2031-09-08,18:00:00,21:00:00,Art Gallery,150,140,Partly Cloudy,Direct Mail
+1507,Creative Writing Retreat,Educational,2031-10-22,09:00:00,17:00:00,Mountain Resort,30,28,Rainy,Targeted Ads
+1508,Horror Movie Marathon,Entertainment,2031-10-31,18:00:00,23:59:00,Independent Cinema,80,78,Cloudy,Email Marketing
+1509,Charity Bake Sale,Fundraiser,2031-12-07,10:00:00,14:00:00,Shopping Mall,100,95,Snowy,Social Media Campaign
+1510,Sculpture Exhibition,Cultural,2032-01-19,11:00:00,18:00:00,Art Museum,500,475,Clear Skies,Flyers Distributed
+1511,Yoga and Pilates Fusion Class,Wellness,2032-02-11,09:00:00,11:00:00,Fitness Studio,30,28,Sunny,Email Marketing
+1512,Karaoke Night,Entertainment,2032-03-06,20:00:00,23:00:00,Local Bar,50,48,Partly Cloudy,Social Media Campaign
+1513,Charity Bike Ride,Fundraiser,2032-04-18,08:00:00,13:00:00,Scenic Route,300,285,Clear Skies,Direct Mail
+1514,Sushi Making Class,Educational,2032-05-10,14:00:00,16:00:00,Japanese Restaurant,40,38,Rainy,Targeted Ads
+1515,Jazz Festival,Entertainment,2032-06-23,15:00:00,22:00:00,City Park,1000,950,Sunny,Radio Advertisements
+1516,Charity Tennis Tournament,Fundraiser,2032-07-15,09:00:00,16:00:00,Tennis Club,100,95,Partly Cloudy,Social Media Campaign
+1517,Author Talk,Cultural,2032-08-07,17:00:00,19:00:00,Library,80,75,Cloudy,Email Marketing
+1518,Robotics Summer Camp,Educational,2032-09-20,09:00:00,15:00:00,Science Center,150,145,Clear Skies,School Outreach
+1519,Costume Contest,Entertainment,2032-10-31,19:00:00,22:00:00,Community Center,200,190,Partly Cloudy,Social Media Campaign
+1520,Silent Auction,Fundraiser,2032-11-22,18:00:00,21:00:00,Convention Center,120,115,Rainy,Direct Mail
+1521,Watercolor Painting Class,Educational,2032-12-15,13:00:00,16:00:00,Art Studio,20,19,Snowy,Targeted Ads
+1522,Christmas Carol Concert,Entertainment,2032-12-23,19:00:00,21:00:00,Concert Hall,500,480,Clear Skies,Email Marketing
+1523,Charity Walk,Fundraiser,2033-01-27,09:00:00,12:00:00,Hiking Trail,250,240,Sunny,Social Media Campaign
+1524,Spoken Word Poetry,Cultural,2033-02-19,19:00:00,21:00:00,Coffee Shop,50,48,Partly Cloudy,Flyers Distributed
+1525,Baking Competition,Entertainment,2033-03-11,12:00:00,16:00:00,Culinary School,60,58,Cloudy,Targeted Ads
+1526,Robotics Workshop,Educational,2033-04-03,10:00:00,14:00:00,Maker Space,30,29,Rainy,School Outreach
+1527,Charity Yard Sale,Fundraiser,2033-05-16,09:00:00,15:00:00,Community Center,80,78,Sunny,Social Media Campaign
+1528,Short Film Festival,Cultural,2033-06-08,17:00:00,22:00:00,Independent Theater,200,190,Clear Skies,Email Marketing
+1529,Outdoor Tai Chi Class,Wellness,2033-07-21,07:00:00,08:00:00,City Park,100,95,Partly Cloudy,Targeted Ads
+1530,Magic Show,Entertainment,2033-08-13,19:00:00,21:00:00,Theater,150,145,Cloudy,Social Media Campaign
+1531,Silent Auction,Fundraiser,2033-09-05,18:00:00,21:00:00,Art Gallery,200,190,Rainy,Direct Mail
+1532,Creative Writing Workshop,Educational,2033-10-18,14:00:00,17:00:00,Library,30,28,Sunny,School Outreach
+1533,Haunted House,Entertainment,2033-10-31,20:00:00,23:59:00,Abandoned Building,300,290,Clear Skies,Social Media Campaign
+1534,Charity Car Wash,Fundraiser,2033-11-11,09:00:00,14:00:00,Gas Station,100,95,Partly Cloudy,Flyers Distributed
+1535,Photography Exhibition,Cultural,2033-12-04,16:00:00,20:00:00,Gallery,200,190,Snowy,Email Marketing
+1536,Holiday Market,Entertainment,2033-12-23,10:00:00,20:00:00,City Square,1000,950,Clear Skies,Radio Advertisements
+1537,Charity Dinner,Fundraiser,2034-01-15,18:00:00,22:00:00,Restaurant,250,240,Cloudy,Direct Mail
+1538,Book Discussion,Cultural,2034-02-07,14:00:00,16:00:00,Bookstore,30,29,Rainy,Social Media Campaign
+1539,Cooking Class,Educational,2034-03-01,13:00:00,16:00:00,Culinary Institute,40,38,Sunny,Targeted Ads
+1540,Music Festival,Entertainment,2034-04-13,12:00:00,23:00:00,Fairgrounds,5000,4800,Partly Cloudy,Radio Advertisements
+1541,Robotics Competition,Educational,2034-05-26,09:00:00,16:00:00,University,120,115,Clear Skies,School Outreach
+1542,Charity Run,Fundraiser,2034-06-18,08:00:00,11:00:00,City Streets,300,290,Sunny,Social Media Campaign
+1543,Storytelling Event,Cultural,2034-07-10,19:00:00,21:00:00,Library,50,48,Cloudy,Flyers Distributed
+1544,Outdoor Zumba Class,Wellness,2034-08-02,07:00:00,08:00:00,Beach,100,95,Partly Cloudy,Email Marketing
+1545,Indie Film Screening,Entertainment,2034-09-14,19:00:00,22:00:00,Art House Cinema,80,78,Rainy,Social Media Campaign
+1546,Silent Auction,Fundraiser,2034-10-07,18:00:00,21:00:00,Museum,150,145,Clear Skies,Direct Mail
+1547,Creative Writing Seminar,Educational,2034-11-20,14:00:00,17:00:00,Conference Center,30,29,Snowy,Targeted Ads
+1548,Thanksgiving Potluck,Entertainment,2034-11-29,17:00:00,21:00:00,Community Center,100,98,Cloudy,Email Marketing
+1549,Charity Bake Sale,Fundraiser,2034-12-12,10:00:00,14:00:00,Grocery Store,100,95,Sunny,Social Media Campaign
+1550,New Year's Day Brunch,Entertainment,2035-01-01,11:00:00,14:00:00,Hotel Ballroom,200,195,Clear Skies,Email Marketing
+1551,Winter Wonderland Festival,Cultural,2035-01-25,15:00:00,21:00:00,City Park,1000,950,Snowy,Social Media Campaign
+1552,Charity Ski Race,Fundraiser,2035-02-16,09:00:00,14:00:00,Ski Resort,150,145,Sunny,Direct Mail
+1553,Calligraphy Workshop,Educational,2035-03-08,13:00:00,16:00:00,Art Studio,20,19,Rainy,Targeted Ads
+1554,Spring Flower Show,Entertainment,2035-04-20,10:00:00,18:00:00,Botanical Garden,500,480,Partly Cloudy,Radio Advertisements
+1555,Robotics Hackathon,Educational,2035-05-12,09:00:00,18:00:00,Tech Hub,100,98,Clear Skies,School Outreach
+1556,Charity Dinner Auction,Fundraiser,2035-06-07,18:00:00,22:00:00,Country Club,200,195,Sunny,Social Media Campaign
+1557,Outdoor Theater Performance,Cultural,2035-07-19,20:00:00,22:30:00,Amphitheater,300,290,Cloudy,Flyers Distributed
+1558,Yoga in the Vineyard,Wellness,2035-08-11,10:00:00,12:00:00,Winery,50,48,Partly Cloudy,Email Marketing
+1559,Food Truck Festival,Entertainment,2035-09-03,12:00:00,20:00:00,Fairgrounds,1000,980,Rainy,Social Media Campaign
+1560,Silent Auction,Fundraiser,2035-10-16,17:00:00,20:00:00,Historical Mansion,120,118,Clear Skies,Direct Mail
+1561,Pumpkin Carving Contest,Entertainment,2035-10-31,14:00:00,17:00:00,Community Center,80,78,Sunny,Targeted Ads
+1562,NaNoWriMo Kickoff,Educational,2035-11-01,18:00:00,21:00:00,Library,100,95,Cloudy,School Outreach
+1563,Charity Turkey Trot,Fundraiser,2035-11-30,08:00:00,11:00:00,City Streets,500,480,Partly Cloudy,Social Media Campaign
+1564,Holiday Lights Parade,Cultural,2035-12-15,19:00:00,21:00:00,Downtown,2000,1900,Clear Skies,Radio Advertisements
+1565,New Year's Eve Masquerade,Entertainment,2035-12-31,21:00:00,01:00:00,Hotel Ballroom,300,295,Snowy,Email Marketing
+1566,Winter Sports Expo,Entertainment,2036-01-18,10:00:00,18:00:00,Convention Center,1000,980,Sunny,Social Media Campaign
+1567,Charity Polar Plunge,Fundraiser,2036-02-09,12:00:00,14:00:00,Lake Shore,100,98,Partly Cloudy,Direct Mail
+1568,Soap Making Workshop,Educational,2036-03-02,14:00:00,17:00:00,Craft Store,30,29,Rainy,Targeted Ads
+1569,Spring Fashion Show,Entertainment,2036-04-13,19:00:00,21:00:00,Boutique,150,145,Clear Skies,Email Marketing
+1570,Robotics Summer Camp,Educational,2036-05-25,09:00:00,15:00:00,Science Museum,200,195,Sunny,School Outreach
+1571,Charity Golf Outing,Fundraiser,2036-06-20,08:00:00,14:00:00,Golf Course,120,118,Cloudy,Social Media Campaign
+1572,Outdoor Movie Night,Entertainment,2036-07-12,20:00:00,23:00:00,City Park,500,480,Partly Cloudy,Flyers Distributed
+1573,Meditation Retreat,Wellness,2036-08-04,09:00:00,17:00:00,Retreat Center,50,48,Rainy,Email Marketing
+1574,Craft Beer Festival,Entertainment,2036-09-16,12:00:00,20:00:00,Brewery,1000,980,Clear Skies,Social Media Campaign
+1575,Silent Auction,Fundraiser,2036-10-09,18:00:00,21:00:00,Art Gallery,150,145,Sunny,Direct Mail
+1576,Haunted Hayride,Entertainment,2036-10-31,19:00:00,22:00:00,Farm,300,290,Cloudy,Targeted Ads
+1577,NaNoWriMo Write-In,Educational,2036-11-15,18:00:00,21:00:00,Coffee Shop,50,48,Partly Cloudy,School Outreach
+1578,Charity Thanksgiving Dinner,Fundraiser,2036-11-29,17:00:00,20:00:00,Community Center,200,195,Rainy,Social Media Campaign
+1579,Holiday Craft Fair,Cultural,2036-12-13,10:00:00,18:00:00,Convention Center,500,480,Snowy,Radio Advertisements
+1580,New Year's Day 5K,Entertainment,2037-01-01,09:00:00,12:00:00,City Streets,1000,980,Clear Skies,Email Marketing
+1581,Winter Farmers Market,Cultural,2037-01-23,10:00:00,14:00:00,Indoor Market,200,195,Sunny,Social Media Campaign
+1582,Charity Ice Fishing Derby,Fundraiser,2037-02-14,08:00:00,14:00:00,Frozen Lake,100,98,Partly Cloudy,Direct Mail
+1583,Woodworking Workshop,Educational,2037-03-06,13:00:00,16:00:00,Woodshop,20,19,Cloudy,Targeted Ads
+1584,Spring Garden Show,Entertainment,2037-04-19,10:00:00,18:00:00,Botanical Garden,500,480,Rainy,Radio Advertisements
+1585,Robotics Competition,Educational,2037-05-11,09:00:00,16:00:00,Science Center,150,145,Clear Skies,School Outreach
+1586,Charity Wine Tasting,Fundraiser,2037-06-06,18:00:00,21:00:00,Winery,200,195,Sunny,Social Media Campaign
+1587,Outdoor Concert Series,Entertainment,2037-07-18,19:00:00,22:00:00,Amphitheater,1000,980,Partly Cloudy,Flyers Distributed
+1588,Yoga on the Beach,Wellness,2037-08-10,07:00:00,08:00:00,Beach,100,98,Cloudy,Email Marketing
+1589,Food and Wine Festival,Entertainment,2037-09-02,12:00:00,20:00:00,City Park,1500,1450,Rainy,Social Media Campaign
+1590,Silent Auction,Fundraiser,2037-10-15,17:00:00,20:00:00,Museum,120,118,Clear Skies,Direct Mail
+1591,Halloween Costume Parade,Entertainment,2037-10-31,16:00:00,18:00:00,Downtown,500,480,Sunny,Targeted Ads
+1592,NaNoWriMo Celebration,Educational,2037-11-30,18:00:00,21:00:00,Library,80,78,Partly Cloudy,School Outreach
+1593,Charity Toy Drive,Fundraiser,2037-12-14,10:00:00,16:00:00,Shopping Mall,300,290,Snowy,Social Media Campaign
+1594,Holiday Baking Contest,Entertainment,2037-12-24,14:00:00,17:00:00,Community Center,50,48,Cloudy,Email Marketing
+1595,New Year's Eve Fireworks,Entertainment,2037-12-31,23:00:00,00:15:00,Waterfront,5000,4800,Clear Skies,Radio Advertisements
+1596,Winter Art Exhibition,Cultural,2038-01-17,16:00:00,20:00:00,Art Museum,300,290,Sunny,Social Media Campaign
+1597,Charity Snowshoe Race,Fundraiser,2038-02-08,10:00:00,13:00:00,Ski Resort,100,98,Partly Cloudy,Direct Mail
+1598,Knitting Workshop,Educational,2038-03-01,14:00:00,17:00:00,Yarn Store,30,29,Rainy,Targeted Ads
+1599,Spring Flower Festival,Entertainment,2038-04-12,10:00:00,18:00:00,City Park,1000,980,Clear Skies,Radio Advertisements
+1600,Robotics Workshop,Educational,2038-05-24,09:00:00,12:00:00,Maker Space,50,48,Sunny,School Outreach
+1601,Charity Silent Auction,Fundraiser,2038-06-19,18:00:00,21:00:00,Country Club,150,145,Cloudy,Social Media Campaign
+1602,Outdoor Theater Festival,Cultural,2038-07-11,19:00:00,23:00:00,Amphitheater,500,480,Partly Cloudy,Flyers Distributed
+1603,Yoga in the Park,Wellness,2038-08-03,10:00:00,11:00:00,City Park,100,98,Rainy,Email Marketing
+1604,Craft Beer and Food Truck Rally,Entertainment,2038-09-15,12:00:00,20:00:00,Fairgrounds,1500,1450,Clear Skies,Social Media Campaign
+1605,Silent Auction,Fundraiser,2038-10-08,17:00:00,20:00:00,Historical Mansion,120,118,Sunny,Direct Mail
+1606,Pumpkin Pie Eating Contest,Entertainment,2038-10-31,15:00:00,17:00:00,Community Center,50,48,Cloudy,Targeted Ads
+1607,NaNoWriMo Kickoff Party,Educational,2038-11-01,18:00:00,21:00:00,Coffee Shop,80,78,Partly Cloudy,School Outreach
+1608,Charity Thanksgiving 5K,Fundraiser,2038-11-30,08:00:00,11:00:00,City Streets,500,480,Rainy,Social Media Campaign
+1609,Holiday Light Show,Cultural,2038-12-15,18:00:00,22:00:00,Botanical Garden,1000,980,Snowy,Radio Advertisements
+1610,New Year's Eve Gala,Entertainment,2038-12-31,20:00:00,01:00:00,Hotel Ballroom,300,295,Clear Skies,Email Marketing
+1611,Winter Carnival,Entertainment,2039-01-16,12:00:00,20:00:00,Fairgrounds,2000,1950,Sunny,Social Media Campaign
+1612,Charity Ice Skating Event,Fundraiser,2039-02-07,14:00:00,17:00:00,Ice Rink,150,145,Partly Cloudy,Direct Mail
+1613,Pottery Workshop,Educational,2039-02-28,13:00:00,16:00:00,Art Studio,20,19,Cloudy,Targeted Ads
+1614,Spring Home and Garden Show,Entertainment,2039-04-11,10:00:00,18:00:00,Convention Center,1000,980,Rainy,Radio Advertisements
+1615,Robotics Seminar,Educational,2039-05-23,09:00:00,12:00:00,University,200,195,Clear Skies,School Outreach
+1616,Charity Art Auction,Fundraiser,2039-06-18,18:00:00,21:00:00,Art Gallery,100,98,Sunny,Social Media Campaign
+1617,Outdoor Music Festival,Entertainment,2039-07-10,12:00:00,23:00:00,City Park,5000,4800,Partly Cloudy,Flyers Distributed
+1618,Yoga and Meditation Retreat,Wellness,2039-08-02,09:00:00,17:00:00,Retreat Center,50,48,Cloudy,Email Marketing
+1619,Food Truck Rodeo,Entertainment,2039-09-14,12:00:00,20:00:00,Fairgrounds,1500,1450,Rainy,Social Media Campaign
+1620,Silent Auction,Fundraiser,2039-10-07,17:00:00,20:00:00,Museum,120,118,Clear Skies,Direct Mail
+1621,Halloween Haunted House,Entertainment,2039-10-31,19:00:00,23:00:00,Abandoned Building,300,290,Sunny,Targeted Ads
+1622,NaNoWriMo Write-a-thon,Educational,2039-11-15,10:00:00,20:00:00,Library,100,98,Partly Cloudy,School Outreach
+1623,Charity Thanksgiving Dinner,Fundraiser,2039-11-29,17:00:00,20:00:00,Community Center,200,195,Cloudy,Social Media Campaign
+1624,Holiday Craft Market,Cultural,2039-12-13,10:00:00,18:00:00,Convention Center,500,480,Snowy,Radio Advertisements
+1625,New Year's Day Brunch,Entertainment,2040-01-01,11:00:00,14:00:00,Hotel Ballroom,300,295,Clear Skies,Email Marketing

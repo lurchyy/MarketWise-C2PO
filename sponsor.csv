@@ -1,0 +1,603 @@
+SponsorID,SponsorName,SponsorIndustry,SponsorSize,SponsorType,SponsorshipPackageID,SponsorshipPackageName,SponsorshipPackageCost,SponsorshipPackageBenefits,PromotionType,AdvertisingSpend,Impressions,Clicks,Engagement,BrandExposure,AttendeeEngagement,SalesLift,BrandAwarenessMetrics,SponsorshipRevenue,SponsorshipCosts,ROI,ROAS,CAC
+1,Acme Inc.,Technology,Large,Title,SP1,Platinum,150000,"Branding, Advertising, Hospitality",Social Media,75000,2000000,50000,20000,1000,2000,500000,90%,150000,120000,25%,2,240
+2,Beta Corp.,Finance,Medium,Presenting,SP2,Gold,100000,"Branding, Hospitality",Email,50000,1000000,25000,10000,500,1000,250000,80%,100000,80000,25%,2,320
+3,Gamma LLC,Retail,Small,Supporting,SP3,Silver,50000,Branding,Print,25000,500000,12500,5000,250,500,125000,70%,50000,40000,25%,2,320
+4,Delta Enterprises,Healthcare,Large,Title,SP4,Platinum,200000,"Branding, Advertising, Hospitality, Workshops",Social Media,100000,3000000,75000,30000,1500,3000,750000,95%,200000,160000,25%,2,213
+5,Epsilon Industries,Manufacturing,Medium,Presenting,SP5,Gold,75000,"Branding, Sampling",Email,37500,750000,18750,7500,375,750,187500,75%,75000,60000,25%,2,320
+6,Zeta Solutions,Technology,Small,Supporting,SP6,Silver,30000,"Branding, Experiential",Social Media,15000,300000,7500,3000,150,300,75000,60%,30000,24000,25%,2,320
+7,Eta Innovations,Energy,Large,Title,SP7,Platinum,180000,"Branding, Advertising, Hospitality",TV,90000,2500000,62500,25000,1250,2500,625000,90%,180000,144000,25%,2,230
+8,Theta Systems,Finance,Medium,Presenting,SP8,Gold,120000,"Branding, Hospitality, Workshops",Print,60000,1200000,30000,12000,600,1200,300000,85%,120000,96000,25%,2,320
+9,Iota Technologies,Retail,Small,Supporting,SP9,Silver,40000,"Branding, Sampling",Online,20000,400000,10000,4000,200,400,100000,65%,40000,32000,25%,2,320
+10,Kappa Solutions,Healthcare,Large,Title,SP10,Platinum,225000,"Branding, Advertising, Hospitality, Experiential",Social Media,112500,3500000,87500,35000,1750,3500,875000,95%,225000,180000,25%,2,206
+11,Lambda Enterprises,Manufacturing,Medium,Presenting,SP11,Gold,90000,"Branding, Sampling, Workshops",Email,45000,900000,22500,9000,450,900,225000,80%,90000,72000,25%,2,320
+12,Mu Industries,Technology,Small,Supporting,SP12,Silver,60000,"Branding, Experiential",Outdoor,30000,600000,15000,6000,300,600,150000,70%,60000,48000,25%,2,320
+13,Nu Innovations,Energy,Large,Title,SP13,Platinum,210000,"Branding, Advertising, Hospitality",TV,105000,3000000,75000,30000,1500,3000,750000,90%,210000,168000,25%,2,224
+14,Xi Systems,Finance,Medium,Presenting,SP14,Gold,135000,"Branding, Hospitality, Workshops",Print,67500,1350000,33750,13500,675,1350,337500,85%,135000,108000,25%,2,320
+15,Omicron Technologies,Retail,Small,Supporting,SP15,Silver,45000,"Branding, Sampling",Radio,22500,450000,11250,4500,225,450,112500,65%,45000,36000,25%,2,320
+16,Pi Solutions,Healthcare,Large,Title,SP16,Platinum,240000,"Branding, Advertising, Hospitality, Experiential",Social Media,120000,4000000,100000,40000,2000,4000,1000000,95%,240000,192000,25%,2,192
+17,Rho Enterprises,Manufacturing,Medium,Presenting,SP17,Gold,105000,"Branding, Sampling, Workshops",Email,52500,1050000,26250,10500,525,1050,262500,80%,105000,84000,25%,2,320
+18,Sigma Industries,Technology,Small,Supporting,SP18,Silver,75000,"Branding, Experiential",Social Media,37500,750000,18750,7500,375,750,187500,70%,75000,60000,25%,2,320
+19,Tau Innovations,Energy,Large,Title,SP19,Platinum,270000,"Branding, Advertising, Hospitality",TV,135000,4500000,112500,45000,2250,4500,1125000,90%,270000,216000,25%,2,192
+20,Upsilon Systems,Finance,Medium,Presenting,SP20,Gold,150000,"Branding, Hospitality, Workshops",Print,75000,1500000,37500,15000,750,1500,375000,85%,150000,120000,25%,2,320
+21,Phi Technologies,Retail,Small,Supporting,SP21,Silver,60000,"Branding, Sampling",Online,30000,600000,15000,6000,300,600,150000,65%,60000,48000,25%,2,320
+22,Chi Solutions,Healthcare,Large,Title,SP22,Platinum,300000,"Branding, Advertising, Hospitality, Experiential",Social Media,150000,5000000,125000,50000,2500,5000,1250000,95%,300000,240000,25%,2,192
+23,Psi Enterprises,Manufacturing,Medium,Presenting,SP23,Gold,120000,"Branding, Sampling, Workshops",Email,60000,1200000,30000,12000,600,1200,300000,80%,120000,96000,25%,2,320
+24,Omega Industries,Technology,Small,Supporting,SP24,Silver,90000,"Branding, Experiential",Outdoor,45000,900000,22500,9000,450,900,225000,70%,90000,72000,25%,2,320
+25,Alpha Innovations,Energy,Large,Title,SP25,Platinum,330000,"Branding, Advertising, Hospitality",TV,165000,5500000,137500,55000,2750,5500,1375000,90%,330000,264000,25%,2,192
+26,Beta Systems,Finance,Medium,Presenting,SP26,Gold,180000,"Branding, Hospitality, Workshops",Print,90000,1800000,45000,18000,900,1800,450000,85%,180000,144000,25%,2,320
+27,Gamma Technologies,Retail,Small,Supporting,SP27,Silver,75000,"Branding, Sampling",Radio,37500,750000,18750,7500,375,750,187500,65%,75000,60000,25%,2,320
+28,Delta Solutions,Healthcare,Large,Title,SP28,Platinum,360000,"Branding, Advertising, Hospitality, Experiential",Social Media,180000,6000000,150000,60000,3000,6000,1500000,95%,360000,288000,25%,2,192
+29,Epsilon Enterprises,Manufacturing,Medium,Presenting,SP29,Gold,135000,"Branding, Sampling, Workshops",Email,67500,1350000,33750,13500,675,1350,337500,80%,135000,108000,25%,2,320
+30,Zeta Industries,Technology,Small,Supporting,SP30,Silver,105000,"Branding, Experiential",Social Media,52500,1050000,26250,10500,525,1050,262500,70%,105000,84000,25%,2,320
+31,Eta Innovations,Energy,Large,Title,SP31,Platinum,390000,"Branding, Advertising, Hospitality",TV,195000,6500000,162500,65000,3250,6500,1625000,90%,390000,312000,25%,2,192
+32,Theta Systems,Finance,Medium,Presenting,SP32,Gold,210000,"Branding, Hospitality, Workshops",Print,105000,2100000,52500,21000,1050,2100,525000,85%,210000,168000,25%,2,320
+33,Iota Technologies,Retail,Small,Supporting,SP33,Silver,90000,"Branding, Sampling",Online,45000,900000,22500,9000,450,900,225000,65%,90000,72000,25%,2,320
+34,Kappa Solutions,Healthcare,Large,Title,SP34,Platinum,420000,"Branding, Advertising, Hospitality, Experiential",Social Media,210000,7000000,175000,70000,3500,7000,1750000,95%,420000,336000,25%,2,192
+35,Lambda Enterprises,Manufacturing,Medium,Presenting,SP35,Gold,150000,"Branding, Sampling, Workshops",Email,75000,1500000,37500,15000,750,1500,375000,80%,150000,120000,25%,2,320
+36,Mu Industries,Technology,Small,Supporting,SP36,Silver,120000,"Branding, Experiential",Outdoor,60000,1200000,30000,12000,600,1200,300000,70%,120000,96000,25%,2,320
+37,Nu Innovations,Energy,Large,Title,SP37,Platinum,450000,"Branding, Advertising, Hospitality",TV,225000,7500000,187500,75000,3750,7500,1875000,90%,450000,360000,25%,2,192
+38,Xi Systems,Finance,Medium,Presenting,SP38,Gold,240000,"Branding, Hospitality, Workshops",Print,120000,2400000,60000,24000,1200,2400,600000,85%,240000,192000,25%,2,320
+39,Omicron Technologies,Retail,Small,Supporting,SP39,Silver,105000,"Branding, Sampling",Radio,52500,1050000,26250,10500,525,1050,262500,65%,105000,84000,25%,2,320
+40,Pi Solutions,Healthcare,Large,Title,SP40,Platinum,480000,"Branding, Advertising, Hospitality, Experiential",Social Media,240000,8000000,200000,80000,4000,8000,2000000,95%,480000,384000,25%,2,192
+41,Rho Enterprises,Manufacturing,Medium,Presenting,SP41,Gold,165000,"Branding, Sampling, Workshops",Email,82500,1650000,41250,16500,825,1650,412500,80%,165000,132000,25%,2,320
+42,Sigma Industries,Technology,Small,Supporting,SP42,Silver,135000,"Branding, Experiential",Social Media,67500,1350000,33750,13500,675,1350,337500,70%,135000,108000,25%,2,320
+43,Tau Innovations,Energy,Large,Title,SP43,Platinum,510000,"Branding, Advertising, Hospitality",TV,255000,8500000,212500,85000,4250,8500,2125000,90%,510000,408000,25%,2,192
+44,Upsilon Systems,Finance,Medium,Presenting,SP44,Gold,270000,"Branding, Hospitality, Workshops",Print,135000,2700000,67500,27000,1350,2700,675000,85%,270000,216000,25%,2,320
+45,Phi Technologies,Retail,Small,Supporting,SP45,Silver,120000,"Branding, Sampling",Online,60000,1200000,30000,12000,600,1200,300000,65%,120000,96000,25%,2,320
+46,Chi Solutions,Healthcare,Large,Title,SP46,Platinum,540000,"Branding, Advertising, Hospitality, Experiential",Social Media,270000,9000000,225000,90000,4500,9000,2250000,95%,540000,432000,25%,2,192
+47,Psi Enterprises,Manufacturing,Medium,Presenting,SP47,Gold,180000,"Branding, Sampling, Workshops",Email,90000,1800000,45000,18000,900,1800,450000,80%,180000,144000,25%,2,320
+48,Omega Industries,Technology,Small,Supporting,SP48,Silver,150000,"Branding, Experiential",Outdoor,75000,1500000,37500,15000,750,1500,375000,70%,150000,120000,25%,2,320
+49,Alpha Innovations,Energy,Large,Title,SP49,Platinum,570000,"Branding, Advertising, Hospitality",TV,285000,9500000,237500,95000,4750,9500,2375000,90%,570000,456000,25%,2,192
+50,Beta Systems,Finance,Medium,Presenting,SP50,Gold,300000,"Branding, Hospitality, Workshops",Print,150000,3000000,75000,30000,1500,3000,750000,85%,300000,240000,25%,2,320
+51,Gamma Technologies,Retail,Small,Supporting,SP51,Silver,135000,"Branding, Sampling",Radio,67500,1350000,33750,13500,675,1350,337500,65%,135000,108000,25%,2,320
+52,Delta Solutions,Healthcare,Large,Title,SP52,Platinum,600000,"Branding, Advertising, Hospitality, Experiential",Social Media,300000,10000000,250000,100000,5000,10000,2500000,95%,600000,480000,25%,2,192
+53,Epsilon Enterprises,Manufacturing,Medium,Presenting,SP53,Gold,195000,"Branding, Sampling, Workshops",Email,97500,1950000,48750,19500,975,1950,487500,80%,195000,156000,25%,2,320
+54,Zeta Industries,Technology,Small,Supporting,SP54,Silver,165000,"Branding, Experiential",Social Media,82500,1650000,41250,16500,825,1650,412500,70%,165000,132000,25%,2,320 
+56,Theta Systems,Finance,Medium,Presenting,SP56,Gold,330000,"Branding, Hospitality, Workshops",Print,165000,3300000,82500,33000,1650,3300,825000,85%,330000,264000,25%,2,320
+57,Iota Technologies,Retail,Small,Supporting,SP57,Silver,150000,"Branding, Sampling",Online,75000,1500000,37500,15000,750,1500,375000,65%,150000,120000,25%,2,320
+58,Kappa Solutions,Healthcare,Large,Title,SP58,Platinum,660000,"Branding, Advertising, Hospitality, Experiential",Social Media,330000,11000000,275000,110000,5500,11000,2750000,95%,660000,528000,25%,2,192
+59,Lambda Enterprises,Manufacturing,Medium,Presenting,SP59,Gold,210000,"Branding, Sampling, Workshops",Email,105000,2100000,52500,21000,1050,2100,525000,80%,210000,168000,25%,2,320
+60,Mu Industries,Technology,Small,Supporting,SP60,Silver,180000,"Branding, Experiential",Outdoor,90000,1800000,45000,18000,900,1800,450000,70%,180000,144000,25%,2,320
+61,Nu Innovations,Energy,Large,Title,SP61,Platinum,690000,"Branding, Advertising, Hospitality",TV,345000,11500000,287500,115000,5750,11500,2875000,90%,690000,552000,25%,2,192
+62,Xi Systems,Finance,Medium,Presenting,SP62,Gold,360000,"Branding, Hospitality, Workshops",Print,180000,3600000,90000,36000,1800,3600,900000,85%,360000,288000,25%,2,320
+63,Omicron Technologies,Retail,Small,Supporting,SP63,Silver,165000,"Branding, Sampling",Radio,82500,1650000,41250,16500,825,1650,412500,65%,165000,132000,25%,2,320
+64,Pi Solutions,Healthcare,Large,Title,SP64,Platinum,720000,"Branding, Advertising, Hospitality, Experiential",Social Media,360000,12000000,300000,120000,6000,12000,3000000,95%,720000,576000,25%,2,192
+65,Rho Enterprises,Manufacturing,Medium,Presenting,SP65,Gold,225000,"Branding, Sampling, Workshops",Email,112500,2250000,56250,22500,1125,2250,562500,80%,225000,180000,25%,2,320
+66,Sigma Industries,Technology,Small,Supporting,SP66,Silver,195000,"Branding, Experiential",Social Media,97500,1950000,48750,19500,975,1950,487500,70%,195000,156000,25%,2,320
+67,Tau Innovations,Energy,Large,Title,SP67,Platinum,750000,"Branding, Advertising, Hospitality",TV,375000,12500000,312500,125000,6250,12500,3125000,90%,750000,600000,25%,2,192
+68,Upsilon Systems,Finance,Medium,Presenting,SP68,Gold,390000,"Branding, Hospitality, Workshops",Print,195000,3900000,97500,39000,1950,3900,975000,85%,390000,312000,25%,2,320
+69,Phi Technologies,Retail,Small,Supporting,SP69,Silver,180000,"Branding, Sampling",Online,90000,1800000,45000,18000,900,1800,450000,65%,180000,144000,25%,2,320
+70,Chi Solutions,Healthcare,Large,Title,SP70,Platinum,780000,"Branding, Advertising, Hospitality, Experiential",Social Media,390000,13000000,325000,130000,6500,13000,3250000,95%,780000,624000,25%,2,192
+71,Psi Enterprises,Manufacturing,Medium,Presenting,SP71,Gold,240000,"Branding, Sampling, Workshops",Email,120000,2400000,60000,24000,1200,2400,600000,80%,240000,192000,25%,2,320
+72,Omega Industries,Technology,Small,Supporting,SP72,Silver,210000,"Branding, Experiential",Outdoor,105000,2100000,52500,21000,1050,2100,525000,70%,210000,168000,25%,2,320
+73,Alpha Innovations,Energy,Large,Title,SP73,Platinum,810000,"Branding, Advertising, Hospitality",TV,405000,13500000,337500,135000,6750,13500,3375000,90%,810000,648000,25%,2,192
+74,Beta Systems,Finance,Medium,Presenting,SP74,Gold,420000,"Branding, Hospitality, Workshops",Print,210000,4200000,105000,42000,2100,4200,1050000,85%,420000,336000,25%,2,320
+75,Gamma Technologies,Retail,Small,Supporting,SP75,Silver,195000,"Branding, Sampling",Radio,97500,1950000,48750,19500,975,1950,487500,65%,195000,156000,25%,2,320
+76,Delta Solutions,Healthcare,Large,Title,SP76,Platinum,840000,"Branding, Advertising, Hospitality, Experiential",Social Media,420000,14000000,350000,140000,7000,14000,3500000,95%,840000,672000,25%,2,192
+77,Epsilon Enterprises,Manufacturing,Medium,Presenting,SP77,Gold,255000,"Branding, Sampling, Workshops",Email,127500,2550000,63750,25500,1275,2550,637500,80%,255000,204000,25%,2,320
+78,Zeta Industries,Technology,Small,Supporting,SP78,Silver,225000,"Branding, Experiential",Social Media,112500,2250000,56250,22500,1125,2250,562500,70%,225000,180000,25%,2,320
+79,Eta Innovations,Energy,Large,Title,SP79,Platinum,870000,"Branding, Advertising, Hospitality",TV,435000,14500000,362500,145000,7250,14500,3625000,90%,870000,696000,25%,2,192
+80,Theta Systems,Finance,Medium,Presenting,SP80,Gold,450000,"Branding, Hospitality, Workshops",Print,225000,4500000,112500,45000,2250,4500,1125000,85%,450000,360000,25%,2,320
+81,Iota Technologies,Retail,Small,Supporting,SP81,Silver,210000,"Branding, Sampling",Online,105000,2100000,52500,21000,1050,2100,525000,65%,210000,168000,25%,2,320
+82,Kappa Solutions,Healthcare,Large,Title,SP82,Platinum,900000,"Branding, Advertising, Hospitality, Experiential",Social Media,450000,15000000,375000,150000,7500,15000,3750000,95%,900000,720000,25%,2,192
+83,Lambda Enterprises,Manufacturing,Medium,Presenting,SP83,Gold,270000,"Branding, Sampling, Workshops",Email,135000,2700000,67500,27000,1350,2700,675000,80%,270000,216000,25%,2,320
+84,Mu Industries,Technology,Small,Supporting,SP84,Silver,240000,"Branding, Experiential",Outdoor,120000,2400000,60000,24000,1200,2400,600000,70%,240000,192000,25%,2,320
+85,Nu Innovations,Energy,Large,Title,SP85,Platinum,930000,"Branding, Advertising, Hospitality",TV,465000,15500000,387500,155000,7750,15500,3875000,90%,930000,744000,25%,2,192
+86,Xi Systems,Finance,Medium,Presenting,SP86,Gold,480000,"Branding, Hospitality, Workshops",Print,240000,4800000,120000,48000,2400,4800,1200000,85%,480000,384000,25%,2,320
+87,Omicron Technologies,Retail,Small,Supporting,SP87,Silver,225000,"Branding, Sampling",Radio,112500,2250000,56250,22500,1125,2250,562500,65%,225000,180000,25%,2,320
+88,Pi Solutions,Healthcare,Large,Title,SP88,Platinum,960000,"Branding, Advertising, Hospitality, Experiential",Social Media,480000,16000000,400000,160000,8000,16000,4000000,95%,960000,768000,25%,2,192
+89,Rho Enterprises,Manufacturing,Medium,Presenting,SP89,Gold,285000,"Branding, Sampling, Workshops",Email,142500,2850000,71250,28500,1425,2850,712500,80%,285000,228000,25%,2,320
+90,Sigma Industries,Technology,Small,Supporting,SP90,Silver,255000,"Branding, Experiential",Social Media,127500,2550000,63750,25500,1275,2550,637500,70%,255000,204000,25%,2,320
+91,Tau Innovations,Energy,Large,Title,SP91,Platinum,990000,"Branding, Advertising, Hospitality",TV,495000,16500000,412500,165000,8250,16500,4125000,90%,990000,792000,25%,2,192
+92,Upsilon Systems,Finance,Medium,Presenting,SP92,Gold,510000,"Branding, Hospitality, Workshops",Print,255000,5100000,127500,51000,2550,5100,1275000,85%,510000,408000,25%,2,320
+93,Phi Technologies,Retail,Small,Supporting,SP93,Silver,240000,"Branding, Sampling",Online,120000,2400000,60000,24000,1200,2400,600000,65%,240000,192000,25%,2,320
+94,Chi Solutions,Healthcare,Large,Title,SP94,Platinum,1020000,"Branding, Advertising, Hospitality, Experiential",Social Media,510000,17000000,425000,170000,8500,17000,4250000,95%,1020000,816000,25%,2,192
+95,Psi Enterprises,Manufacturing,Medium,Presenting,SP95,Gold,300000,"Branding, Sampling, Workshops",Email,150000,3000000,75000,30000,1500,3000,750000,80%,300000,240000,25%,2,320
+96,Omega Industries,Technology,Small,Supporting,SP96,Silver,270000,"Branding, Experiential",Outdoor,135000,2700000,67500,27000,1350,2700,675000,70%,270000,216000,25%,2,320
+97,Alpha Innovations,Energy,Large,Title,SP97,Platinum,1050000,"Branding, Advertising, Hospitality",TV,525000,17500000,437500,175000,8750,17500,4375000,90%,1050000,840000,25%,2,192
+98,Beta Systems,Finance,Medium,Presenting,SP98,Gold,540000,"Branding, Hospitality, Workshops",Print,270000,5400000,135000,54000,2700,5400,1350000,85%,540000,432000,25%,2,320
+99,Gamma Technologies,Retail,Small,Supporting,SP99,Silver,255000,"Branding, Sampling",Radio,127500,2550000,63750,25500,1275,2550,637500,65%,255000,204000,25%,2,320
+100,Delta Solutions,Healthcare,Large,Title,SP100,Platinum,1080000,"Branding, Advertising, Hospitality, Experiential",Social Media,540000,18000000,450000,180000,9000,18000,4500000,95%,1080000,864000,25%,2,192
+101,Epsilon Enterprises,Manufacturing,Medium,Presenting,SP101,Gold,315000,"Branding, Sampling, Workshops",Email,157500,3150000,78750,31500,1575,3150,787500,80%,315000,252000,25%,2,320
+102,Zeta Industries,Technology,Small,Supporting,SP102,Silver,285000,"Branding, Experiential",Social Media,142500,2850000,71250,28500,1425,2850,712500,70%,285000,228000,25%,2,320
+103,Eta Innovations,Energy,Large,Title,SP103,Platinum,1110000,"Branding, Advertising, Hospitality",TV,555000,18500000,462500,185000,9250,18500,4625000,90%,1110000,888000,25%,2,192
+104,Theta Systems,Finance,Medium,Presenting,SP104,Gold,570000,"Branding, Hospitality, Workshops",Print,285000,5700000,142500,57000,2850,5700,1425000,85%,570000,456000,25%,2,320
+105,Iota Technologies,Retail,Small,Supporting,SP105,Silver,270000,"Branding, Sampling",Online,135000,2700000,67500,27000,1350,2700,675000,65%,270000,216000,25%,2,320
+106,Kappa Solutions,Healthcare,Large,Title,SP106,Platinum,1140000,"Branding, Advertising, Hospitality, Experiential",Social Media,570000,19000000,475000,190000,9500,19000,4750000,95%,1140000,912000,25%,2,192
+107,Lambda Enterprises,Manufacturing,Medium,Presenting,SP107,Gold,330000,"Branding, Sampling, Workshops",Email,165000,3300000,82500,33000,1650,3300,825000,80%,330000,264000,25%,2,320
+108,Mu Industries,Technology,Small,Supporting,SP108,Silver,300000,"Branding, Experiential",Outdoor,150000,3000000,75000,30000,1500,3000,750000,70%,300000,240000,25%,2,320
+110,Xi Systems,Finance,Medium,Presenting,SP110,Gold,600000,"Branding, Hospitality, Workshops",Print,300000,6000000,150000,60000,3000,6000,1500000,85%,600000,480000,25%,2,320
+111,Omicron Technologies,Retail,Small,Supporting,SP111,Silver,285000,"Branding, Sampling",Radio,142500,2850000,71250,28500,1425,2850,712500,65%,285000,228000,25%,2,320
+112,Pi Solutions,Healthcare,Large,Title,SP112,Platinum,1200000,"Branding, Advertising, Hospitality, Experiential",Social Media,600000,20000000,500000,200000,10000,20000,5000000,95%,1200000,960000,25%,2,192
+113,Rho Enterprises,Manufacturing,Medium,Presenting,SP113,Gold,345000,"Branding, Sampling, Workshops",Email,172500,3450000,86250,34500,1725,3450,862500,80%,345000,276000,25%,2,320
+114,Sigma Industries,Technology,Small,Supporting,SP114,Silver,315000,"Branding, Experiential",Social Media,157500,3150000,78750,31500,1575,3150,787500,70%,315000,252000,25%,2,320
+115,Tau Innovations,Energy,Large,Title,SP115,Platinum,1230000,"Branding, Advertising, Hospitality",TV,615000,20500000,512500,205000,10250,20500,5125000,90%,1230000,984000,25%,2,192
+116,Upsilon Systems,Finance,Medium,Presenting,SP116,Gold,630000,"Branding, Hospitality, Workshops",Print,315000,6300000,157500,63000,3150,6300,1575000,85%,630000,504000,25%,2,320
+117,Phi Technologies,Retail,Small,Supporting,SP117,Silver,300000,"Branding, Sampling",Online,150000,3000000,75000,30000,1500,3000,750000,65%,300000,240000,25%,2,320
+118,Chi Solutions,Healthcare,Large,Title,SP118,Platinum,1260000,"Branding, Advertising, Hospitality, Experiential",Social Media,630000,21000000,525000,210000,10500,21000,5250000,95%,1260000,1008000,25%,2,192
+119,Psi Enterprises,Manufacturing,Medium,Presenting,SP119,Gold,360000,"Branding, Sampling, Workshops",Email,180000,3600000,90000,36000,1800,3600,900000,80%,360000,288000,25%,2,320
+120,Omega Industries,Technology,Small,Supporting,SP120,Silver,330000,"Branding, Experiential",Outdoor,165000,3300000,82500,33000,1650,3300,825000,70%,330000,264000,25%,2,320
+121,Alpha Innovations,Energy,Large,Title,SP121,Platinum,1290000,"Branding, Advertising, Hospitality",TV,645000,21500000,537500,215000,10750,21500,5375000,90%,1290000,1032000,25%,2,192
+122,Beta Systems,Finance,Medium,Presenting,SP122,Gold,660000,"Branding, Hospitality, Workshops",Print,330000,6600000,165000,66000,3300,6600,1650000,85%,660000,528000,25%,2,320
+123,Gamma Technologies,Retail,Small,Supporting,SP123,Silver,315000,"Branding, Sampling",Radio,157500,3150000,78750,31500,1575,3150,787500,65%,315000,252000,25%,2,320
+124,Delta Solutions,Healthcare,Large,Title,SP124,Platinum,1320000,"Branding, Advertising, Hospitality, Experiential",Social Media,660000,22000000,550000,220000,11000,22000,5500000,95%,1320000,1056000,25%,2,192
+125,Epsilon Enterprises,Manufacturing,Medium,Presenting,SP125,Gold,375000,"Branding, Sampling, Workshops",Email,187500,3750000,93750,37500,1875,3750,937500,80%,375000,300000,25%,2,320
+126,Zeta Industries,Technology,Small,Supporting,SP126,Silver,345000,"Branding, Experiential",Social Media,172500,3450000,86250,34500,1725,3450,862500,70%,345000,276000,25%,2,320
+127,Eta Innovations,Energy,Large,Title,SP127,Platinum,1350000,"Branding, Advertising, Hospitality",TV,675000,22500000,562500,225000,11250,22500,5625000,90%,1350000,1080000,25%,2,192
+128,Theta Systems,Finance,Medium,Presenting,SP128,Gold,690000,"Branding, Hospitality, Workshops",Print,345000,6900000,172500,69000,3450,6900,1725000,85%,690000,552000,25%,2,320
+129,Iota Technologies,Retail,Small,Supporting,SP129,Silver,330000,"Branding, Sampling",Online,165000,3300000,82500,33000,1650,3300,825000,65%,330000,264000,25%,2,320
+130,Kappa Solutions,Healthcare,Large,Title,SP130,Platinum,1380000,"Branding, Advertising, Hospitality, Experiential",Social Media,690000,23000000,575000,230000,11500,23000,5750000,95%,1380000,1104000,25%,2,192
+131,Lambda Enterprises,Manufacturing,Medium,Presenting,SP131,Gold,390000,"Branding, Sampling, Workshops",Email,195000,3900000,97500,39000,1950,3900,975000,80%,390000,312000,25%,2,320
+132,Mu Industries,Technology,Small,Supporting,SP132,Silver,360000,"Branding, Experiential",Outdoor,180000,3600000,90000,36000,1800,3600,900000,70%,360000,288000,25%,2,320
+133,Nu Innovations,Energy,Large,Title,SP133,Platinum,1410000,"Branding, Advertising, Hospitality",TV,705000,23500000,587500,235000,11750,23500,5875000,90%,1410000,1128000,25%,2,192
+134,Xi Systems,Finance,Medium,Presenting,SP134,Gold,720000,"Branding, Hospitality, Workshops",Print,360000,7200000,180000,72000,3600,7200,1800000,85%,720000,576000,25%,2,320
+135,Omicron Technologies,Retail,Small,Supporting,SP135,Silver,345000,"Branding, Sampling",Radio,172500,3450000,86250,34500,1725,3450,862500,65%,345000,276000,25%,2,320
+136,Pi Solutions,Healthcare,Large,Title,SP136,Platinum,1440000,"Branding, Advertising, Hospitality, Experiential",Social Media,720000,24000000,600000,240000,12000,24000,6000000,95%,1440000,1152000,25%,2,192
+137,Rho Enterprises,Manufacturing,Medium,Presenting,SP137,Gold,405000,"Branding, Sampling, Workshops",Email,202500,4050000,101250,40500,2025,4050,1012500,80%,405000,324000,25%,2,320
+138,Sigma Industries,Technology,Small,Supporting,SP138,Silver,375000,"Branding, Experiential",Social Media,187500,3750000,93750,37500,1875,3750,937500,70%,375000,300000,25%,2,320
+139,Tau Innovations,Energy,Large,Title,SP139,Platinum,1470000,"Branding, Advertising, Hospitality",TV,735000,24500000,612500,245000,12250,24500,6125000,90%,1470000,1176000,25%,2,192
+140,Upsilon Systems,Finance,Medium,Presenting,SP140,Gold,750000,"Branding, Hospitality, Workshops",Print,375000,7500000,187500,75000,3750,7500,1875000,85%,750000,600000,25%,2,320
+141,Phi Technologies,Retail,Small,Supporting,SP141,Silver,360000,"Branding, Sampling",Online,180000,3600000,90000,36000,1800,3600,900000,65%,360000,288000,25%,2,320
+142,Chi Solutions,Healthcare,Large,Title,SP142,Platinum,1500000,"Branding, Advertising, Hospitality, Experiential",Social Media,750000,25000000,625000,250000,12500,25000,6250000,95%,1500000,1200000,25%,2,192
+143,Psi Enterprises,Manufacturing,Medium,Presenting,SP143,Gold,420000,"Branding, Sampling, Workshops",Email,210000,4200000,105000,42000,2100,4200,1050000,80%,420000,336000,25%,2,320
+144,Omega Industries,Technology,Small,Supporting,SP144,Silver,390000,"Branding, Experiential",Outdoor,195000,3900000,97500,39000,1950,3900,975000,70%,390000,312000,25%,2,320
+145,Alpha Innovations,Energy,Large,Title,SP145,Platinum,1530000,"Branding, Advertising, Hospitality",TV,765000,25500000,637500,255000,12750,25500,6375000,90%,1530000,1224000,25%,2,192
+146,Beta Systems,Finance,Medium,Presenting,SP146,Gold,780000,"Branding, Hospitality, Workshops",Print,390000,7800000,195000,78000,3900,7800,1950000,85%,780000,624000,25%,2,320
+147,Gamma Technologies,Retail,Small,Supporting,SP147,Silver,375000,"Branding, Sampling",Radio,187500,3750000,93750,37500,1875,3750,937500,65%,375000,300000,25%,2,320
+148,Delta Solutions,Healthcare,Large,Title,SP148,Platinum,1560000,"Branding, Advertising, Hospitality, Experiential",Social Media,780000,26000000,650000,260000,13000,26000,6500000,95%,1560000,1248000,25%,2,192
+149,Epsilon Enterprises,Manufacturing,Medium,Presenting,SP149,Gold,435000,"Branding, Sampling, Workshops",Email,217500,4350000,108750,43500,2175,4350,1087500,80%,435000,348000,25%,2,320
+150,Zeta Industries,Technology,Small,Supporting,SP150,Silver,405000,"Branding, Experiential",Social Media,202500,4050000,101250,40500,2025,4050,1012500,70%,405000,324000,25%,2,320
+151,Eta Innovations,Energy,Large,Title,SP151,Platinum,1590000,"Branding, Advertising, Hospitality",TV,795000,26500000,662500,265000,13250,26500,6625000,90%,1590000,1272000,25%,2,192
+152,Theta Systems,Finance,Medium,Presenting,SP152,Gold,810000,"Branding, Hospitality, Workshops",Print,405000,8100000,202500,81000,4050,8100,2025000,85%,810000,648000,25%,2,320
+153,Iota Technologies,Retail,Small,Supporting,SP153,Silver,390000,"Branding, Sampling",Online,195000,3900000,97500,39000,1950,3900,975000,65%,390000,312000,25%,2,320
+154,Kappa Solutions,Healthcare,Large,Title,SP154,Platinum,1620000,"Branding, Advertising, Hospitality, Experiential",Social Media,810000,27000000,675000,270000,13500,27000,6750000,95%,1620000,1296000,25%,2,192
+155,Lambda Enterprises,Manufacturing,Medium,Presenting,SP155,Gold,450000,"Branding, Sampling, Workshops",Email,225000,4500000,112500,45000,2250,4500,1125000,80%,450000,360000,25%,2,320
+156,Mu Industries,Technology,Small,Supporting,SP156,Silver,420000,"Branding, Experiential",Outdoor,210000,4200000,105000,42000,2100,4200,1050000,70%,420000,336000,25%,2,320
+157,Nu Innovations,Energy,Large,Title,SP157,Platinum,1650000,"Branding, Advertising, Hospitality",TV,825000,27500000,687500,275000,13750,27500,6875000,90%,1650000,1320000,25%,2,192
+158,Xi Systems,Finance,Medium,Presenting,SP158,Gold,840000,"Branding, Hospitality, Workshops",Print,420000,8400000,210000,84000,4200,8400,2100000,85%,840000,672000,25%,2,320
+159,Omicron Technologies,Retail,Small,Supporting,SP159,Silver,405000,"Branding, Sampling",Radio,202500,4050000,101250,40500,2025,4050,1012500,65%,405000,324000,25%,2,320
+160,Pi Solutions,Healthcare,Large,Title,SP160,Platinum,1680000,"Branding, Advertising, Hospitality, Experiential",Social Media,840000,28000000,700000,280000,14000,28000,7000000,95%,1680000,1344000,25%,2,192
+161,Rho Enterprises,Manufacturing,Medium,Presenting,SP161,Gold,465000,"Branding, Sampling, Workshops",Email,232500,4650000,116250,46500,2325,4650,1162500,80%,465000,372000,25%,2,320
+163,Quantum Dynamics,Energy,Large,Title,SP163,Platinum,1710000,"Branding, Advertising, Hospitality",TV,855000,28500000,712500,285000,14250,28500,7125000,90%,1710000,1368000,25%,2,192
+164,Radiant Technologies,Finance,Medium,Presenting,SP164,Gold,870000,"Branding, Hospitality, Workshops",Print,435000,8700000,217500,87000,4350,8700,2175000,85%,870000,696000,25%,2,320
+165,Stellar Innovations,Retail,Small,Supporting,SP165,Silver,420000,"Branding, Sampling",Online,210000,4200000,105000,42000,2100,4200,1050000,65%,420000,336000,25%,2,320
+166,Apex Solutions,Healthcare,Large,Title,SP166,Platinum,1740000,"Branding, Advertising, Hospitality, Experiential",Social Media,870000,29000000,725000,290000,14500,29000,7250000,95%,1740000,1392000,25%,2,192
+167,Nexus Enterprises,Manufacturing,Medium,Presenting,SP167,Gold,480000,"Branding, Sampling, Workshops",Email,240000,4800000,120000,48000,2400,4800,1200000,80%,480000,384000,25%,2,320
+168,Orion Industries,Technology,Small,Supporting,SP168,Silver,450000,"Branding, Experiential",Outdoor,225000,4500000,112500,45000,2250,4500,1125000,70%,450000,360000,25%,2,320
+169,Vortex Innovations,Energy,Large,Title,SP169,Platinum,1770000,"Branding, Advertising, Hospitality",TV,885000,29500000,737500,295000,14750,29500,7375000,90%,1770000,1416000,25%,2,192
+170,Zenith Systems,Finance,Medium,Presenting,SP170,Gold,900000,"Branding, Hospitality, Workshops",Print,450000,9000000,225000,90000,4500,9000,2250000,85%,900000,720000,25%,2,320
+171,Luminos Technologies,Retail,Small,Supporting,SP171,Silver,435000,"Branding, Sampling",Radio,217500,4350000,108750,43500,2175,4350,1087500,65%,435000,348000,25%,2,320
+172,Prism Solutions,Healthcare,Large,Title,SP172,Platinum,1800000,"Branding, Advertising, Hospitality, Experiential",Social Media,900000,30000000,750000,300000,15000,30000,7500000,95%,1800000,1440000,25%,2,192
+173,Helix Enterprises,Manufacturing,Medium,Presenting,SP173,Gold,495000,"Branding, Sampling, Workshops",Email,247500,4950000,123750,49500,2475,4950,1237500,80%,495000,396000,25%,2,320
+174,Neon Industries,Technology,Small,Supporting,SP174,Silver,465000,"Branding, Experiential",Social Media,232500,4650000,116250,46500,2325,4650,1162500,70%,465000,372000,25%,2,320
+175,Pulsar Innovations,Energy,Large,Title,SP175,Platinum,1830000,"Branding, Advertising, Hospitality",TV,915000,30500000,762500,305000,15250,30500,7625000,90%,1830000,1464000,25%,2,192
+176,Aurora Systems,Finance,Medium,Presenting,SP176,Gold,930000,"Branding, Hospitality, Workshops",Print,465000,9300000,232500,93000,4650,9300,2325000,85%,930000,744000,25%,2,320
+177,Nebula Technologies,Retail,Small,Supporting,SP177,Silver,450000,"Branding, Sampling",Online,225000,4500000,112500,45000,2250,4500,1125000,65%,450000,360000,25%,2,320
+178,Quasar Solutions,Healthcare,Large,Title,SP178,Platinum,1860000,"Branding, Advertising, Hospitality, Experiential",Social Media,930000,31000000,775000,310000,15500,31000,7750000,95%,1860000,1488000,25%,2,192
+179,Photon Enterprises,Manufacturing,Medium,Presenting,SP179,Gold,510000,"Branding, Sampling, Workshops",Email,255000,5100000,127500,51000,2550,5100,1275000,80%,510000,408000,25%,2,320
+180,Neutrino Industries,Technology,Small,Supporting,SP180,Silver,480000,"Branding, Experiential",Outdoor,240000,4800000,120000,48000,2400,4800,1200000,70%,480000,384000,25%,2,320
+181,Graviton Innovations,Energy,Large,Title,SP181,Platinum,1890000,"Branding, Advertising, Hospitality",TV,945000,31500000,787500,315000,15750,31500,7875000,90%,1890000,1512000,25%,2,192
+182,Proton Systems,Finance,Medium,Presenting,SP182,Gold,960000,"Branding, Hospitality, Workshops",Print,480000,9600000,240000,96000,4800,9600,2400000,85%,960000,768000,25%,2,320
+183,Electron Technologies,Retail,Small,Supporting,SP183,Silver,465000,"Branding, Sampling",Radio,232500,4650000,116250,46500,2325,4650,1162500,65%,465000,372000,25%,2,320
+184,Positron Solutions,Healthcare,Large,Title,SP184,Platinum,1920000,"Branding, Advertising, Hospitality, Experiential",Social Media,960000,32000000,800000,320000,16000,32000,8000000,95%,1920000,1536000,25%,2,192
+185,Neutron Enterprises,Manufacturing,Medium,Presenting,SP185,Gold,525000,"Branding, Sampling, Workshops",Email,262500,5250000,131250,52500,2625,5250,1312500,80%,525000,420000,25%,2,320
+186,Lepton Industries,Technology,Small,Supporting,SP186,Silver,495000,"Branding, Experiential",Social Media,247500,4950000,123750,49500,2475,4950,1237500,70%,495000,396000,25%,2,320
+187,Muon Innovations,Energy,Large,Title,SP187,Platinum,1950000,"Branding, Advertising, Hospitality",TV,975000,32500000,812500,325000,16250,32500,8125000,90%,1950000,1560000,25%,2,192
+188,Tachyon Systems,Finance,Medium,Presenting,SP188,Gold,990000,"Branding, Hospitality, Workshops",Print,495000,9900000,247500,99000,4950,9900,2475000,85%,990000,792000,25%,2,320
+189,Higgs Technologies,Retail,Small,Supporting,SP189,Silver,480000,"Branding, Sampling",Online,240000,4800000,120000,48000,2400,4800,1200000,65%,480000,384000,25%,2,320
+190,Boson Solutions,Healthcare,Large,Title,SP190,Platinum,1980000,"Branding, Advertising, Hospitality, Experiential",Social Media,990000,33000000,825000,330000,16500,33000,8250000,95%,1980000,1584000,25%,2,192
+191,Fermion Enterprises,Manufacturing,Medium,Presenting,SP191,Gold,540000,"Branding, Sampling, Workshops",Email,270000,5400000,135000,54000,2700,5400,1350000,80%,540000,432000,25%,2,320
+192,Gluon Industries,Technology,Small,Supporting,SP192,Silver,510000,"Branding, Experiential",Outdoor,255000,5100000,127500,51000,2550,5100,1275000,70%,510000,408000,25%,2,320
+193,Hadron Innovations,Energy,Large,Title,SP193,Platinum,2010000,"Branding, Advertising, Hospitality",TV,1005000,33500000,837500,335000,16750,33500,8375000,90%,2010000,1608000,25%,2,192
+194,Meson Systems,Finance,Medium,Presenting,SP194,Gold,1020000,"Branding, Hospitality, Workshops",Print,510000,10200000,255000,102000,5100,10200,2550000,85%,1020000,816000,25%,2,320
+195,Baryon Technologies,Retail,Small,Supporting,SP195,Silver,495000,"Branding, Sampling",Radio,247500,4950000,123750,49500,2475,4950,1237500,65%,495000,396000,25%,2,320
+196,Kaon Solutions,Healthcare,Large,Title,SP196,Platinum,2040000,"Branding, Advertising, Hospitality, Experiential",Social Media,1020000,34000000,850000,340000,17000,34000,8500000,95%,2040000,1632000,25%,2,192
+197,Hyperon Enterprises,Manufacturing,Medium,Presenting,SP197,Gold,555000,"Branding, Sampling, Workshops",Email,277500,5550000,138750,55500,2775,5550,1387500,80%,555000,444000,25%,2,320
+198,Tetraquark Industries,Technology,Small,Supporting,SP198,Silver,525000,"Branding, Experiential",Social Media,262500,5250000,131250,52500,2625,5250,1312500,70%,525000,420000,25%,2,320
+199,Pentaquark Innovations,Energy,Large,Title,SP199,Platinum,2070000,"Branding, Advertising, Hospitality",TV,1035000,34500000,862500,345000,17250,34500,8625000,90%,2070000,1656000,25%,2,192
+200,Hexaquark Systems,Finance,Medium,Presenting,SP200,Gold,1050000,"Branding, Hospitality, Workshops",Print,525000,10500000,262500,105000,5250,10500,2625000,85%,1050000,840000,25%,2,320
+201,Skyline Technologies,Retail,Small,Supporting,SP201,Silver,510000,"Branding, Sampling",Online,255000,5100000,127500,51000,2550,5100,1275000,65%,510000,408000,25%,2,320
+202,Horizon Solutions,Healthcare,Large,Title,SP202,Platinum,2100000,"Branding, Advertising, Hospitality, Experiential",Social Media,1050000,35000000,875000,350000,17500,35000,8750000,95%,2100000,1680000,25%,2,192
+203,Pinnacle Enterprises,Manufacturing,Medium,Presenting,SP203,Gold,570000,"Branding, Sampling, Workshops",Email,285000,5700000,142500,57000,2850,5700,1425000,80%,570000,456000,25%,2,320
+204,Summit Industries,Technology,Small,Supporting,SP204,Silver,540000,"Branding, Experiential",Outdoor,270000,5400000,135000,54000,2700,5400,1350000,70%,540000,432000,25%,2,320
+205,Apex Innovations,Energy,Large,Title,SP205,Platinum,2130000,"Branding, Advertising, Hospitality",TV,1065000,35500000,887500,355000,17750,35500,8875000,90%,2130000,1704000,25%,2,192
+206,Vertex Systems,Finance,Medium,Presenting,SP206,Gold,1080000,"Branding, Hospitality, Workshops",Print,540000,10800000,270000,108000,5400,10800,2700000,85%,1080000,864000,25%,2,320
+207,Meridian Technologies,Retail,Small,Supporting,SP207,Silver,525000,"Branding, Sampling",Radio,262500,5250000,131250,52500,2625,5250,1312500,65%,525000,420000,25%,2,320
+208,Zephyr Solutions,Healthcare,Large,Title,SP208,Platinum,2160000,"Branding, Advertising, Hospitality, Experiential",Social Media,1080000,36000000,900000,360000,18000,36000,9000000,95%,2160000,1728000,25%,2,192
+209,Nimbus Enterprises,Manufacturing,Medium,Presenting,SP209,Gold,585000,"Branding, Sampling, Workshops",Email,292500,5850000,146250,58500,2925,5850,1462500,80%,585000,468000,25%,2,320
+210,Stratus Industries,Technology,Small,Supporting,SP210,Silver,555000,"Branding, Experiential",Social Media,277500,5550000,138750,55500,2775,5550,1387500,70%,555000,444000,25%,2,320
+211,Cirrus Innovations,Energy,Large,Title,SP211,Platinum,2190000,"Branding, Advertising, Hospitality",TV,1095000,36500000,912500,365000,18250,36500,9125000,90%,2190000,1752000,25%,2,192
+212,Cumulus Systems,Finance,Medium,Presenting,SP212,Gold,1110000,"Branding, Hospitality, Workshops",Print,555000,11100000,277500,111000,5550,11100,2775000,85%,1110000,888000,25%,2,320
+213,Altocumulus Technologies,Retail,Small,Supporting,SP213,Silver,540000,"Branding, Sampling",Online,270000,5400000,135000,54000,2700,5400,1350000,65%,540000,432000,25%,2,320
+214,Cumulonimbus Solutions,Healthcare,Large,Title,SP214,Platinum,2220000,"Branding, Advertising, Hospitality, Experiential",Social Media,1110000,37000000,925000,370000,18500,37000,9250000,95%,2220000,1776000,25%,2,192
+215,Stratocumulus Enterprises,Manufacturing,Medium,Presenting,SP215,Gold,600000,"Branding, Sampling, Workshops",Email,300000,6000000,150000,60000,3000,6000,1500000,80%,600000,480000,25%,2,320
+216,Altostratus Industries,Technology,Small,Supporting,SP216,Silver,570000,"Branding, Experiential",Outdoor,285000,5700000,142500,57000,2850,5700,1425000,70%,570000,456000,25%,2,320
+217,Nimbostratus Innovations,Energy,Large,Title,SP217,Platinum,2250000,"Branding, Advertising, Hospitality",TV,1125000,37500000,937500,375000,18750,37500,9375000,90%,2250000,1800000,25%,2,192
+218,Stratus Systems,Finance,Medium,Presenting,SP218,Gold,1140000,"Branding, Hospitality, Workshops",Print,570000,11400000,285000,114000,5700,11400,2850000,85%,1140000,912000,25%,2,320
+219,Cirrostratus Technologies,Retail,Small,Supporting,SP219,Silver,555000,"Branding, Sampling",Radio,277500,5550000,138750,55500,2775,5550,1387500,65%,555000,444000,25%,2,320
+220,Cirrocumulus Solutions,Healthcare,Large,Title,SP220,Platinum,2280000,"Branding, Advertising, Hospitality, Experiential",Social Media,1140000,38000000,950000,380000,19000,38000,9500000,95%,2280000,1824000,25%,2,192
+221,Altocumulus Enterprises,Manufacturing,Medium,Presenting,SP221,Gold,615000,"Branding, Sampling, Workshops",Email,307500,6150000,153750,61500,3075,6150,1537500,80%,615000,492000,25%,2,320
+222,Stratocumulus Industries,Technology,Small,Supporting,SP222,Silver,585000,"Branding, Experiential",Social Media,292500,5850000,146250,58500,2925,5850,1462500,70%,585000,468000,25%,2,320
+223,Cumulonimbus Innovations,Energy,Large,Title,SP223,Platinum,2310000,"Branding, Advertising, Hospitality",TV,1155000,38500000,962500,385000,19250,38500,9625000,90%,2310000,1848000,25%,2,192
+224,Nimbostratus Systems,Finance,Medium,Presenting,SP224,Gold,1170000,"Branding, Hospitality, Workshops",Print,585000,11700000,292500,117000,5850,11700,2925000,85%,1170000,936000,25%,2,320
+225,Altostratus Technologies,Retail,Small,Supporting,SP225,Silver,570000,"Branding, Sampling",Online,285000,5700000,142500,57000,2850,5700,1425000,65%,570000,456000,25%,2,320
+226,Stratus Solutions,Healthcare,Large,Title,SP226,Platinum,2340000,"Branding, Advertising, Hospitality, Experiential",Social Media,1170000,39000000,975000,390000,19500,39000,9750000,95%,2340000,1872000,25%,2,192
+227,Cirrostratus Enterprises,Manufacturing,Medium,Presenting,SP227,Gold,630000,"Branding, Sampling, Workshops",Email,315000,6300000,157500,63000,3150,6300,1575000,80%,630000,504000,25%,2,320
+228,Cirrocumulus Industries,Technology,Small,Supporting,SP228,Silver,600000,"Branding, Experiential",Outdoor,300000,6000000,150000,60000,3000,6000,1500000,70%,600000,480000,25%,2,320
+229,Altocumulus Innovations,Energy,Large,Title,SP229,Platinum,2370000,"Branding, Advertising, Hospitality",TV,1185000,39500000,987500,395000,19750,39500,9875000,90%,2370000,1896000,25%,2,192
+230,Stratocumulus Systems,Finance,Medium,Presenting,SP230,Gold,1200000,"Branding, Hospitality, Workshops",Print,600000,12000000,300000,120000,6000,12000,3000000,85%,1200000,960000,25%,2,320
+231,Cumulonimbus Technologies,Retail,Small,Supporting,SP231,Silver,585000,"Branding, Sampling",Radio,292500,5850000,146250,58500,2925,5850,1462500,65%,585000,468000,25%,2,320
+232,Nimbostratus Solutions,Healthcare,Large,Title,SP232,Platinum,2400000,"Branding, Advertising, Hospitality, Experiential",Social Media,1200000,40000000,1000000,400000,20000,40000,10000000,95%,2400000,1920000,25%,2,192
+233,Altostratus Enterprises,Manufacturing,Medium,Presenting,SP233,Gold,645000,"Branding, Sampling, Workshops",Email,322500,6450000,161250,64500,3225,6450,1612500,80%,645000,516000,25%,2,320
+234,Stratus Industries,Technology,Small,Supporting,SP234,Silver,615000,"Branding, Experiential",Social Media,307500,6150000,153750,61500,3075,6150,1537500,70%,615000,492000,25%,2,320
+235,Cirrostratus Innovations,Energy,Large,Title,SP235,Platinum,2430000,"Branding, Advertising, Hospitality",TV,1215000,40500000,1012500,405000,20250,40500,10125000,90%,2430000,1944000,25%,2,192
+236,Cirrocumulus Systems,Finance,Medium,Presenting,SP236,Gold,1230000,"Branding, Hospitality, Workshops",Print,615000,12300000,307500,123000,6150,12300,3075000,85%,1230000,984000,25%,2,320
+237,Altocumulus Technologies,Retail,Small,Supporting,SP237,Silver,600000,"Branding, Sampling",Online,300000,6000000,150000,60000,3000,6000,1500000,65%,600000,480000,25%,2,320
+238,Stratocumulus Solutions,Healthcare,Large,Title,SP238,Platinum,2460000,"Branding, Advertising, Hospitality, Experiential",Social Media,1230000,41000000,1025000,410000,20500,41000,10250000,95%,2460000,1968000,25%,2,192
+239,Cumulonimbus Enterprises,Manufacturing,Medium,Presenting,SP239,Gold,660000,"Branding, Sampling, Workshops",Email,330000,6600000,165000,66000,3300,6600,1650000,80%,660000,528000,25%,2,320
+240,Nimbostratus Industries,Technology,Small,Supporting,SP240,Silver,630000,"Branding, Experiential",Outdoor,315000,6300000,157500,63000,3150,6300,1575000,70%,630000,504000,25%,2,320
+241,Altostratus Innovations,Energy,Large,Title,SP241,Platinum,2490000,"Branding, Advertising, Hospitality",TV,1245000,41500000,1037500,415000,20750,41500,10375000,90%,2490000,1992000,25%,2,192
+242,Stratus Systems,Finance,Medium,Presenting,SP242,Gold,1260000,"Branding, Hospitality, Workshops",Print,630000,12600000,315000,126000,6300,12600,3150000,85%,1260000,1008000,25%,2,320
+243,Cirrostratus Technologies,Retail,Small,Supporting,SP243,Silver,615000,"Branding, Sampling",Radio,307500,6150000,153750,61500,3075,6150,1537500,65%,615000,492000,25%,2,320
+244,Cirrocumulus Solutions,Healthcare,Large,Title,SP244,Platinum,2520000,"Branding, Advertising, Hospitality, Experiential",Social Media,1260000,42000000,1050000,420000,21000,42000,10500000,95%,2520000,2016000,25%,2,192
+245,Altocumulus Enterprises,Manufacturing,Medium,Presenting,SP245,Gold,675000,"Branding, Sampling, Workshops",Email,337500,6750000,168750,67500,3375,6750,1687500,80%,675000,540000,25%,2,320
+246,Stratocumulus Industries,Technology,Small,Supporting,SP246,Silver,645000,"Branding, Experiential",Social Media,322500,6450000,161250,64500,3225,6450,1612500,70%,645000,516000,25%,2,320
+247,Cumulonimbus Innovations,Energy,Large,Title,SP247,Platinum,2550000,"Branding, Advertising, Hospitality",TV,1275000,42500000,1062500,425000,21250,42500,10625000,90%,2550000,2040000,25%,2,192
+248,Nimbostratus Systems,Finance,Medium,Presenting,SP248,Gold,1290000,"Branding, Hospitality, Workshops",Print,645000,12900000,322500,129000,6450,12900,3225000,85%,1290000,1032000,25%,2,320
+249,Altostratus Technologies,Retail,Small,Supporting,SP249,Silver,630000,"Branding, Sampling",Online,315000,6300000,157500,63000,3150,6300,1575000,65%,630000,504000,25%,2,320
+250,Stratus Solutions,Healthcare,Large,Title,SP250,Platinum,2580000,"Branding, Advertising, Hospitality, Experiential",Social Media,1290000,43000000,1075000,430000,21500,43000,10750000,95%,2580000,2064000,25%,2,192
+251,Cirrostratus Enterprises,Manufacturing,Medium,Presenting,SP251,Gold,690000,"Branding, Sampling, Workshops",Email,345000,6900000,172500,69000,3450,6900,1725000,80%,690000,552000,25%,2,320
+252,Cirrocumulus Industries,Technology,Small,Supporting,SP252,Silver,660000,"Branding, Experiential",Outdoor,330000,6600000,165000,66000,3300,6600,1650000,70%,660000,528000,25%,2,320
+253,Altocumulus Innovations,Energy,Large,Title,SP253,Platinum,2610000,"Branding, Advertising, Hospitality",TV,1305000,43500000,1087500,435000,21750,43500,10875000,90%,2610000,2088000,25%,2,192
+254,Stratocumulus Systems,Finance,Medium,Presenting,SP254,Gold,1320000,"Branding, Hospitality, Workshops",Print,660000,13200000,330000,132000,6600,13200,3300000,85%,1320000,1056000,25%,2,320
+255,Cumulonimbus Technologies,Retail,Small,Supporting,SP255,Silver,645000,"Branding, Sampling",Radio,322500,6450000,161250,64500,3225,6450,1612500,65%,645000,516000,25%,2,320
+256,Nimbostratus Solutions,Healthcare,Large,Title,SP256,Platinum,2640000,"Branding, Advertising, Hospitality, Experiential",Social Media,1320000,44000000,1100000,440000,22000,44000,11000000,95%,2640000,2112000,25%,2,192
+257,Altostratus Enterprises,Manufacturing,Medium,Presenting,SP257,Gold,705000,"Branding, Sampling, Workshops",Email,352500,7050000,176250,70500,3525,7050,1762500,80%,705000,564000,25%,2,320
+258,Stratus Industries,Technology,Small,Supporting,SP258,Silver,675000,"Branding, Experiential",Social Media,337500,6750000,168750,67500,3375,6750,1687500,70%,675000,540000,25%,2,320
+259,Cirrostratus Innovations,Energy,Large,Title,SP259,Platinum,2670000,"Branding, Advertising, Hospitality",TV,1335000,44500000,1112500,445000,22250,44500,11125000,90%,2670000,2136000,25%,2,192
+260,Cirrocumulus Systems,Finance,Medium,Presenting,SP260,Gold,1350000,"Branding, Hospitality, Workshops",Print,675000,13500000,337500,135000,6750,13500,3375000,85%,1350000,1080000,25%,2,320
+261,Altocumulus Technologies,Retail,Small,Supporting,SP261,Silver,660000,"Branding, Sampling",Online,330000,6600000,165000,66000,3300,6600,1650000,65%,660000,528000,25%,2,320
+262,Stratocumulus Solutions,Healthcare,Large,Title,SP262,Platinum,2700000,"Branding, Advertising, Hospitality, Experiential",Social Media,1350000,45000000,1125000,450000,22500,45000,11250000,95%,2700000,2160000,25%,2,192
+264,Nimbus Innovations,Technology,Small,Supporting,SP264,Silver,690000,"Branding, Experiential",Outdoor,345000,6900000,172500,69000,3450,6900,1725000,70%,690000,552000,25%,2,320
+265,Stratus Systems,Energy,Large,Title,SP265,Platinum,2730000,"Branding, Advertising, Hospitality",TV,1365000,45500000,1137500,455000,22750,45500,11375000,90%,2730000,2184000,25%,2,192
+266,Cirrus Technologies,Finance,Medium,Presenting,SP266,Gold,1380000,"Branding, Hospitality, Workshops",Print,690000,13800000,345000,138000,6900,13800,3450000,85%,1380000,1104000,25%,2,320
+267,Cumulus Solutions,Retail,Small,Supporting,SP267,Silver,675000,"Branding, Sampling",Radio,337500,6750000,168750,67500,3375,6750,1687500,65%,675000,540000,25%,2,320
+268,Altocumulus Enterprises,Healthcare,Large,Title,SP268,Platinum,2760000,"Branding, Advertising, Hospitality, Experiential",Social Media,1380000,46000000,1150000,460000,23000,46000,11500000,95%,2760000,2208000,25%,2,192
+269,Stratocumulus Industries,Manufacturing,Medium,Presenting,SP269,Gold,735000,"Branding, Sampling, Workshops",Email,367500,7350000,183750,73500,3675,7350,1837500,80%,735000,588000,25%,2,320
+270,Cumulonimbus Innovations,Technology,Small,Supporting,SP270,Silver,705000,"Branding, Experiential",Social Media,352500,7050000,176250,70500,3525,7050,1762500,70%,705000,564000,25%,2,320
+271,Nimbostratus Systems,Energy,Large,Title,SP271,Platinum,2790000,"Branding, Advertising, Hospitality",TV,1395000,46500000,1162500,465000,23250,46500,11625000,90%,2790000,2232000,25%,2,192
+272,Altostratus Technologies,Finance,Medium,Presenting,SP272,Gold,1410000,"Branding, Hospitality, Workshops",Print,705000,14100000,352500,141000,7050,14100,3525000,85%,1410000,1128000,25%,2,320
+273,Stratus Solutions,Retail,Small,Supporting,SP273,Silver,690000,"Branding, Sampling",Online,345000,6900000,172500,69000,3450,6900,1725000,65%,690000,552000,25%,2,320
+274,Cirrostratus Enterprises,Healthcare,Large,Title,SP274,Platinum,2820000,"Branding, Advertising, Hospitality, Experiential",Social Media,1410000,47000000,1175000,470000,23500,47000,11750000,95%,2820000,2256000,25%,2,192
+275,Cirrocumulus Industries,Manufacturing,Medium,Presenting,SP275,Gold,750000,"Branding, Sampling, Workshops",Email,375000,7500000,187500,75000,3750,7500,1875000,80%,750000,600000,25%,2,320
+276,Altocumulus Innovations,Technology,Small,Supporting,SP276,Silver,720000,"Branding, Experiential",Outdoor,360000,7200000,180000,72000,3600,7200,1800000,70%,720000,576000,25%,2,320
+277,Stratocumulus Systems,Energy,Large,Title,SP277,Platinum,2850000,"Branding, Advertising, Hospitality",TV,1425000,47500000,1187500,475000,23750,47500,11875000,90%,2850000,2280000,25%,2,192
+278,Cumulonimbus Technologies,Finance,Medium,Presenting,SP278,Gold,1440000,"Branding, Hospitality, Workshops",Print,720000,14400000,360000,144000,7200,14400,3600000,85%,1440000,1152000,25%,2,320
+279,Nimbostratus Solutions,Retail,Small,Supporting,SP279,Silver,705000,"Branding, Sampling",Radio,352500,7050000,176250,70500,3525,7050,1762500,65%,705000,564000,25%,2,320
+280,Altostratus Enterprises,Healthcare,Large,Title,SP280,Platinum,2880000,"Branding, Advertising, Hospitality, Experiential",Social Media,1440000,48000000,1200000,480000,24000,48000,12000000,95%,2880000,2304000,25%,2,192
+281,Stratus Industries,Manufacturing,Medium,Presenting,SP281,Gold,765000,"Branding, Sampling, Workshops",Email,382500,7650000,191250,76500,3825,7650,1912500,80%,765000,612000,25%,2,320
+282,Cirrostratus Innovations,Technology,Small,Supporting,SP282,Silver,735000,"Branding, Experiential",Social Media,367500,7350000,183750,73500,3675,7350,1837500,70%,735000,588000,25%,2,320
+283,Cirrocumulus Systems,Energy,Large,Title,SP283,Platinum,2910000,"Branding, Advertising, Hospitality",TV,1455000,48500000,1212500,485000,24250,48500,12125000,90%,2910000,2328000,25%,2,192
+284,Altocumulus Technologies,Finance,Medium,Presenting,SP284,Gold,1470000,"Branding, Hospitality, Workshops",Print,735000,14700000,367500,147000,7350,14700,3675000,85%,1470000,1176000,25%,2,320
+285,Stratocumulus Solutions,Retail,Small,Supporting,SP285,Silver,720000,"Branding, Sampling",Online,360000,7200000,180000,72000,3600,7200,1800000,65%,720000,576000,25%,2,320
+286,Cumulonimbus Enterprises,Healthcare,Large,Title,SP286,Platinum,2940000,"Branding, Advertising, Hospitality, Experiential",Social Media,1470000,49000000,1225000,490000,24500,49000,12250000,95%,2940000,2352000,25%,2,192
+287,Nimbostratus Industries,Manufacturing,Medium,Presenting,SP287,Gold,780000,"Branding, Sampling, Workshops",Email,390000,7800000,195000,78000,3900,7800,1950000,80%,780000,624000,25%,2,320
+288,Altostratus Innovations,Technology,Small,Supporting,SP288,Silver,750000,"Branding, Experiential",Outdoor,375000,7500000,187500,75000,3750,7500,1875000,70%,750000,600000,25%,2,320
+289,Stratus Systems,Energy,Large,Title,SP289,Platinum,2970000,"Branding, Advertising, Hospitality",TV,1485000,49500000,1237500,495000,24750,49500,12375000,90%,2970000,2376000,25%,2,192
+290,Cirrostratus Technologies,Finance,Medium,Presenting,SP290,Gold,1500000,"Branding, Hospitality, Workshops",Print,750000,15000000,375000,150000,7500,15000,3750000,85%,1500000,1200000,25%,2,320
+291,Cirrocumulus Solutions,Retail,Small,Supporting,SP291,Silver,735000,"Branding, Sampling",Radio,367500,7350000,183750,73500,3675,7350,1837500,65%,735000,588000,25%,2,320
+292,Altocumulus Enterprises,Healthcare,Large,Title,SP292,Platinum,3000000,"Branding, Advertising, Hospitality, Experiential",Social Media,1500000,50000000,1250000,500000,25000,50000,12500000,95%,3000000,2400000,25%,2,192
+293,Stratocumulus Industries,Manufacturing,Medium,Presenting,SP293,Gold,795000,"Branding, Sampling, Workshops",Email,397500,7950000,198750,79500,3975,7950,1987500,80%,795000,636000,25%,2,320
+294,Cumulonimbus Innovations,Technology,Small,Supporting,SP294,Silver,765000,"Branding, Experiential",Social Media,382500,7650000,191250,76500,3825,7650,1912500,70%,765000,612000,25%,2,320
+295,Nimbostratus Systems,Energy,Large,Title,SP295,Platinum,3030000,"Branding, Advertising, Hospitality",TV,1515000,50500000,1262500,505000,25250,50500,12625000,90%,3030000,2424000,25%,2,192
+296,Altostratus Technologies,Finance,Medium,Presenting,SP296,Gold,1530000,"Branding, Hospitality, Workshops",Print,765000,15300000,382500,153000,7650,15300,3825000,85%,1530000,1224000,25%,2,320
+297,Stratus Solutions,Retail,Small,Supporting,SP297,Silver,750000,"Branding, Sampling",Online,375000,7500000,187500,75000,3750,7500,1875000,65%,750000,600000,25%,2,320
+298,Cirrostratus Enterprises,Healthcare,Large,Title,SP298,Platinum,3060000,"Branding, Advertising, Hospitality, Experiential",Social Media,1530000,51000000,1275000,510000,25500,51000,12750000,95%,3060000,2448000,25%,2,192
+299,Cirrocumulus Industries,Manufacturing,Medium,Presenting,SP299,Gold,810000,"Branding, Sampling, Workshops",Email,405000,8100000,202500,81000,4050,8100,2025000,80%,810000,648000,25%,2,320
+300,Altocumulus Innovations,Technology,Small,Supporting,SP300,Silver,780000,"Branding, Experiential",Outdoor,390000,7800000,195000,78000,3900,7800,1950000,70%,780000,624000,25%,2,320
+301,Stratocumulus Systems,Energy,Large,Title,SP301,Platinum,3090000,"Branding, Advertising, Hospitality",TV,1545000,51500000,1287500,515000,25750,51500,12875000,90%,3090000,2472000,25%,2,192
+302,Cumulonimbus Technologies,Finance,Medium,Presenting,SP302,Gold,1560000,"Branding, Hospitality, Workshops",Print,780000,15600000,390000,156000,7800,15600,3900000,85%,1560000,1248000,25%,2,320
+303,Nimbostratus Solutions,Retail,Small,Supporting,SP303,Silver,765000,"Branding, Sampling",Radio,382500,7650000,191250,76500,3825,7650,1912500,65%,765000,612000,25%,2,320
+304,Altostratus Enterprises,Healthcare,Large,Title,SP304,Platinum,3120000,"Branding, Advertising, Hospitality, Experiential",Social Media,1560000,52000000,1300000,520000,26000,52000,13000000,95%,3120000,2496000,25%,2,192
+305,Stratus Industries,Manufacturing,Medium,Presenting,SP305,Gold,825000,"Branding, Sampling, Workshops",Email,412500,8250000,206250,82500,4125,8250,2062500,80%,825000,660000,25%,2,320
+306,Cirrostratus Innovations,Technology,Small,Supporting,SP306,Silver,795000,"Branding, Experiential",Social Media,397500,7950000,198750,79500,3975,7950,1987500,70%,795000,636000,25%,2,320
+307,Cirrocumulus Systems,Energy,Large,Title,SP307,Platinum,3150000,"Branding, Advertising, Hospitality",TV,1575000,52500000,1312500,525000,26250,52500,13125000,90%,3150000,2520000,25%,2,192
+308,Altocumulus Technologies,Finance,Medium,Presenting,SP308,Gold,1590000,"Branding, Hospitality, Workshops",Print,795000,15900000,397500,159000,7950,15900,3975000,85%,1590000,1272000,25%,2,320
+309,Stratocumulus Solutions,Retail,Small,Supporting,SP309,Silver,780000,"Branding, Sampling",Online,390000,7800000,195000,78000,3900,7800,1950000,65%,780000,624000,25%,2,320
+310,Cumulonimbus Enterprises,Healthcare,Large,Title,SP310,Platinum,3180000,"Branding, Advertising, Hospitality, Experiential",Social Media,1590000,53000000,1325000,530000,26500,53000,13250000,95%,3180000,2544000,25%,2,192
+311,Nimbostratus Industries,Manufacturing,Medium,Presenting,SP311,Gold,840000,"Branding, Sampling, Workshops",Email,420000,8400000,210000,84000,4200,8400,2100000,80%,840000,672000,25%,2,320
+312,Altostratus Innovations,Technology,Small,Supporting,SP312,Silver,810000,"Branding, Experiential",Outdoor,405000,8100000,202500,81000,4050,8100,2025000,70%,810000,648000,25%,2,320
+314,Zephyr Dynamics,Finance,Medium,Presenting,SP314,Gold,1620000,"Branding, Hospitality, Workshops",Print,810000,16200000,405000,162000,8100,16200,4050000,85%,1620000,1296000,25%,2,320
+315,Aurora Solutions,Retail,Small,Supporting,SP315,Silver,795000,"Branding, Sampling",Radio,397500,7950000,198750,79500,3975,7950,1987500,65%,795000,636000,25%,2,320
+316,Solaris Enterprises,Healthcare,Large,Title,SP316,Platinum,3240000,"Branding, Advertising, Hospitality, Experiential",Social Media,1620000,54000000,1350000,540000,27000,54000,13500000,95%,3240000,2592000,25%,2,192
+317,Luna Industries,Manufacturing,Medium,Presenting,SP317,Gold,855000,"Branding, Sampling, Workshops",Email,427500,8550000,213750,85500,4275,8550,2137500,80%,855000,684000,25%,2,320
+318,Nova Innovations,Technology,Small,Supporting,SP318,Silver,825000,"Branding, Experiential",Social Media,412500,8250000,206250,82500,4125,8250,2062500,70%,825000,660000,25%,2,320
+319,Orion Systems,Energy,Large,Title,SP319,Platinum,3270000,"Branding, Advertising, Hospitality",TV,1635000,54500000,1362500,545000,27250,54500,13625000,90%,3270000,2616000,25%,2,192
+320,Nebula Technologies,Finance,Medium,Presenting,SP320,Gold,1650000,"Branding, Hospitality, Workshops",Print,825000,16500000,412500,165000,8250,16500,4125000,85%,1650000,1320000,25%,2,320
+321,Celestial Solutions,Retail,Small,Supporting,SP321,Silver,810000,"Branding, Sampling",Online,405000,8100000,202500,81000,4050,8100,2025000,65%,810000,648000,25%,2,320
+322,Astro Enterprises,Healthcare,Large,Title,SP322,Platinum,3300000,"Branding, Advertising, Hospitality, Experiential",Social Media,1650000,55000000,1375000,550000,27500,55000,13750000,95%,3300000,2640000,25%,2,192
+323,Cosmos Industries,Manufacturing,Medium,Presenting,SP323,Gold,870000,"Branding, Sampling, Workshops",Email,435000,8700000,217500,87000,4350,8700,2175000,80%,870000,696000,25%,2,320
+324,Galaxy Innovations,Technology,Small,Supporting,SP324,Silver,840000,"Branding, Experiential",Outdoor,420000,8400000,210000,84000,4200,8400,2100000,70%,840000,672000,25%,2,320
+325,Stellar Systems,Energy,Large,Title,SP325,Platinum,3330000,"Branding, Advertising, Hospitality",TV,1665000,55500000,1387500,555000,27750,55500,13875000,90%,3330000,2664000,25%,2,192
+326,Polaris Technologies,Finance,Medium,Presenting,SP326,Gold,1680000,"Branding, Hospitality, Workshops",Print,840000,16800000,420000,168000,8400,16800,4200000,85%,1680000,1344000,25%,2,320
+327,Lunar Solutions,Retail,Small,Supporting,SP327,Silver,825000,"Branding, Sampling",Radio,412500,8250000,206250,82500,4125,8250,2062500,65%,825000,660000,25%,2,320
+328,Helios Enterprises,Healthcare,Large,Title,SP328,Platinum,3360000,"Branding, Advertising, Hospitality, Experiential",Social Media,1680000,56000000,1400000,560000,28000,56000,14000000,95%,3360000,2688000,25%,2,192
+329,Eos Industries,Manufacturing,Medium,Presenting,SP329,Gold,885000,"Branding, Sampling, Workshops",Email,442500,8850000,221250,88500,4425,8850,2212500,80%,885000,708000,25%,2,320
+330,Aether Innovations,Technology,Small,Supporting,SP330,Silver,855000,"Branding, Experiential",Social Media,427500,8550000,213750,85500,4275,8550,2137500,70%,855000,684000,25%,2,320
+331,Chronos Systems,Energy,Large,Title,SP331,Platinum,3390000,"Branding, Advertising, Hospitality",TV,1695000,56500000,1412500,565000,28250,56500,14125000,90%,3390000,2712000,25%,2,192
+332,Hyperion Technologies,Finance,Medium,Presenting,SP332,Gold,1710000,"Branding, Hospitality, Workshops",Print,855000,17100000,427500,171000,8550,17100,4275000,85%,1710000,1368000,25%,2,320
+333,Titan Solutions,Retail,Small,Supporting,SP333,Silver,840000,"Branding, Sampling",Online,420000,8400000,210000,84000,4200,8400,2100000,65%,840000,672000,25%,2,320
+334,Atlas Enterprises,Healthcare,Large,Title,SP334,Platinum,3420000,"Branding, Advertising, Hospitality, Experiential",Social Media,1710000,57000000,1425000,570000,28500,57000,14250000,95%,3420000,2736000,25%,2,192
+335,Prometheus Industries,Manufacturing,Medium,Presenting,SP335,Gold,900000,"Branding, Sampling, Workshops",Email,450000,9000000,225000,90000,4500,9000,2250000,80%,900000,720000,25%,2,320
+336,Icarus Innovations,Technology,Small,Supporting,SP336,Silver,870000,"Branding, Experiential",Outdoor,435000,8700000,217500,87000,4350,8700,2175000,70%,870000,696000,25%,2,320
+337,Odyssey Systems,Energy,Large,Title,SP337,Platinum,3450000,"Branding, Advertising, Hospitality",TV,1725000,57500000,1437500,575000,28750,57500,14375000,90%,3450000,2760000,25%,2,192
+338,Hercules Technologies,Finance,Medium,Presenting,SP338,Gold,1740000,"Branding, Hospitality, Workshops",Print,870000,17400000,435000,174000,8700,17400,4350000,85%,1740000,1392000,25%,2,320
+339,Poseidon Solutions,Retail,Small,Supporting,SP339,Silver,855000,"Branding, Sampling",Radio,427500,8550000,213750,85500,4275,8550,2137500,65%,855000,684000,25%,2,320
+340,Zeus Enterprises,Healthcare,Large,Title,SP340,Platinum,3480000,"Branding, Advertising, Hospitality, Experiential",Social Media,1740000,58000000,1450000,580000,29000,58000,14500000,95%,3480000,2784000,25%,2,192
+341,Athena Industries,Manufacturing,Medium,Presenting,SP341,Gold,915000,"Branding, Sampling, Workshops",Email,457500,9150000,228750,91500,4575,9150,2287500,80%,915000,732000,25%,2,320
+342,Apollo Innovations,Technology,Small,Supporting,SP342,Silver,885000,"Branding, Experiential",Social Media,442500,8850000,221250,88500,4425,8850,2212500,70%,885000,708000,25%,2,320
+343,Ares Systems,Energy,Large,Title,SP343,Platinum,3510000,"Branding, Advertising, Hospitality",TV,1755000,58500000,1462500,585000,29250,58500,14625000,90%,3510000,2808000,25%,2,192
+344,Hermes Technologies,Finance,Medium,Presenting,SP344,Gold,1770000,"Branding, Hospitality, Workshops",Print,885000,17700000,442500,177000,8850,17700,4425000,85%,1770000,1416000,25%,2,320
+345,Dionysus Solutions,Retail,Small,Supporting,SP345,Silver,870000,"Branding, Sampling",Online,435000,8700000,217500,87000,4350,8700,2175000,65%,870000,696000,25%,2,320
+346,Hephaestus Enterprises,Healthcare,Large,Title,SP346,Platinum,3540000,"Branding, Advertising, Hospitality, Experiential",Social Media,1770000,59000000,1475000,590000,29500,59000,14750000,95%,3540000,2832000,25%,2,192
+347,Aphrodite Industries,Manufacturing,Medium,Presenting,SP347,Gold,930000,"Branding, Sampling, Workshops",Email,465000,9300000,232500,93000,4650,9300,2325000,80%,930000,744000,25%,2,320
+348,Hestia Innovations,Technology,Small,Supporting,SP348,Silver,900000,"Branding, Experiential",Outdoor,450000,9000000,225000,90000,4500,9000,2250000,70%,900000,720000,25%,2,320
+349,Demeter Systems,Energy,Large,Title,SP349,Platinum,3570000,"Branding, Advertising, Hospitality",TV,1785000,59500000,1487500,595000,29750,59500,14875000,90%,3570000,2856000,25%,2,192
+350,Persephone Technologies,Finance,Medium,Presenting,SP350,Gold,1800000,"Branding, Hospitality, Workshops",Print,900000,18000000,450000,180000,9000,18000,4500000,85%,1800000,1440000,25%,2,320
+351,Hecate Solutions,Retail,Small,Supporting,SP351,Silver,885000,"Branding, Sampling",Radio,442500,8850000,221250,88500,4425,8850,2212500,65%,885000,708000,25%,2,320
+352,Triton Enterprises,Healthcare,Large,Title,SP352,Platinum,3600000,"Branding, Advertising, Hospitality, Experiential",Social Media,1800000,60000000,1500000,600000,30000,60000,15000000,95%,3600000,2880000,25%,2,192
+353,Nyx Industries,Manufacturing,Medium,Presenting,SP353,Gold,945000,"Branding, Sampling, Workshops",Email,472500,9450000,236250,94500,4725,9450,2362500,80%,945000,756000,25%,2,320
+354,Morpheus Innovations,Technology,Small,Supporting,SP354,Silver,915000,"Branding, Experiential",Social Media,457500,9150000,228750,91500,4575,9150,2287500,70%,915000,732000,25%,2,320
+355,Nemesis Systems,Energy,Large,Title,SP355,Platinum,3630000,"Branding, Advertising, Hospitality",TV,1815000,60500000,1512500,605000,30250,60500,15125000,90%,3630000,2904000,25%,2,192
+356,Iris Technologies,Finance,Medium,Presenting,SP356,Gold,1830000,"Branding, Hospitality, Workshops",Print,915000,18300000,457500,183000,9150,18300,4575000,85%,1830000,1464000,25%,2,320
+357,Nike Solutions,Retail,Small,Supporting,SP357,Silver,900000,"Branding, Sampling",Online,450000,9000000,225000,90000,4500,9000,2250000,65%,900000,720000,25%,2,320
+358,Eros Enterprises,Healthcare,Large,Title,SP358,Platinum,3660000,"Branding, Advertising, Hospitality, Experiential",Social Media,1830000,61000000,1525000,610000,30500,61000,15250000,95%,3660000,2928000,25%,2,192
+359,Psyche Industries,Manufacturing,Medium,Presenting,SP359,Gold,960000,"Branding, Sampling, Workshops",Email,480000,9600000,240000,96000,4800,9600,2400000,80%,960000,768000,25%,2,320
+360,Hypnos Innovations,Technology,Small,Supporting,SP360,Silver,930000,"Branding, Experiential",Outdoor,465000,9300000,232500,93000,4650,9300,2325000,70%,930000,744000,25%,2,320
+361,Thanatos Systems,Energy,Large,Title,SP361,Platinum,3690000,"Branding, Advertising, Hospitality",TV,1845000,61500000,1537500,615000,30750,61500,15375000,90%,3690000,2952000,25%,2,192
+362,Gaia Technologies,Finance,Medium,Presenting,SP362,Gold,1860000,"Branding, Hospitality, Workshops",Print,930000,18600000,465000,186000,9300,18600,4650000,85%,1860000,1488000,25%,2,320
+363,Ouranos Solutions,Retail,Small,Supporting,SP363,Silver,915000,"Branding, Sampling",Radio,457500,9150000,228750,91500,4575,9150,2287500,65%,915000,732000,25%,2,320
+364,Quantum Leap Innovations,Technology,Medium,Presenting,SP364,Gold,1500000,"Branding, Hospitality, Workshops",Print,750000,15000000,375000,150000,7500,15000,3750000,80%,1500000,1200000,25%,2,320
+365,Radiant Enterprises,Energy,Small,Supporting,SP365,Silver,900000,"Branding, Sampling",Radio,450000,9000000,225000,90000,4500,9000,2250000,70%,900000,720000,25%,2,320
+366,Luminous Industries,Manufacturing,Large,Title,SP366,Platinum,3000000,"Branding, Advertising, Hospitality, Experiential",Social Media,1500000,50000000,1250000,500000,25000,50000,12500000,90%,3000000,2400000,25%,2,192
+367,Prismatic Solutions,Finance,Medium,Presenting,SP367,Gold,1800000,"Branding, Hospitality, Workshops",Email,900000,18000000,450000,180000,9000,18000,4500000,85%,1800000,1440000,25%,2,320
+368,Chromatic Innovations,Retail,Small,Supporting,SP368,Silver,750000,"Branding, Experiential",Social Media,375000,7500000,187500,75000,3750,7500,1875000,60%,750000,600000,25%,2,320
+369,Spectral Systems,Healthcare,Large,Title,SP369,Platinum,3300000,"Branding, Advertising, Hospitality",TV,1650000,55000000,1375000,550000,27500,55000,13750000,95%,3300000,2640000,25%,2,192
+370,Iridescent Technologies,Technology,Medium,Presenting,SP370,Gold,1650000,"Branding, Hospitality, Workshops",Print,825000,16500000,412500,165000,8250,16500,4125000,80%,1650000,1320000,25%,2,320
+371,Luminaria Solutions,Energy,Small,Supporting,SP371,Silver,825000,"Branding, Sampling",Online,412500,8250000,206250,82500,4125,8250,2062500,65%,825000,660000,25%,2,320
+372,Prism Enterprises,Manufacturing,Large,Title,SP372,Platinum,3150000,"Branding, Advertising, Hospitality, Experiential",Social Media,1575000,52500000,1312500,525000,26250,52500,13125000,90%,3150000,2520000,25%,2,192
+373,Radiance Innovations,Finance,Medium,Presenting,SP373,Gold,1725000,"Branding, Hospitality, Workshops",Email,862500,17250000,431250,172500,8625,17250,4312500,85%,1725000,1380000,25%,2,320
+374,Luminos Systems,Retail,Small,Supporting,SP374,Silver,780000,"Branding, Experiential",Social Media,390000,7800000,195000,78000,3900,7800,1950000,60%,780000,624000,25%,2,320
+375,Neon Enterprises,Healthcare,Large,Title,SP375,Platinum,3450000,"Branding, Advertising, Hospitality",TV,1725000,57500000,1437500,575000,28750,57500,14375000,95%,3450000,2760000,25%,2,192
+376,Ultraviolet Solutions,Technology,Medium,Presenting,SP376,Gold,1575000,"Branding, Hospitality, Workshops",Print,787500,15750000,393750,157500,7875,15750,3937500,80%,1575000,1260000,25%,2,320
+377,Infrared Innovations,Energy,Small,Supporting,SP377,Silver,870000,"Branding, Sampling",Online,435000,8700000,217500,87000,4350,8700,2175000,65%,870000,696000,25%,2,320
+378,Gamma Industries,Manufacturing,Large,Title,SP378,Platinum,3225000,"Branding, Advertising, Hospitality, Experiential",Social Media,1612500,53750000,1343750,537500,26875,53750,13437500,90%,3225000,2580000,25%,2,192
+379,X-Ray Technologies,Finance,Medium,Presenting,SP379,Gold,1875000,"Branding, Hospitality, Workshops",Email,937500,18750000,468750,187500,9375,18750,4687500,85%,1875000,1500000,25%,2,320
+380,Ultrabeat Systems,Retail,Small,Supporting,SP380,Silver,765000,"Branding, Experiential",Social Media,382500,7650000,191250,76500,3825,7650,1912500,60%,765000,612000,25%,2,320
+381,Cosmic Enterprises,Healthcare,Large,Title,SP381,Platinum,3600000,"Branding, Advertising, Hospitality",TV,1800000,60000000,1500000,600000,30000,60000,15000000,95%,3600000,2880000,25%,2,192
+382,Neutrino Solutions,Technology,Medium,Presenting,SP382,Gold,1725000,"Branding, Hospitality, Workshops",Print,862500,17250000,431250,172500,8625,17250,4312500,80%,1725000,1380000,25%,2,320
+383,Photon Innovations,Energy,Small,Supporting,SP383,Silver,900000,"Branding, Sampling",Online,450000,9000000,225000,90000,4500,9000,2250000,65%,900000,720000,25%,2,320
+384,Quark Industries,Manufacturing,Large,Title,SP384,Platinum,3375000,"Branding, Advertising, Hospitality, Experiential",Social Media,1687500,56250000,1406250,562500,28125,56250,14062500,90%,3375000,2700000,25%,2,192
+385,Graviton Technologies,Finance,Medium,Presenting,SP385,Gold,1950000,"Branding, Hospitality, Workshops",Email,975000,19500000,487500,195000,9750,19500,4875000,85%,1950000,1560000,25%,2,320
+386,Pulsar Systems,Retail,Small,Supporting,SP386,Silver,795000,"Branding, Experiential",Social Media,397500,7950000,198750,79500,3975,7950,1987500,60%,795000,636000,25%,2,320
+387,Nebula Enterprises,Healthcare,Large,Title,SP387,Platinum,3750000,"Branding, Advertising, Hospitality",TV,1875000,62500000,1562500,625000,31250,62500,15625000,95%,3750000,3000000,25%,2,192
+388,Quasar Solutions,Technology,Medium,Presenting,SP388,Gold,1800000,"Branding, Hospitality, Workshops",Print,900000,18000000,450000,180000,9000,18000,4500000,80%,1800000,1440000,25%,2,320
+389,Proton Innovations,Energy,Small,Supporting,SP389,Silver,930000,"Branding, Sampling",Online,465000,9300000,232500,93000,4650,9300,2325000,65%,930000,744000,25%,2,320
+390,Zenith Enterprises,Technology,Large,Title,SP390,Platinum,3500000,"Branding, Advertising, Hospitality, Experiential",TV,1750000,60000000,1500000,600000,30000,60000,15000000,95%,3500000,2800000,25%,2,187
+391,Apex Industries,Manufacturing,Medium,Presenting,SP391,Gold,1800000,"Branding, Hospitality, Workshops",Print,900000,18000000,450000,180000,9000,18000,4500000,85%,1800000,1440000,25%,2,320
+392,Nexus Solutions,Finance,Small,Supporting,SP392,Silver,900000,"Branding, Sampling",Radio,450000,9000000,225000,90000,4500,9000,2250000,70%,900000,720000,25%,2,320
+393,Orion Technologies,Retail,Large,Title,SP393,Platinum,3200000,"Branding, Advertising, Hospitality",Social Media,1600000,55000000,1375000,550000,27500,55000,13750000,90%,3200000,2560000,25%,2,187
+394,Vortex Innovations,Healthcare,Medium,Presenting,SP394,Gold,1700000,"Branding, Hospitality, Workshops",Email,850000,17000000,425000,170000,8500,17000,4250000,80%,1700000,1360000,25%,2,320
+395,Prism Enterprises,Energy,Small,Supporting,SP395,Silver,800000,"Branding, Experiential",Social Media,400000,8000000,200000,80000,4000,8000,2000000,60%,800000,640000,25%,2,320
+396,Quasar Systems,Technology,Large,Title,SP396,Platinum,3400000,"Branding, Advertising, Hospitality",TV,1700000,60000000,1500000,600000,30000,60000,15000000,95%,3400000,2720000,25%,2,181
+397,Nebula Industries,Manufacturing,Medium,Presenting,SP397,Gold,1900000,"Branding, Hospitality, Workshops",Print,950000,19000000,475000,190000,9500,19000,4750000,85%,1900000,1520000,25%,2,320
+398,Helix Solutions,Finance,Small,Supporting,SP398,Silver,950000,"Branding, Sampling",Radio,475000,9500000,237500,95000,4750,9500,2375000,70%,950000,760000,25%,2,320
+399,Aurora Technologies,Retail,Large,Title,SP399,Platinum,3300000,"Branding, Advertising, Hospitality",Social Media,1650000,55000000,1375000,550000,27500,55000,13750000,90%,3300000,2640000,25%,2,192
+400,Pulsar Innovations,Healthcare,Medium,Presenting,SP400,Gold,1800000,"Branding, Hospitality, Workshops",Email,900000,18000000,450000,180000,9000,18000,4500000,80%,1800000,1440000,25%,2,320
+401,Gravity Enterprises,Energy,Small,Supporting,SP401,Silver,850000,"Branding, Experiential",Social Media,425000,8500000,212500,85000,4250,8500,2125000,60%,850000,680000,25%,2,320
+402,Neutrino Systems,Technology,Large,Title,SP402,Platinum,3600000,"Branding, Advertising, Hospitality",TV,1800000,60000000,1500000,600000,30000,60000,15000000,95%,3600000,2880000,25%,2,192
+403,Photon Industries,Manufacturing,Medium,Presenting,SP403,Gold,2000000,"Branding, Hospitality, Workshops",Print,1000000,20000000,500000,200000,10000,20000,5000000,85%,2000000,1600000,25%,2,320
+404,Quark Solutions,Finance,Small,Supporting,SP404,Silver,1000000,"Branding, Sampling",Radio,500000,10000000,250000,100000,5000,10000,2500000,70%,1000000,800000,25%,2,320
+405,Supernova Technologies,Retail,Large,Title,SP405,Platinum,3400000,"Branding, Advertising, Hospitality",Social Media,1700000,60000000,1500000,600000,30000,60000,15000000,90%,3400000,2720000,25%,2,181
+406,Proton Innovations,Healthcare,Medium,Presenting,SP406,Gold,1900000,"Branding, Hospitality, Workshops",Email,950000,19000000,475000,190000,9500,19000,4750000,80%,1900000,1520000,25%,2,320
+407,Neutron Enterprises,Energy,Small,Supporting,SP407,Silver,900000,"Branding, Experiential",Social Media,450000,9000000,225000,90000,4500,9000,2250000,60%,900000,720000,25%,2,320
+408,Electron Systems,Technology,Large,Title,SP408,Platinum,3700000,"Branding, Advertising, Hospitality",TV,1850000,65000000,1625000,650000,32500,65000,16250000,95%,3700000,2960000,25%,2,181
+409,Positron Industries,Manufacturing,Medium,Presenting,SP409,Gold,2100000,"Branding, Hospitality, Workshops",Print,1050000,21000000,525000,210000,10500,21000,5250000,85%,2100000,1680000,25%,2,320
+410,Muon Solutions,Finance,Small,Supporting,SP410,Silver,1050000,"Branding, Sampling",Radio,525000,10500000,262500,105000,5250,10500,2625000,70%,1050000,840000,25%,2,320
+411,Tachyon Technologies,Retail,Large,Title,SP411,Platinum,3500000,"Branding, Advertising, Hospitality",Social Media,1750000,60000000,1500000,600000,30000,60000,15000000,90%,3500000,2800000,25%,2,187
+412,Lepton Innovations,Healthcare,Medium,Presenting,SP412,Gold,2000000,"Branding, Hospitality, Workshops",Email,1000000,20000000,500000,200000,10000,20000,5000000,80%,2000000,1600000,25%,2,320
+413,Hadron Enterprises,Energy,Small,Supporting,SP413,Silver,950000,"Branding, Experiential",Social Media,475000,9500000,237500,95000,4750,9500,2375000,60%,950000,760000,25%,2,320
+414,Boson Systems,Technology,Large,Title,SP414,Platinum,3800000,"Branding, Advertising, Hospitality",TV,1900000,65000000,1625000,650000,32500,65000,16250000,95%,3800000,3040000,25%,2,187
+415,Fermion Industries,Manufacturing,Medium,Presenting,SP415,Gold,2200000,"Branding, Hospitality, Workshops",Print,1100000,22000000,550000,220000,11000,22000,5500000,85%,2200000,1760000,25%,2,320
+416,Gluon Solutions,Finance,Small,Supporting,SP416,Silver,1100000,"Branding, Sampling",Radio,550000,11000000,275000,110000,5500,11000,2750000,70%,1100000,880000,25%,2,320
+417,Higgs Technologies,Retail,Large,Title,SP417,Platinum,3600000,"Branding, Advertising, Hospitality",Social Media,1800000,60000000,1500000,600000,30000,60000,15000000,90%,3600000,2880000,25%,2,192
+418,Meson Innovations,Healthcare,Medium,Presenting,SP418,Gold,2100000,"Branding, Hospitality, Workshops",Email,1050000,21000000,525000,210000,10500,21000,5250000,80%,2100000,1680000,25%,2,320
+419,Baryon Enterprises,Energy,Small,Supporting,SP419,Silver,1000000,"Branding, Experiential",Social Media,500000,10000000,250000,100000,5000,10000,2500000,60%,1000000,800000,25%,2,320
+420,Kaon Systems,Technology,Large,Title,SP420,Platinum,3900000,"Branding, Advertising, Hospitality",TV,1950000,65000000,1625000,650000,32500,65000,16250000,95%,3900000,3120000,25%,2,192
+421,Pion Industries,Manufacturing,Medium,Presenting,SP421,Gold,2300000,"Branding, Hospitality, Workshops",Print,1150000,23000000,575000,230000,11500,23000,5750000,85%,2300000,1840000,25%,2,320
+422,Tau Solutions,Finance,Small,Supporting,SP422,Silver,1150000,"Branding, Sampling",Radio,575000,11500000,287500,115000,5750,11500,2875000,70%,1150000,920000,25%,2,320
+423,Omega Technologies,Retail,Large,Title,SP423,Platinum,3700000,"Branding, Advertising, Hospitality",Social Media,1850000,65000000,1625000,650000,32500,65000,16250000,90%,3700000,2960000,25%,2,181
+424,Sigma Innovations,Healthcare,Medium,Presenting,SP424,Gold,2200000,"Branding, Hospitality, Workshops",Email,1100000,22000000,550000,220000,11000,22000,5500000,80%,2200000,1760000,25%,2,320
+425,Rho Enterprises,Energy,Small,Supporting,SP425,Silver,1050000,"Branding, Experiential",Social Media,525000,10500000,262500,105000,5250,10500,2625000,60%,1050000,840000,25%,2,320
+426,Phi Systems,Technology,Large,Title,SP426,Platinum,4000000,"Branding, Advertising, Hospitality",TV,2000000,70000000,1750000,700000,35000,70000,17500000,95%,4000000,3200000,25%,2,183
+427,Chi Industries,Manufacturing,Medium,Presenting,SP427,Gold,2400000,"Branding, Hospitality, Workshops",Print,1200000,24000000,600000,240000,12000,24000,6000000,85%,2400000,1920000,25%,2,320
+428,Psi Solutions,Finance,Small,Supporting,SP428,Silver,1200000,"Branding, Sampling",Radio,600000,12000000,300000,120000,6000,12000,3000000,70%,1200000,960000,25%,2,320
+429,Upsilon Technologies,Retail,Large,Title,SP429,Platinum,3800000,"Branding, Advertising, Hospitality",Social Media,1900000,65000000,1625000,650000,32500,65000,16250000,90%,3800000,3040000,25%,2,187
+430,Xi Innovations,Healthcare,Medium,Presenting,SP430,Gold,2300000,"Branding, Hospitality, Workshops",Email,1150000,23000000,575000,230000,11500,23000,5750000,80%,2300000,1840000,25%,2,320
+431,Omicron Enterprises,Energy,Small,Supporting,SP431,Silver,1100000,"Branding, Experiential",Social Media,550000,11000000,275000,110000,5500,11000,2750000,60%,1100000,880000,25%,2,320
+432,Zeta Systems,Technology,Large,Title,SP432,Platinum,4100000,"Branding, Advertising, Hospitality",TV,2050000,70000000,1750000,700000,35000,70000,17500000,95%,4100000,3280000,25%,2,187
+433,Eta Industries,Manufacturing,Medium,Presenting,SP433,Gold,2500000,"Branding, Hospitality, Workshops",Print,1250000,25000000,625000,250000,12500,25000,6250000,85%,2500000,2000000,25%,2,320
+434,Theta Solutions,Finance,Small,Supporting,SP434,Silver,1250000,"Branding, Sampling",Radio,625000,12500000,312500,125000,6250,12500,3125000,70%,1250000,1000000,25%,2,320
+435,Iota Technologies,Retail,Large,Title,SP435,Platinum,3900000,"Branding, Advertising, Hospitality",Social Media,1950000,65000000,1625000,650000,32500,65000,16250000,90%,3900000,3120000,25%,2,192
+436,Kappa Innovations,Healthcare,Medium,Presenting,SP436,Gold,2400000,"Branding, Hospitality, Workshops",Email,1200000,24000000,600000,240000,12000,24000,6000000,80%,2400000,1920000,25%,2,320
+437,Lambda Enterprises,Energy,Small,Supporting,SP437,Silver,1150000,"Branding, Experiential",Social Media,575000,11500000,287500,115000,5750,11500,2875000,60%,1150000,920000,25%,2,320
+438,Mu Systems,Technology,Large,Title,SP438,Platinum,4200000,"Branding, Advertising, Hospitality",TV,2100000,70000000,1750000,700000,35000,70000,17500000,95%,4200000,3360000,25%,2,192
+439,Nu Industries,Manufacturing,Medium,Presenting,SP439,Gold,2600000,"Branding, Hospitality, Workshops",Print,1300000,26000000,650000,260000,13000,26000,6500000,85%,2600000,2080000,25%,2,320
+440,Quantum Leap Innovations,Technology,Medium,Presenting,SP440,Platinum,2500000,"Branding, Advertising, Hospitality, Workshops",Social Media,1250000,25000000,625000,250000,12500,25000,6250000,90%,2500000,2000000,25%,2,320
+441,Radiant Enterprises,Energy,Large,Title,SP441,Diamond,4000000,"Branding, Advertising, Hospitality, Experiential",TV,2000000,66666667,1666667,666667,33333,66667,16666667,95%,4000000,3200000,25%,2,192
+442,Luminous Solutions,Finance,Small,Supporting,SP442,Gold,1000000,"Branding, Hospitality",Print,500000,10000000,250000,100000,5000,10000,2500000,80%,1000000,800000,25%,2,320
+443,Prismatic Technologies,Retail,Medium,Presenting,SP443,Platinum,2750000,"Branding, Advertising, Sampling, Workshops",Email,1375000,27500000,687500,275000,13750,27500,6875000,85%,2750000,2200000,25%,2,320
+444,Chromatic Innovations,Healthcare,Large,Title,SP444,Diamond,4250000,"Branding, Advertising, Hospitality, Experiential",Outdoor,2125000,70833333,1770833,708333,35417,70833,17708333,95%,4250000,3400000,25%,2,192
+445,Iridescent Enterprises,Manufacturing,Small,Supporting,SP445,Silver,750000,"Branding, Sampling",Radio,375000,7500000,187500,75000,3750,7500,1875000,70%,750000,600000,25%,2,320
+446,Spectrum Solutions,Technology,Medium,Presenting,SP446,Gold,1750000,"Branding, Hospitality, Workshops",Social Media,875000,17500000,437500,175000,8750,17500,4375000,85%,1750000,1400000,25%,2,320
+447,Prism Industries,Energy,Large,Title,SP447,Platinum,3500000,"Branding, Advertising, Hospitality",TV,1750000,58333333,1458333,583333,29167,58333,14583333,90%,3500000,2800000,25%,2,192
+448,Kaleidoscope Innovations,Finance,Small,Supporting,SP448,Silver,900000,"Branding, Experiential",Online,450000,9000000,225000,90000,4500,9000,2250000,75%,900000,720000,25%,2,320
+449,Mosaic Enterprises,Retail,Medium,Presenting,SP449,Gold,2000000,"Branding, Sampling, Workshops",Print,1000000,20000000,500000,200000,10000,20000,5000000,80%,2000000,1600000,25%,2,320
+SponsorID,SponsorName,SponsorIndustry,SponsorSize,SponsorType,SponsorshipPackageID,SponsorshipPackageName,SponsorshipPackageCost,SponsorshipPackageBenefits,PromotionType,AdvertisingSpend,Impressions,Clicks,Engagement,BrandExposure,AttendeeEngagement,SalesLift,BrandAwarenessMetrics,SponsorshipRevenue,SponsorshipCosts,ROI,ROAS,CAC
+450,Vibrant Media,Technology,Large,Title,SP450,Diamond,4500000,"Branding, Advertising, Hospitality, Experiential",Social Media,2250000,75000000,1875000,750000,37500,75000,18750000,95%,4500000,3600000,25%,2,192
+451,Radiance Communications,Telecommunications,Medium,Presenting,SP451,Platinum,2250000,"Branding, Advertising, Workshops",Email,1125000,22500000,562500,225000,11250,22500,5625000,85%,2250000,1800000,25%,2,320
+452,Luminosity Ventures,Finance,Small,Supporting,SP452,Gold,1250000,"Branding, Hospitality",Print,625000,12500000,312500,125000,6250,12500,3125000,80%,1250000,1000000,25%,2,320
+453,Prismatic Enterprises,Retail,Large,Title,SP453,Diamond,4750000,"Branding, Advertising, Hospitality, Experiential",Outdoor,2375000,79166667,1979167,791667,39583,79167,19791667,95%,4750000,3800000,25%,2,192
+454,Chromatic Solutions,Healthcare,Medium,Presenting,SP454,Platinum,3000000,"Branding, Advertising, Sampling, Workshops",Radio,1500000,30000000,750000,300000,15000,30000,7500000,90%,3000000,2400000,25%,2,320
+455,Iridescent Innovations,Manufacturing,Small,Supporting,SP455,Silver,1000000,"Branding, Sampling",Social Media,500000,10000000,250000,100000,5000,10000,2500000,75%,1000000,800000,25%,2,320
+456,Spectrum Industries,Energy,Large,Title,SP456,Diamond,5000000,"Branding, Advertising, Hospitality",TV,2500000,83333333,2083333,833333,41667,83333,20833333,95%,5000000,4000000,25%,2,192
+457,Prism Technologies,Technology,Medium,Presenting,SP457,Gold,2000000,"Branding, Hospitality, Workshops",Online,1000000,20000000,500000,200000,10000,20000,5000000,85%,2000000,1600000,25%,2,320
+458,Kaleidoscope Enterprises,Finance,Small,Supporting,SP458,Silver,1100000,"Branding, Experiential",Print,550000,11000000,275000,110000,5500,11000,2750000,80%,1100000,880000,25%,2,320
+459,Mosaic Media,Retail,Large,Title,SP459,Platinum,3750000,"Branding, Advertising, Hospitality",Social Media,1875000,62500000,1562500,625000,31250,62500,15625000,90%,3750000,3000000,25%,2,192
+460,Neon Dreams Productions,Entertainment,Medium,Presenting,SP460,Gold,1800000,"Branding, Advertising, Workshops",Email,900000,18000000,450000,180000,9000,18000,4500000,85%,1800000,1440000,25%,2,320
+461,Luminous Ventures,Finance,Small,Supporting,SP461,Silver,950000,"Branding, Hospitality",Print,475000,9500000,237500,95000,4750,9500,2375000,75%,950000,760000,25%,2,320
+462,Radiant Enterprises,Energy,Large,Title,SP462,Diamond,4800000,"Branding, Advertising, Hospitality, Experiential",Outdoor,2400000,80000000,2000000,800000,40000,80000,20000000,95%,4800000,3840000,25%,2,192
+463,Prismatic Solutions,Healthcare,Medium,Presenting,SP463,Platinum,2500000,"Branding, Advertising, Sampling, Workshops",Radio,1250000,25000000,625000,250000,12500,25000,6250000,90%,2500000,2000000,25%,2,320
+464,Chromatic Innovations,Manufacturing,Small,Supporting,SP464,Gold,1400000,"Branding, Sampling",Social Media,700000,14000000,350000,140000,7000,14000,3500000,80%,1400000,1120000,25%,2,320
+465,Iridescent Industries,Technology,Large,Title,SP465,Diamond,5200000,"Branding, Advertising, Hospitality",TV,2600000,86666667,2166667,866667,43333,86667,21666667,95%,5200000,4160000,25%,2,192
+466,Spectrum Technologies,Telecommunications,Medium,Presenting,SP466,Platinum,2750000,"Branding, Hospitality, Workshops",Online,1375000,27500000,687500,275000,13750,27500,6875000,85%,2750000,2200000,25%,2,320
+467,Prism Enterprises,Finance,Small,Supporting,SP467,Silver,1200000,"Branding, Experiential",Print,600000,12000000,300000,120000,6000,12000,3000000,75%,1200000,960000,25%,2,320
+468,Kaleidoscope Media,Retail,Large,Title,SP468,Diamond,5500000,"Branding, Advertising, Hospitality, Experiential",Social Media,2750000,91666667,2291667,916667,45833,91667,22916667,95%,5500000,4400000,25%,2,192
+469,Mosaic Communications,Technology,Medium,Presenting,SP469,Gold,2250000,"Branding, Advertising, Workshops",Email,1125000,22500000,562500,225000,11250,22500,5625000,85%,2250000,1800000,25%,2,320
+470,Vibrant Ventures,Finance,Small,Supporting,SP470,Silver,1000000,"Branding, Hospitality",Print,500000,10000000,250000,100000,5000,10000,2500000,80%,1000000,800000,25%,2,320
+471,Radiance Enterprises,Energy,Large,Title,SP471,Platinum,4000000,"Branding, Advertising, Hospitality",Outdoor,2000000,66666667,1666667,666667,33333,66667,16666667,90%,4000000,3200000,25%,2,192
+472,Luminosity Solutions,Healthcare,Medium,Presenting,SP472,Gold,1900000,"Branding, Advertising, Sampling, Workshops",Radio,950000,19000000,475000,190000,9500,19000,4750000,85%,1900000,1520000,25%,2,320
+473,Prismatic Innovations,Manufacturing,Small,Supporting,SP473,Silver,1300000,"Branding, Sampling",Social Media,650000,13000000,325000,130000,6500,13000,3250000,75%,1300000,1040000,25%,2,320
+474,Chromatic Industries,Technology,Large,Title,SP474,Diamond,5800000,"Branding, Advertising, Hospitality",TV,2900000,96666667,2416667,966667,48333,96667,24166667,95%,5800000,4640000,25%,2,192
+475,Iridescent Technologies,Telecommunications,Medium,Presenting,SP475,Platinum,3000000,"Branding, Hospitality, Workshops",Online,1500000,30000000,750000,300000,15000,30000,7500000,85%,3000000,2400000,25%,2,320
+476,Spectrum Enterprises,Finance,Small,Supporting,SP476,Gold,1500000,"Branding, Experiential",Print,750000,15000000,375000,150000,7500,15000,3750000,80%,1500000,1200000,25%,2,320
+477,Prism Media,Retail,Large,Title,SP477,Diamond,6000000,"Branding, Advertising, Hospitality, Experiential",Social Media,3000000,100000000,2500000,1000000,50000,100000,25000000,95%,6000000,4800000,25%,2,192
+478,Kaleidoscope Communications,Technology,Medium,Presenting,SP478,Gold,2500000,"Branding, Advertising, Workshops",Email,1250000,25000000,625000,250000,12500,25000,6250000,85%,2500000,2000000,25%,2,320
+479,Mosaic Ventures,Finance,Small,Supporting,SP479,Silver,1100000,"Branding, Hospitality",Print,550000,11000000,275000,110000,5500,11000,2750000,75%,1100000,880000,25%,2,320
+480,Neon Nights Entertainment,Entertainment,Large,Title,SP480,Platinum,4500000,"Branding, Advertising, Hospitality",Outdoor,2250000,75000000,1875000,750000,37500,75000,18750000,90%,4500000,3600000,25%,2,192
+481,Luminous Enterprises,Energy,Medium,Presenting,SP481,Gold,2100000,"Branding, Advertising, Sampling, Workshops",Radio,1050000,21000000,525000,210000,10500,21000,5250000,85%,2100000,1680000,25%,2,320
+482,Radiant Solutions,Healthcare,Small,Supporting,SP482,Silver,1400000,"Branding, Sampling",Social Media,700000,14000000,350000,140000,7000,14000,3500000,80%,1400000,1120000,25%,2,320
+483,Prismatic Industries,Manufacturing,Large,Title,SP483,Diamond,6200000,"Branding, Advertising, Hospitality",TV,3100000,103333333,2583333,1033333,51667,103333,25833333,95%,6200000,4960000,25%,2,192
+484,Chromatic Technologies,Telecommunications,Medium,Presenting,SP484,Platinum,3250000,"Branding, Hospitality, Workshops",Online,1625000,32500000,812500,325000,16250,32500,8125000,85%,3250000,2600000,25%,2,320
+485,Iridescent Enterprises,Finance,Small,Supporting,SP485,Gold,1600000,"Branding, Experiential",Print,800000,16000000,400000,160000,8000,16000,4000000,75%,1600000,1280000,25%,2,320
+486,Spectrum Media,Retail,Large,Title,SP486,Diamond,6500000,"Branding, Advertising, Hospitality, Experiential",Social Media,3250000,108333333,2708333,1083333,54167,108333,27083333,95%,6500000,5200000,25%,2,192
+487,Prism Communications,Technology,Medium,Presenting,SP487,Platinum,2750000,"Branding, Advertising, Workshops",Email,1375000,27500000,687500,275000,13750,27500,6875000,85%,2750000,2200000,25%,2,320
+488,Kaleidoscope Ventures,Finance,Small,Supporting,SP488,Silver,1200000,"Branding, Hospitality",Print,600000,12000000,300000,120000,6000,12000,3000000,80%,1200000,960000,25%,2,320
+489,Mosaic Enterprises,Energy,Large,Title,SP489,Diamond,7000000,"Branding, Advertising, Hospitality",Outdoor,3500000,116666667,2916667,1166667,58333,116667,29166667,95%,7000000,5600000,25%,2,192
+490,Vibrant Solutions,Healthcare,Medium,Presenting,SP490,Gold,2400000,"Branding, Advertising, Sampling, Workshops",Radio,1200000,24000000,600000,240000,12000,24000,6000000,85%,2400000,1920000,25%,2,320
+491,Radiance Innovations,Manufacturing,Small,Supporting,SP491,Silver,1500000,"Branding, Sampling",Social Media,750000,15000000,375000,150000,7500,15000,3750000,75%,1500000,1200000,25%,2,320
+492,Luminosity Industries,Technology,Large,Title,SP492,Platinum,5000000,"Branding, Advertising, Hospitality",TV,2500000,83333333,2083333,833333,41667,83333,20833333,90%,5000000,4000000,25%,2,192
+493,Prismatic Technologies,Telecommunications,Medium,Presenting,SP493,Gold,2200000,"Branding, Hospitality, Workshops",Online,1100000,22000000,550000,220000,11000,22000,5500000,85%,2200000,1760000,25%,2,320
+494,Chromatic Enterprises,Finance,Small,Supporting,SP494,Silver,1300000,"Branding, Experiential",Print,650000,13000000,325000,130000,6500,13000,3250000,80%,1300000,1040000,25%,2,320
+495,Iridescent Media,Retail,Large,Title,SP495,Diamond,7500000,"Branding, Advertising, Hospitality, Experiential",Social Media,3750000,125000000,3125000,1250000,62500,125000,31250000,95%,7500000,6000000,25%,2,192
+496,Spectrum Communications,Technology,Medium,Presenting,SP496,Platinum,3000000,"Branding, Advertising, Workshops",Email,1500000,30000000,750000,300000,15000,30000,7500000,85%,3000000,2400000,25%,2,320
+497,Prism Ventures,Finance,Small,Supporting,SP497,Gold,1700000,"Branding, Hospitality",Print,850000,17000000,425000,170000,8500,17000,4250000,75%,1700000,1360000,25%,2,320
+498,Kaleidoscope Enterprises,Energy,Large,Title,SP498,Diamond,8000000,"Branding, Advertising, Hospitality",Outdoor,4000000,133333333,3333333,1333333,66667,133333,33333333,95%,8000000,6400000,25%,2,192
+SponsorID,SponsorName,SponsorIndustry,SponsorSize,SponsorType,SponsorshipPackageID,SponsorshipPackageName,SponsorshipPackageCost,SponsorshipPackageBenefits,PromotionType,AdvertisingSpend,Impressions,Clicks,Engagement,BrandExposure,AttendeeEngagement,SalesLift,BrandAwarenessMetrics,SponsorshipRevenue,SponsorshipCosts,ROI,ROAS,CAC
+498,Neon Nights Productions,Entertainment,Small,Supporting,SP498,Silver,1400000,"Branding, Sampling",Social Media,700000,14000000,350000,140000,7000,14000,3500000,80%,1400000,1120000,25%,2,320
+499,Luminous Industries,Technology,Large,Title,SP499,Platinum,5500000,"Branding, Advertising, Hospitality",TV,2750000,91666667,2291667,916667,45833,91667,22916667,90%,5500000,4400000,25%,2,192
+500,Radiant Technologies,Telecommunications,Medium,Presenting,SP500,Gold,2300000,"Branding, Hospitality, Workshops",Online,1150000,23000000,575000,230000,11500,23000,5750000,85%,2300000,1840000,25%,2,320
+501,Prismatic Enterprises,Finance,Small,Supporting,SP501,Silver,1500000,"Branding, Experiential",Print,750000,15000000,375000,150000,7500,15000,3750000,75%,1500000,1200000,25%,2,320
+502,Chromatic Media,Retail,Large,Title,SP502,Diamond,8500000,"Branding, Advertising, Hospitality, Experiential",Social Media,4250000,141666667,3541667,1416667,70833,141667,35416667,95%,8500000,6800000,25%,2,192
+503,Iridescent Communications,Technology,Medium,Presenting,SP503,Platinum,3250000,"Branding, Advertising, Workshops",Email,1625000,32500000,812500,325000,16250,32500,8125000,85%,3250000,2600000,25%,2,320
+504,Spectrum Ventures,Finance,Small,Supporting,SP504,Gold,1800000,"Branding, Hospitality",Print,900000,18000000,450000,180000,9000,18000,4500000,80%,1800000,1440000,25%,2,320
+505,Prism Enterprises,Energy,Large,Title,SP505,Diamond,9000000,"Branding, Advertising, Hospitality",Outdoor,4500000,150000000,3750000,1500000,75000,150000,37500000,95%,9000000,7200000,25%,2,192
+506,Kaleidoscope Solutions,Healthcare,Medium,Presenting,SP506,Gold,2800000,"Branding, Advertising, Sampling, Workshops",Radio,1400000,28000000,700000,280000,14000,28000,7000000,85%,280000
+507,Zenith Innovations,Technology,Large,Title,SP507,Diamond,8500000,"Branding, Advertising, Hospitality, Experiential",Social Media,4250000,141666667,3541667,1416667,70833,141667,35416667,95%,8500000,6800000,25%,2,192
+508,Apex Solutions,Healthcare,Medium,Presenting,SP508,Platinum,3250000,"Branding, Advertising, Sampling, Workshops",Email,1625000,32500000,812500,325000,16250,32500,8125000,90%,3250000,2600000,25%,2,320
+509,Pinnacle Enterprises,Finance,Small,Supporting,SP509,Gold,1800000,"Branding, Hospitality",Print,900000,18000000,450000,180000,9000,18000,4500000,80%,1800000,1440000,25%,2,320
+510,Vertex Media,Retail,Large,Title,SP510,Diamond,9000000,"Branding, Advertising, Hospitality, Experiential",Outdoor,4500000,150000000,3750000,1500000,75000,150000,37500000,95%,9000000,7200000,25%,2,192
+511,Summit Communications,Technology,Medium,Presenting,SP511,Platinum,3500000,"Branding, Advertising, Workshops",Radio,1750000,35000000,875000,350000,17500,35000,8750000,85%,3500000,2800000,25%,2,320
+512,Apex Ventures,Finance,Small,Supporting,SP512,Silver,1600000,"Branding, Experiential",Social Media,800000,16000000,400000,160000,8000,16000,4000000,75%,1600000,1280000,25%,2,320
+513,Pinnacle Industries,Energy,Large,Title,SP513,Diamond,9500000,"Branding, Advertising, Hospitality",TV,4750000,158333333,3958333,1583333,79167,158333,39583333,95%,9500000,7600000,25%,2,192
+514,Vertex Technologies,Telecommunications,Medium,Presenting,SP514,Gold,2800000,"Branding, Hospitality, Workshops",Online,1400000,28000000,700000,280000,14000,28000,7000000,85%,2800000,2240000,25%,2,320
+515,Summit Enterprises,Healthcare,Small,Supporting,SP515,Silver,1700000,"Branding, Sampling",Print,850000,17000000,425000,170000,8500,17000,4250000,80%,1700000,1360000,25%,2,320
+516,Zenith Solutions,Manufacturing,Large,Title,SP516,Platinum,6000000,"Branding, Advertising, Hospitality, Experiential",Social Media,3000000,100000000,2500000,1000000,50000,100000,25000000,90%,6000000,4800000,25%,2,192
+517,Apex Innovations,Technology,Medium,Presenting,SP517,Gold,2500000,"Branding, Advertising, Workshops",Email,1250000,25000000,625000,250000,12500,25000,6250000,85%,2500000,2000000,25%,2,320
+518,Pinnacle Media,Finance,Small,Supporting,SP518,Silver,1500000,"Branding, Hospitality",Print,750000,15000000,375000,150000,7500,15000,3750000,75%,1500000,1200000,25%,2,320
+519,Vertex Communications,Retail,Large,Title,SP519,Diamond,10000000,"Branding, Advertising, Hospitality, Experiential",Outdoor,5000000,166666667,4166667,1666667,83333,166667,41666667,95%,10000000,8000000,25%,2,192
+520,Summit Ventures,Energy,Medium,Presenting,SP520,Platinum,3750000,"Branding, Advertising, Sampling, Workshops",Radio,1875000,37500000,937500,375000,18750,37500,9375000,90%,3750000,3000000,25%,2,320
+521,Zenith Enterprises,Healthcare,Small,Supporting,SP521,Gold,1900000,"Branding, Sampling",Social Media,950000,19000000,475000,190000,9500,19000,4750000,80%,1900000,1520000,25%,2,320
+522,Apex Industries,Manufacturing,Large,Title,SP522,Diamond,10500000,"Branding, Advertising, Hospitality",TV,5250000,175000000,4375000,1750000,87500,175000,43750000,95%,10500000,8400000,25%,2,192
+523,Pinnacle Technologies,Telecommunications,Medium,Presenting,SP523,Platinum,4000000,"Branding, Hospitality, Workshops",Online,2000000,40000000,1000000,400000,20000,40000,10000000,85%,4000000,3200000,25%,2,320
+524,Vertex Enterprises,Finance,Small,Supporting,SP524,Silver,1800000,"Branding, Experiential",Print,900000,18000000,450000,180000,9000,18000,4500000,75%,1800000,1440000,25%,2,320
+525,Summit Solutions,Retail,Large,Title,SP525,Diamond,11000000,"Branding, Advertising, Hospitality, Experiential",Social Media,5500000,183333333,4583333,1833333,91667,183333,45833333,95%,11000000,8800000,25%,2,192
+526,Zenith Innovations,Technology,Medium,Presenting,SP526,Gold,3000000,"Branding, Advertising, Workshops",Email,1500000,30000000,750000,300000,15000,30000,7500000,85%,3000000,2400000,25%,2,320
+527,Apex Media,Finance,Small,Supporting,SP527,Silver,1700000,"Branding, Hospitality",Print,850000,17000000,425000,170000,8500,17000,4250000,80%,1700000,1360000,25%,2,320
+528,Pinnacle Communications,Energy,Large,Title,SP528,Platinum,7000000,"Branding, Advertising, Hospitality",Outdoor,3500000,116666667,2916667,1166667,58333,116667,29166667,90%,7000000,5600000,25%,2,192
+529,Vertex Ventures,Healthcare,Medium,Presenting,SP529,Gold,2700000,"Branding, Advertising, Sampling, Workshops",Radio,1350000,27000000,675000,270000,13500,27000,6750000,85%,2700000,2160000,25%,2,320
+530,Summit Enterprises,Manufacturing,Small,Supporting,SP530,Silver,1900000,"Branding, Sampling",Social Media,950000,19000000,475000,190000,9500,19000,4750000,75%,1900000,1520000,25%,2,320
+531,Zenith Industries,Technology,Large,Title,SP531,Diamond,11500000,"Branding, Advertising, Hospitality",TV,5750000,191666667,4791667,1916667,95833,191667,47916667,95%,11500000,9200000,25%,2,192
+532,Apex Technologies,Telecommunications,Medium,Presenting,SP532,Platinum,4250000,"Branding, Hospitality, Workshops",Online,2125000,42500000,1062500,425000,21250,42500,10625000,85%,4250000,3400000,25%,2,320
+533,Pinnacle Enterprises,Finance,Small,Supporting,SP533,Gold,2000000,"Branding, Experiential",Print,1000000,20000000,500000,200000,10000,20000,5000000,80%,2000000,1600000,25%,2,320
+534,Vertex Solutions,Retail,Large,Title,SP534,Diamond,12000000,"Branding, Advertising, Hospitality, Experiential",Social Media,6000000,200000000,5000000,2000000,100000,200000,50000000,95%,12000000,9600000,25%,2,192
+535,Summit Innovations,Energy,Medium,Presenting,SP535,Gold,3200000,"Branding, Advertising, Workshops",Email,1600000,32000000,800000,320000,16000,32000,8000000,85%,3200000,2560000,25%,2,320
+536,Zenith Media,Healthcare,Small,Supporting,SP536,Silver,1800000,"Branding, Hospitality",Print,900000,18000000,450000,180000,9000,18000,4500000,75%,1800000,1440000,25%,2,320
+537,Apex Communications,Manufacturing,Large,Title,SP537,Platinum,7500000,"Branding, Advertising, Hospitality",Outdoor,3750000,125000000,3125000,1250000,62500,125000,31250000,90%,7500000,6000000,25%,2,192
+538,Pinnacle Ventures,Technology,Medium,Presenting,SP538,Gold,2900000,"Branding, Advertising, Sampling, Workshops",Radio,1450000,29000000,725000,290000,14500,29000,7250000,85%,2900000,2320000,25%,2,320
+539,Vertex Enterprises,Telecommunications,Small,Supporting,SP539,Silver,2100000,"Branding, Sampling",Social Media,1050000,21000000,525000,210000,10500,21000,5250000,80%,2100000,1680000,25%,2,320
+540,Summit Industries,Finance,Large,Title,SP540,Diamond,12500000,"Branding, Advertising, Hospitality",TV,6250000,208333333,5208333,2083333,104167,208333,52083333,95%,12500000,10000000,25%,2,192
+541,Zenith Technologies,Retail,Medium,Presenting,SP541,Platinum,4500000,"Branding, Hospitality, Workshops",Online,2250000,45000000,1125000,450000,22500,45000,11250000,85%,4500000,3600000,25%,2,320
+542,Apex Enterprises,Energy,Small,Supporting,SP542,Gold,2200000,"Branding, Experiential",Print,1100000,22000000,550000,220000,11000,22000,5500000,75%,2200000,1760000,25%,2,320
+543,Pinnacle Solutions,Healthcare,Large,Title,SP543,Diamond,13000000,"Branding, Advertising, Hospitality, Experiential",Social Media,6500000,216666667,5416667,2166667,108333,216667,54166667,95%,13000000,10400000,25%,2,192
+544,Vertex Innovations,Manufacturing,Medium,Presenting,SP544,Gold,3400000,"Branding, Advertising, Workshops",Email,1700000,34000000,850000,340000,17000,34000,8500000,85%,3400000,2720000,25%,2,320
+545,Summit Media,Technology,Small,Supporting,SP545,Silver,1900000,"Branding, Hospitality",Print,950000,19000000,475000,190000,9500,19000,4750000,80%,1900000,1520000,25%,2,320
+546,Zenith Communications,Telecommunications,Large,Title,SP546,Platinum,8000000,"Branding, Advertising, Hospitality",Outdoor,4000000,133333333,3333333,1333333,66667,133333,33333333,90%,8000000,6400000,25%,2,192
+547,Apex Ventures,Finance,Medium,Presenting,SP547,Gold,3100000,"Branding, Advertising, Sampling, Workshops",Radio,1550000,31000000,775000,310000,15500,31000,7750000,85%,3100000,2480000,25%,2,320
+548,Pinnacle Enterprises,Retail,Small,Supporting,SP548,Silver,2000000,"Branding, Sampling",Social Media,1000000,20000000,500000,200000,10000,20000,5000000,75%,2000000,1600000,25%,2,320
+549,Vertex Industries,Energy,Large,Title,SP549,Diamond,13500000,"Branding, Advertising, Hospitality",TV,6750000,225000000,5625000,2250000,112500,225000,56250000,95%,13500000,10800000,25%,2,192
+550,Summit Technologies,Healthcare,Medium,Presenting,SP550,Platinum,4750000,"Branding, Hospitality, Workshops",Online,2375000,47500000,1187500,475000,23750,47500,11875000,85%,4750000,3800000,25%,2,320
+551,Zenith Enterprises,Manufacturing,Small,Supporting,SP551,Gold,2300000,"Branding, Experiential",Print,1150000,23000000,575000,230000,11500,23000,5750000,80%,2300000,1840000,25%,2,320
+552,Apex Solutions,Technology,Large,Title,SP552,Diamond,14000000,"Branding, Advertising, Hospitality, Experiential",Social Media,7000000,233333333,5833333,2333333,116667,233333,58333333,95%,14000000,11200000,25%,2,192
+553,Pinnacle Innovations,Telecommunications,Medium,Presenting,SP553,Gold,3600000,"Branding, Advertising, Workshops",Email,1800000,36000000,900000,360000,18000,36000,9000000,85%,3600000,2880000,25%,2,320
+554,Vertex Media,Finance,Small,Supporting,SP554,Silver,2100000,"Branding, Hospitality",Print,1050000,21000000,525000,210000,10500,21000,5250000,75%,2100000,1680000,25%,2,320
+555,Summit Communications,Retail,Large,Title,SP555,Platinum,8500000,"Branding, Advertising, Hospitality",Outdoor,4250000,141666667,3541667,1416667,70833,141667,35416667,90%,8500000,6800000,25%,2,192
+557,Nexus Enterprises,Healthcare,Small,Supporting,SP557,Silver,2200000,"Branding, Sampling",Social Media,1100000,22000000,550000,220000,11000,22000,5500000,80%,2200000,1760000,25%,2,320
+558,Orion Industries,Manufacturing,Large,Title,SP558,Diamond,14500000,"Branding, Advertising, Hospitality",TV,7250000,241666667,6041667,2416667,120833,241667,60416667,95%,14500000,11600000,25%,2,192
+559,Polaris Technologies,Technology,Medium,Presenting,SP559,Platinum,5000000,"Branding, Hospitality, Workshops",Online,2500000,50000000,1250000,500000,25000,50000,12500000,85%,5000000,4000000,25%,2,320
+560,Quantum Enterprises,Telecommunications,Small,Supporting,SP560,Gold,2400000,"Branding, Experiential",Print,1200000,24000000,600000,240000,12000,24000,6000000,75%,2400000,1920000,25%,2,320
+561,Radiant Solutions,Finance,Large,Title,SP561,Diamond,15000000,"Branding, Advertising, Hospitality, Experiential",Social Media,7500000,250000000,6250000,2500000,125000,250000,62500000,95%,15000000,12000000,25%,2,192
+562,Stellar Innovations,Retail,Medium,Presenting,SP562,Gold,3800000,"Branding, Advertising, Workshops",Email,1900000,38000000,950000,380000,19000,38000,9500000,85%,3800000,3040000,25%,2,320
+563,Titan Media,Energy,Small,Supporting,SP563,Silver,2300000,"Branding, Hospitality",Print,1150000,23000000,575000,230000,11500,23000,5750000,80%,2300000,1840000,25%,2,320
+564,Vortex Communications,Healthcare,Large,Title,SP564,Platinum,9000000,"Branding, Advertising, Hospitality",Outdoor,4500000,150000000,3750000,1500000,75000,150000,37500000,90%,9000000,7200000,25%,2,192
+565,Aurora Ventures,Manufacturing,Medium,Presenting,SP565,Gold,3500000,"Branding, Advertising, Sampling, Workshops",Radio,1750000,35000000,875000,350000,17500,35000,8750000,85%,3500000,2800000,25%,2,320
+566,Celestial Enterprises,Technology,Small,Supporting,SP566,Silver,2500000,"Branding, Sampling",Social Media,1250000,25000000,625000,250000,12500,25000,6250000,75%,2500000,2000000,25%,2,320
+567,Dynamo Industries,Telecommunications,Large,Title,SP567,Diamond,15500000,"Branding, Advertising, Hospitality",TV,7750000,258333333,6458333,2583333,129167,258333,64583333,95%,15500000,12400000,25%,2,192
+568,Eclipse Technologies,Finance,Medium,Presenting,SP568,Platinum,5250000,"Branding, Hospitality, Workshops",Online,2625000,52500000,1312500,525000,26250,52500,13125000,85%,5250000,4200000,25%,2,320
+569,Fusion Enterprises,Retail,Small,Supporting,SP569,Gold,2600000,"Branding, Experiential",Print,1300000,26000000,650000,260000,13000,26000,6500000,80%,2600000,2080000,25%,2,320
+570,Gravity Solutions,Energy,Large,Title,SP570,Diamond,16000000,"Branding, Advertising, Hospitality, Experiential",Social Media,8000000,266666667,6666667,2666667,133333,266667,66666667,95%,16000000,12800000,25%,2,192
+571,Helix Innovations,Healthcare,Medium,Presenting,SP571,Gold,4000000,"Branding, Advertising, Workshops",Email,2000000,40000000,1000000,400000,20000,40000,10000000,85%,4000000,3200000,25%,2,320
+572,Infinity Media,Manufacturing,Small,Supporting,SP572,Silver,2400000,"Branding, Hospitality",Print,1200000,24000000,600000,240000,12000,24000,6000000,75%,2400000,1920000,25%,2,320
+573,Kinetic Communications,Technology,Large,Title,SP573,Platinum,9500000,"Branding, Advertising, Hospitality",Outdoor,4750000,158333333,3958333,1583333,79167,158333,39583333,90%,9500000,7600000,25%,2,192
+574,Lunar Ventures,Telecommunications,Medium,Presenting,SP574,Gold,3700000,"Branding, Advertising, Sampling, Workshops",Radio,1850000,37000000,925000,370000,18500,37000,9250000,85%,3700000,2960000,25%,2,320
+575,Meteor Enterprises,Finance,Small,Supporting,SP575,Silver,2700000,"Branding, Sampling",Social Media,1350000,27000000,675000,270000,13500,27000,6750000,80%,2700000,2160000,25%,2,320
+576,Nova Industries,Retail,Large,Title,SP576,Diamond,16500000,"Branding, Advertising, Hospitality",TV,8250000,275000000,6875000,2750000,137500,275000,68750000,95%,16500000,13200000,25%,2,192
+577,Orbit Technologies,Energy,Medium,Presenting,SP577,Platinum,5500000,"Branding, Hospitality, Workshops",Online,2750000,55000000,1375000,550000,27500,55000,13750000,85%,5500000,4400000,25%,2,320
+578,Pulsar Enterprises,Healthcare,Small,Supporting,SP578,Gold,2800000,"Branding, Experiential",Print,1400000,28000000,700000,280000,14000,28000,7000000,75%,2800000,2240000,25%,2,320
+579,Quasar Solutions,Manufacturing,Large,Title,SP579,Diamond,17000000,"Branding, Advertising, Hospitality, Experiential",Social Media,8500000,283333333,7083333,2833333,141667,283333,70833333,95%,17000000,13600000,25%,2,192
+580,Radiance Innovations,Technology,Medium,Presenting,SP580,Gold,4200000,"Branding, Advertising, Workshops",Email,2100000,42000000,1050000,420000,21000,42000,10500000,85%,4200000,3360000,25%,2,320
+581,Solaris Media,Telecommunications,Small,Supporting,SP581,Silver,2500000,"Branding, Hospitality",Print,1250000,25000000,625000,250000,12500,25000,6250000,80%,2500000,2000000,25%,2,320
+582,Tachyon Communications,Finance,Large,Title,SP582,Platinum,10000000,"Branding, Advertising, Hospitality",Outdoor,5000000,166666667,4166667,1666667,83333,166667,41666667,90%,10000000,8000000,25%,2,192
+583,Umbra Ventures,Retail,Medium,Presenting,SP583,Gold,3900000,"Branding, Advertising, Sampling, Workshops",Radio,1950000,39000000,975000,390000,19500,39000,9750000,85%,3900000,3120000,25%,2,320
+584,Velocity Enterprises,Energy,Small,Supporting,SP584,Silver,2900000,"Branding, Sampling",Social Media,1450000,29000000,725000,290000,14500,29000,7250000,75%,2900000,2320000,25%,2,320
+585,Zephyr Industries,Healthcare,Large,Title,SP585,Diamond,17500000,"Branding, Advertising, Hospitality",TV,8750000,291666667,7291667,2916667,145833,291667,72916667,95%,17500000,14000000,25%,2,192
+586,Astro Technologies,Manufacturing,Medium,Presenting,SP586,Platinum,5750000,"Branding, Hospitality, Workshops",Online,2875000,57500000,1437500,575000,28750,57500,14375000,85%,5750000,4600000,25%,2,320
+587,Blaze Enterprises,Technology,Small,Supporting,SP587,Gold,3000000,"Branding, Experiential",Print,1500000,30000000,750000,300000,15000,30000,7500000,80%,3000000,2400000,25%,2,320
+588,Cosmic Solutions,Telecommunications,Large,Title,SP588,Diamond,18000000,"Branding, Advertising, Hospitality, Experiential",Social Media,9000000,300000000,7500000,3000000,150000,300000,75000000,95%,18000000,14400000,25%,2,192
+589,Dusk Innovations,Finance,Medium,Presenting,SP589,Gold,4400000,"Branding, Advertising, Workshops",Email,2200000,44000000,1100000,440000,22000,44000,11000000,85%,4400000,3520000,25%,2,320
+590,Ember Media,Retail,Small,Supporting,SP590,Silver,2600000,"Branding, Hospitality",Print,1300000,26000000,650000,260000,13000,26000,6500000,75%,2600000,2080000,25%,2,320
+591,Flux Communications,Energy,Large,Title,SP591,Platinum,10500000,"Branding, Advertising, Hospitality",Outdoor,5250000,175000000,4375000,1750000,87500,175000,43750000,90%,10500000,8400000,25%,2,192
+592,Glow Ventures,Healthcare,Medium,Presenting,SP592,Gold,4100000,"Branding, Advertising, Sampling, Workshops",Radio,2050000,41000000,1025000,410000,20500,41000,10250000,85%,4100000,3280000,25%,2,320
+593,Halo Enterprises,Manufacturing,Small,Supporting,SP593,Silver,3100000,"Branding, Sampling",Social Media,1550000,31000000,775000,310000,15500,31000,7750000,80%,3100000,2480000,25%,2,320
+594,Ignite Industries,Technology,Large,Title,SP594,Diamond,18500000,"Branding, Advertising, Hospitality",TV,9250000,308333333,7708333,3083333,154167,308333,77083333,95%,18500000,14800000,25%,2,192
+595,Jet Technologies,Telecommunications,Medium,Presenting,SP595,Platinum,6000000,"Branding, Hospitality, Workshops",Online,3000000,60000000,1500000,600000,30000,60000,15000000,85%,6000000,4800000,25%,2,320
+596,Lumen Enterprises,Finance,Small,Supporting,SP596,Gold,3200000,"Branding, Experiential",Print,1600000,32000000,800000,320000,16000,32000,8000000,75%,3200000,2560000,25%,2,320
+597,Nimbus Solutions,Retail,Large,Title,SP597,Diamond,19000000,"Branding, Advertising, Hospitality, Experiential",Social Media,9500000,316666667,7916667,3166667,158333,316667,79166667,95%,19000000,15200000,25%,2,192
+598,Onyx Innovations,Energy,Medium,Presenting,SP598,Gold,4600000,"Branding, Advertising, Workshops",Email,2300000,46000000,1150000,460000,23000,46000,11500000,85%,4600000,3680000,25%,2,320
+599,Photon Media,Healthcare,Small,Supporting,SP599,Silver,2700000,"Branding, Hospitality",Print,1350000,27000000,675000,270000,13500,27000,6750000,80%,2700000,2160000,25%,2,320
+600,Quark Communications,Manufacturing,Large,Title,SP600,Platinum,11000000,"Branding, Advertising, Hospitality",Outdoor,5500000,183333333,4583333,1833333,91667,183333,45833333,90%,11000000,8800000,25%,2,192
+601,Radiant Ventures,Technology,Medium,Presenting,SP601,Gold,4300000,"Branding, Advertising, Sampling, Workshops",Radio,2150000,43000000,1075000,430000,21500,43000,10750000,85%,4300000,3440000,25%,2,320
+602,Sirius Enterprises,Telecommunications,Small,Supporting,SP602,Silver,3300000,"Branding, Sampling",Social Media,1650000,33000000,825000,330000,16500,33000,8250000,75%,3300000,2640000,25%,2,320
+603,Twilight Industries,Finance,Large,Title,SP603,Diamond,19500000,"Branding, Advertising, Hospitality",TV,9750000,325000000,8125000,3250000,162500,325000,81250000,95%,19500000,15600000,25%,2,192
+604,Ultraviolet Technologies,Retail,Medium,Presenting,SP604,Platinum,6250000,"Branding, Hospitality, Workshops",Online,3125000,62500000,1562500,625000,31250,62500,15625000,85%,6250000,5000000,25%,2,320
+605,Volt Enterprises,Energy,Small,Supporting,SP605,Gold,3400000,"Branding, Experiential",Print,1700000,34000000,850000,340000,17000,34000,8500000,80%,3400000,2720000,25%,2,320
