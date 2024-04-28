@@ -91,14 +91,14 @@ EventID,EventName,EventType,Date,StartTime,EndTime,Location,Capacity,ActualAtten
 1094,Glow in the Dark 5K Run,Fundraiser,2029-05-19,20:00:00,23:00:00,City Streets,1000,850,Clear Skies,Online Marketing
 1095,Cinco de Mayo Party,Food & Drink,2029-05-05,18:00:00,23:00:00,Bar,300,250,Partly Cloudy,Radio Promos
 1096,Summer Kick-Off Concert,Music,2029-06-02,19:00:00,23:00:00,Amphitheater,5000,4200,Sunny,TV Commercials
-1097,Book Fair,Educational,2029-06-23,10:00:00,18:00:00,Convention Center,2000,1700,Partly Cloudy,Email Marketing
+1097,Book Fair,Educational,2029-06-23,10:00:00,18:00:00,Convention Center,2000,Nan,Partly Cloudy,Email Marketing
 1098,Outdoor Karaoke Night,Entertainment,2029-07-14,19:00:00,23:00:00,Beer Garden,200,175,Clear Skies,Social Media
-1099,Back to School Clothing Swap,Community,2029-08-04,11:00:00,15:00:00,School Gym,300,250,Sunny,School Newsletters
+1099,Back to School Clothing Swap,Community,2029-08-04,11:00:00,15:00:00,School Gym,300,Nan,Sunny,School Newsletters
 1100,Robotics Competition,Educational,2029-08-25,09:00:00,17:00:00,University,100,90,Overcast,STEM Outreach
 1101,Renaissance Fair,Festival,2029-09-15,10:00:00,18:00:00,Fairgrounds,2500,2000,Partly Cloudy,Radio Ads
 1102,Haunted House,Seasonal,2029-10-06,19:00:00,23:00:00,Abandoned Building,500,450,Clear Skies,Local Newspaper
 1103,Craft Beer & Wine Festival,Food & Drink,2029-10-27,12:00:00,20:00:00,Park,1500,1300,Sunny,Targeted Facebook Ads
-1104,Winter Holiday Market,Shopping,2029-11-17,10:00:00,17:00:00,Convention Center,500,400,Overcast,Email Blasts
+1104,Winter Holiday Market,Shopping,2029-11-17,10:00:00,17:00:00,Convention Center,500,Nan,Overcast,Email Blasts
 1105,Ugly Sweater Fun Run,Fitness,2029-12-08,09:00:00,12:00:00,City Streets,1000,800,Partly Cloudy,Social Media Contest
 1106,New Year's Eve Masquerade Ball,Entertainment,2029-12-31,20:00:00,02:00:00,Hotel Ballroom,300,275,Clear Skies,Targeted Influencers
 1107,Indoor Rock Climbing Competition,Sports,2030-01-19,09:00:00,18:00:00,Climbing Gym,150,125,Snowy,Local Climbing Groups
