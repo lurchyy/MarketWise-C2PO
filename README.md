@@ -26,3 +26,4 @@
 - model4.pkl: Model for PS-4.
 - vectorizer.pkl : Fitted TF-IDF csr-matrix, can be used for instant vectorization.
 
+## Team_C2PO.pdf - Presentation explaining our approach at deriving the solution  
