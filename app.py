@@ -42,7 +42,6 @@ def index():
         X = pd.DataFrame(scaled_input).T
         # Make the prediction
         prediction = model.predict(X)[0]
-        prediction = random.randint(17, 23)
         return render_template('index.html', prediction=prediction)
 
     return render_template('index.html')
